@@ -19,5 +19,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-#DB
-hearthstone_bg.db
+# Ignora il DB
+*.db
+*.sqlite3
+
