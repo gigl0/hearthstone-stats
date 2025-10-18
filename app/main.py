@@ -11,7 +11,7 @@ app = FastAPI(title="Hearthstone Battlegrounds Stats")
 # Servire file statici per il frontend
 app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
 
-# Funzione loop per aggiornamento CSV
+# Funzione loop per aggiornamento CSV ogni ora
 def auto_update_csv(interval_sec: int = 3600):
     while True:
         try:
@@ -35,6 +35,24 @@ def bg_matches(
     hero: Optional[str] = Query(None, description="Filtra per eroe"),
     min_placement: Optional[int] = Query(None, description="Filtra per posizionamento massimo"),
     start_date: Optional[str] = Query(None, description="Filtra per data inizio (YYYY-MM-DD)"),
-    end_date: Optional[str] = Query(None, description="Filtra per data fine (YYYY-MM-DD)")
+    end_date: Optional[str] = Query(None, description="Filtra per data fine (YYYY-MM-DD)"),
+    sort_by: str = Query("start_time", description="Campo per ordinare: start_time, placement, rating"),
+    order: str = Query("desc", description="asc o desc")
 ):
-    return list_matches(limit=limit, offset=offset, hero=hero, min_placement=min_placement, start_date=start_date, end_date=end_date)
+    matches = list_matches()
+
+    # Filtri
+    if hero:
+        matches = [m for m in matches if m["hero"] == hero]
+    if min_placement is not None:
+        matches = [m for m in matches if m["placement"] <= min_placement]
+    if start_date:
+        matches = [m for m in matches if m["start_time"][:10] >= start_date]
+    if end_date:
+        matches = [m for m in matches if m["start_time"][:10] <= end_date]
+
+    # Ordinamento
+    reverse = True if order.lower() == "desc" else False
+    matches.sort(key=lambda m: m.get(sort_by, ""), reverse=reverse)
+
+    return matches[offset:offset+limit]
