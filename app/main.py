@@ -12,7 +12,7 @@ app = FastAPI(title="Hearthstone Battlegrounds Stats")
 app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
 
 # Funzione loop per aggiornamento CSV ogni ora
-def auto_update_csv(interval_sec: int = 3600):
+def auto_update_csv(interval_sec: int = 360):
     while True:
         try:
             load_csv_to_db()
@@ -21,7 +21,7 @@ def auto_update_csv(interval_sec: int = 3600):
         time.sleep(interval_sec)
 
 # Avvia il thread in background
-thread = Thread(target=auto_update_csv, args=(3600,), daemon=True)
+thread = Thread(target=auto_update_csv, args=(360,), daemon=True)
 thread.start()
 
 @app.get("/api/v1/bg/stats")
