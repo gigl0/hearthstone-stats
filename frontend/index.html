@@ -2,37 +2,98 @@
 <html lang="it">
 <head>
     <meta charset="UTF-8">
-    <title>Hearthstone Battlegrounds Stats</title>
+    <title>Hearthstone BG Stats</title>
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; }
-        table { border-collapse: collapse; width: 100%; margin-top: 20px; }
+        body { font-family: Arial, sans-serif; background: #f0f0f0; margin: 20px; }
+        h1 { text-align: center; }
+        table { width: 100%; border-collapse: collapse; margin-top: 20px; }
         th, td { border: 1px solid #ccc; padding: 8px; text-align: left; }
-        th { background-color: #eee; }
+        th { background: #222; color: #fff; }
+        .minion { display: inline-block; text-align: center; margin: 5px; }
+        .minion img { width: 60px; height: 60px; display: block; margin: 0 auto; }
+        .tooltip { position: relative; cursor: pointer; }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 200px;
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            border-radius: 6px;
+            padding: 5px;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; left: 50%; margin-left: -100px;
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+        .tooltip:hover .tooltiptext { visibility: visible; opacity: 1; }
     </style>
 </head>
 <body>
-    <h1>Hearthstone Battlegrounds Stats</h1>
-
-    <h2>Statistiche Generali</h2>
-    <div id="stats"></div>
-
-    <h2>Partite</h2>
-    <table id="matches">
+    <h1>Hearthstone Battlegrounds - Partite</h1>
+    <table>
         <thead>
             <tr>
-                <th>Player</th>
                 <th>Hero</th>
-                <th>Start Time</th>
-                <th>End Time</th>
                 <th>Placement</th>
                 <th>Rating</th>
-                <th>Rating After</th>
                 <th>Minions</th>
             </tr>
         </thead>
-        <tbody></tbody>
+        <tbody id="matches-body">
+            <!-- Dati caricati via JS -->
+        </tbody>
     </table>
 
-    <script src="script.js"></script>
+    <script>
+        async function loadMatches() {
+            const response = await fetch("/api/v1/bg/matches?limit=20");
+            const matches = await response.json();
+
+            const tbody = document.getElementById("matches-body");
+            tbody.innerHTML = "";
+
+            matches.forEach(match => {
+                const tr = document.createElement("tr");
+
+                const heroTd = document.createElement("td");
+                heroTd.textContent = match.hero;
+                tr.appendChild(heroTd);
+
+                const placementTd = document.createElement("td");
+                placementTd.textContent = match.placement;
+                tr.appendChild(placementTd);
+
+                const ratingTd = document.createElement("td");
+                ratingTd.textContent = match.rating_after;
+                tr.appendChild(ratingTd);
+
+                const minionsTd = document.createElement("td");
+                match.minions.forEach(m => {
+                    const div = document.createElement("div");
+                    div.className = "minion tooltip";
+
+                    const img = document.createElement("img");
+                    img.src = m.image;
+                    img.alt = m.name;
+                    div.appendChild(img);
+
+                    const span = document.createElement("span");
+                    span.className = "tooltiptext";
+                    span.innerHTML = `<b>${m.name}</b><br>Type: ${m.type}<br>${m.effect}<br>${m.attack}/${m.health}`;
+                    div.appendChild(span);
+
+                    minionsTd.appendChild(div);
+                });
+                tr.appendChild(minionsTd);
+
+                tbody.appendChild(tr);
+            });
+        }
+
+        // Carica le partite all'avvio e aggiorna ogni 30 secondi
+        loadMatches();
+        setInterval(loadMatches, 30000);
+    </script>
 </body>
 </html>
