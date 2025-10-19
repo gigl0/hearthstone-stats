@@ -1,12 +1,22 @@
-# app/db/session.py
+import os
 from sqlalchemy import create_engine
-from sqlalchemy.orm import sessionmaker
-from app.models.models import Base
+from sqlalchemy.orm import sessionmaker, declarative_base
+from dotenv import load_dotenv
 
-DATABASE_URL = "sqlite:///hearthstone_bg.db"  # SQLite locale
+# Carica le variabili dal file .env
+load_dotenv()
 
-engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
-SessionLocal = sessionmaker(bind=engine, autocommit=False, autoflush=False)
+DB_USER = os.getenv("DB_USER")
+DB_PASSWORD = os.getenv("DB_PASSWORD")
+DB_HOST = os.getenv("DB_HOST")
+DB_PORT = os.getenv("DB_PORT", "5432")
+DB_NAME = os.getenv("DB_NAME")
 
-def init_db():
-    Base.metadata.create_all(bind=engine)
+# Costruisci la stringa di connessione in modo sicuro
+DATABASE_URL = f"postgresql+psycopg2://{DB_USER}:{DB_PASSWORD}@{DB_HOST}:{DB_PORT}/{DB_NAME}"
+
+# Crea l'engine e la sessione
+engine = create_engine(DATABASE_URL)
+SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
+
+Base = declarative_base()

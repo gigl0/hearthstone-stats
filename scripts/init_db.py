@@ -1,6 +1,7 @@
 # scripts/init_db.py
-from app.db.session import init_db
+from app.db.session import Base, engine
+from app.models.models import BattlegroundsMatch
 
-if __name__ == "__main__":
-    init_db()
-    print("Database creato correttamente!")
+print("Creating tables...")
+Base.metadata.create_all(bind=engine)
+print("✅ Tables created successfully.")

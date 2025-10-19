@@ -1,18 +1,15 @@
-# app/models/models.py
-from sqlalchemy import Column, Integer, String, DateTime
-from sqlalchemy.ext.declarative import declarative_base
-
-Base = declarative_base()
+from sqlalchemy import Column, Integer, String
+from app.db.session import Base
 
 class BattlegroundsMatch(Base):
     __tablename__ = "battlegrounds_matches"
-    
-    id = Column(Integer, primary_key=True, autoincrement=True)
-    player_id = Column(String, nullable=False)
-    hero = Column(String, nullable=False)
-    start_time = Column(DateTime, nullable=False)
-    end_time = Column(DateTime, nullable=False)
-    placement = Column(Integer, nullable=False)
+
+    id = Column(Integer, primary_key=True, index=True)
+    player_id = Column(String)
+    hero = Column(String)
+    start_time = Column(String)
+    end_time = Column(String)
+    placement = Column(Integer)
     rating = Column(Integer)
     rating_after = Column(Integer)
-    minions = Column(String)  # salviamo la lista come stringa separata da ';'
+    minions = Column(String)
