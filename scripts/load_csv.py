@@ -1,7 +1,8 @@
 import csv
-from datetime import datetime
+from datetime import datetime, timezone
 import os
 import sys
+from sqlalchemy import cast, String
 
 # Permette di trovare il modulo app anche da scripts/
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -10,7 +11,10 @@ from app.db.session import SessionLocal
 from app.models.models import BattlegroundsMatch
 
 # Percorso assoluto del CSV (root del progetto)
-CSV_FILE = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "parsed_games.csv")
+CSV_FILE = os.path.join(
+    os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
+    "parsed_games.csv"
+)
 
 def load_csv_to_db():
     if not os.path.exists(CSV_FILE):
@@ -25,8 +29,10 @@ def load_csv_to_db():
         reader = csv.DictReader(csvfile)
         for row in reader:
             try:
-                start_time = datetime.fromisoformat(row['start_time'])
-                end_time = datetime.fromisoformat(row['end_time'])
+                # Parse e normalizzazione dei campi temporali
+                start_time = datetime.fromisoformat(row['start_time']).astimezone(timezone.utc)
+                end_time = datetime.fromisoformat(row['end_time']).astimezone(timezone.utc)
+
                 placement = int(row['placement'])
                 rating = int(row['rating'])
                 rating_after = int(row['rating_after'])
@@ -34,11 +40,12 @@ def load_csv_to_db():
                 hero = row['hero']
                 minions = row.get('minions', '')
 
-                # Evita duplicati
+                # ✅ Evita duplicati (compatibile con PostgreSQL)
                 exists = session.query(BattlegroundsMatch).filter(
                     BattlegroundsMatch.player_id == player_id,
-                    BattlegroundsMatch.start_time == start_time
+                    cast(BattlegroundsMatch.start_time, String) == start_time.isoformat()
                 ).first()
+
                 if exists:
                     total_skipped += 1
                     continue
@@ -53,6 +60,7 @@ def load_csv_to_db():
                     rating_after=rating_after,
                     minions=minions
                 )
+
                 session.add(match)
                 total_added += 1
 

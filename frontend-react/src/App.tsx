@@ -1,13 +1,12 @@
-import React from "react";
-import Dashboard from "./components/Dashboard";
+import React from 'react';
 
-const App: React.FC = () => {
+function App() {
   return (
-    <div className="App">
-      <Dashboard />
+    <div>
+      <h1>Hearthstone BG Stats Dashboard</h1>
+      <p>Frontend is running correctly 🎮</p>
     </div>
   );
-};
+}
 
 export default App;
-

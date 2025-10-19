@@ -5,9 +5,17 @@ from threading import Thread
 import time
 from app.services.bg_service import load_csv_to_db
 from app.services.bg_stats import get_bg_stats, list_matches
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="Hearthstone Battlegrounds Stats")
 
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["http://localhost:3000"],  # React dev server
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # Servire file statici per il frontend
 app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
 
