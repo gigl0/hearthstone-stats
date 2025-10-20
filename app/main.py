@@ -15,7 +15,8 @@ app.add_middleware(
 )
 
 ROOT = Path(__file__).parent
-DATA_FILE = ROOT.parent / "stats_summary.json"
+DATA_FILE = ROOT / "data" / "stats_summary.json"
+
 
 
 # === ROUTES ===

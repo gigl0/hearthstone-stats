@@ -129,12 +129,75 @@
         }
     ],
     "by_minion_type": {
-        "nan": {
-            "games": 15,
-            "wins": 7,
-            "top4s": 11,
-            "win_rate": 46.67,
-            "top4_rate": 73.33
+        "DRAGON": {
+            "games": 4,
+            "wins": 1,
+            "top4s": 3,
+            "win_rate": 25.0,
+            "top4_rate": 75.0
+        },
+        "NAGA": {
+            "games": 3,
+            "wins": 2,
+            "top4s": 2,
+            "win_rate": 66.67,
+            "top4_rate": 66.67
+        },
+        "DEMON": {
+            "games": 3,
+            "wins": 1,
+            "top4s": 2,
+            "win_rate": 33.33,
+            "top4_rate": 66.67
+        },
+        "PIRATE": {
+            "games": 3,
+            "wins": 1,
+            "top4s": 2,
+            "win_rate": 33.33,
+            "top4_rate": 66.67
+        },
+        "ELEMENTAL": {
+            "games": 4,
+            "wins": 2,
+            "top4s": 3,
+            "win_rate": 50.0,
+            "top4_rate": 75.0
+        },
+        "MURLOC": {
+            "games": 1,
+            "wins": 1,
+            "top4s": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0
+        },
+        "MECHANICAL": {
+            "games": 2,
+            "wins": 1,
+            "top4s": 1,
+            "win_rate": 50.0,
+            "top4_rate": 50.0
+        },
+        "UNDEAD": {
+            "games": 2,
+            "wins": 1,
+            "top4s": 1,
+            "win_rate": 50.0,
+            "top4_rate": 50.0
+        },
+        "ALL": {
+            "games": 1,
+            "wins": 0,
+            "top4s": 1,
+            "win_rate": 0.0,
+            "top4_rate": 100.0
+        },
+        "QUILBOAR": {
+            "games": 1,
+            "wins": 1,
+            "top4s": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0
         }
     }
 }

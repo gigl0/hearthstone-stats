@@ -6,10 +6,12 @@ from datetime import datetime
 
 # === Percorsi file ===
 ROOT = Path(__file__).parent.parent
-CSV_FILE = ROOT / "parsed_games.csv"
-HEROES_FILE = ROOT / "heroes_bg.json"
-MINIONS_FILE = ROOT / "minions_bg.json"
-OUTPUT_CSV = ROOT / "parsed_games_clean.csv"
+DATA_DIR = ROOT / "app" / "data"
+
+CSV_FILE = DATA_DIR / "parsed_games_clean.csv"   # file di input
+HEROES_FILE = DATA_DIR / "heroes_bg.json"
+MINIONS_FILE = DATA_DIR / "minions_bg.json"
+OUTPUT_CSV = DATA_DIR / "parsed_games_clean.csv" # output sovrascritto
 
 # === 1️⃣ Carica mappa eroi ===
 with io.open(HEROES_FILE, mode="r", encoding="utf-8", errors="ignore") as f:
@@ -17,10 +19,10 @@ with io.open(HEROES_FILE, mode="r", encoding="utf-8", errors="ignore") as f:
 
 hero_map = {}
 for hero_id, hero in heroes_data.items():
-    if "HERO" in hero_id:  # Solo eroi Battlegrounds
+    if "HERO" in hero_id:  # Solo Battlegrounds
         hero_map[hero_id] = {
             "name": hero.get("name", hero_id),
-            "image": hero.get("image", ""),
+            "image": hero.get("image", "")
         }
 
 print(f"✅ Loaded {len(hero_map)} heroes for mapping.")
@@ -34,7 +36,7 @@ for minion_id, data in minions_data.items():
     minion_map[minion_id] = {
         "name": data.get("name", minion_id),
         "type": data.get("type", ""),
-        "image": data.get("image", ""),
+        "image": data.get("image", "")
     }
 
 print(f"✅ Loaded {len(minion_map)} minions for mapping.")
@@ -44,7 +46,7 @@ with open(CSV_FILE, newline='', encoding="utf-8") as infile:
     reader = csv.DictReader(infile)
     rows = list(reader)
 
-# === 4️⃣ Pulizia e arricchimento righe ===
+# === 4️⃣ Pulizia e arricchimento ===
 for row in rows:
     # --- HERO DATA ---
     hero_id = row.get("hero", "")
@@ -56,7 +58,7 @@ for row in rows:
     try:
         start = datetime.fromisoformat(row["start_time"])
         end = datetime.fromisoformat(row["end_time"])
-        duration = (end - start).total_seconds() / 60  # minuti
+        duration = (end - start).total_seconds() / 60
     except Exception:
         duration = ""
     row["duration_min"] = round(duration, 1) if duration else ""
@@ -69,29 +71,38 @@ for row in rows:
     except ValueError:
         row["rating_delta"] = ""
 
-    # --- MINIONS ---
+        # --- MINIONS ---
     minions_raw = row.get("minions", "")
     if minions_raw:
-        minion_ids = [m.strip() for m in minions_raw.split("|") if m.strip()]
-        minion_names = []
-        minion_types = []
-        minion_images = []
+        # Supporta sia ";" che "|", e rimuove spazi
+        minion_ids = [m.strip() for m in minions_raw.replace("|", ";").split(";") if m.strip()]
+        minion_names, minion_types, minion_images = [], [], []
 
         for mid in minion_ids:
-            m_info = minion_map.get(mid, {"name": mid, "type": "", "image": ""})
+            # Rimuove suffisso dorato (_G) e normalizza maiuscole
+            base_id = mid.replace("_G", "").strip().upper()
+
+            # Cerca nel dizionario minion_map
+            m_info = minion_map.get(base_id)
+            if not m_info:
+                # fallback: match parziale (alcuni minion cambiano ID versione)
+                match = next((v for k, v in minion_map.items() if base_id in k or k in base_id), None)
+                m_info = match or {"name": base_id, "type": "", "image": ""}
+
             minion_names.append(m_info["name"])
             minion_types.append(m_info["type"])
             minion_images.append(m_info["image"])
 
         row["minions_count"] = len(minion_names)
         row["minions_list"] = ", ".join(minion_names)
-        row["minion_types"] = ", ".join(sorted(set(minion_types)))  # es: "BEAST, QUILBOAR"
-        row["minion_images"] = "|".join(minion_images)  # utile per frontend
+        row["minion_types"] = ", ".join(sorted(set(t for t in minion_types if t)))
+        row["minion_images"] = "|".join(minion_images)
     else:
         row["minions_count"] = 0
         row["minions_list"] = ""
         row["minion_types"] = ""
         row["minion_images"] = ""
+
 
     # --- GAME RESULT ---
     try:

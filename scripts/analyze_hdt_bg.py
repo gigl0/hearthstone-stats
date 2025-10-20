@@ -4,8 +4,9 @@ import json
 
 # === Percorsi file ===
 ROOT = Path(__file__).parent.parent
-INPUT_CSV = ROOT / "parsed_games_clean.csv"
-OUTPUT_JSON = ROOT / "stats_summary.json"
+DATA_DIR = ROOT / "app" / "data"
+INPUT_CSV = DATA_DIR / "parsed_games_clean.csv"
+OUTPUT_JSON = DATA_DIR / "stats_summary.json"
 
 def analyze_battlegrounds():
     print("📊 Analisi dati Battlegrounds in corso...")
