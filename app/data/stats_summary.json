@@ -1,0 +1,140 @@
+{
+    "global": {
+        "total_games": 15,
+        "win_rate": 46.67,
+        "top4_rate": 73.33,
+        "avg_duration_min": 29.5,
+        "avg_rating_delta": 159.1
+    },
+    "by_hero": [
+        {
+            "hero_name": "Guff Runetotem",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 300.0
+        },
+        {
+            "hero_name": "Galakrond, Proto-Murloc",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 214.0
+        },
+        {
+            "hero_name": "DJ Manastorm",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 282.0
+        },
+        {
+            "hero_name": "Sir Finley Mrrgglton",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 215.0
+        },
+        {
+            "hero_name": "Reno Jackson",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 300.0
+        },
+        {
+            "hero_name": "Rakanishu",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 300.0
+        },
+        {
+            "hero_name": "Master Nguyen",
+            "games": 1,
+            "win_rate": 100.0,
+            "top4_rate": 100.0,
+            "avg_placement": 1.0,
+            "avg_rating_delta": 300.0
+        },
+        {
+            "hero_name": "Forest Warden Omu",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 100.0,
+            "avg_placement": 3.0,
+            "avg_rating_delta": 171.0
+        },
+        {
+            "hero_name": "Cariel Roame",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 0.0,
+            "avg_placement": 7.0,
+            "avg_rating_delta": -55.0
+        },
+        {
+            "hero_name": "Chariot Driver Denathrius",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 0.0,
+            "avg_placement": 6.0,
+            "avg_rating_delta": 0.0
+        },
+        {
+            "hero_name": "Cookie the Cook",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 0.0,
+            "avg_placement": 5.0,
+            "avg_rating_delta": -17.0
+        },
+        {
+            "hero_name": "Liontamer Brann",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 100.0,
+            "avg_placement": 4.0,
+            "avg_rating_delta": 34.0
+        },
+        {
+            "hero_name": "Snake Eyes",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 0.0,
+            "avg_placement": 5.0,
+            "avg_rating_delta": 0.0
+        },
+        {
+            "hero_name": "The Curator",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 100.0,
+            "avg_placement": 3.0,
+            "avg_rating_delta": 171.0
+        },
+        {
+            "hero_name": "Xyrella",
+            "games": 1,
+            "win_rate": 0.0,
+            "top4_rate": 100.0,
+            "avg_placement": 2.0,
+            "avg_rating_delta": 171.0
+        }
+    ],
+    "by_minion_type": {
+        "nan": {
+            "games": 15,
+            "wins": 7,
+            "top4s": 11,
+            "win_rate": 46.67,
+            "top4_rate": 73.33
+        }
+    }
+}

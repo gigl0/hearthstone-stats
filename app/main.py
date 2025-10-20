@@ -1,66 +1,65 @@
-from fastapi import FastAPI, Query
-from fastapi.staticfiles import StaticFiles
-from typing import Optional
-from threading import Thread
-import time
-from app.services.bg_service import load_csv_to_db
-from app.services.bg_stats import get_bg_stats, list_matches
+from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
+import json
 
-app = FastAPI(title="Hearthstone Battlegrounds Stats")
+app = FastAPI(title="Hearthstone BG Stats API", version="1.0")
 
+# === CORS ===
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React dev server
+    allow_origins=["*"],  # oppure ["http://localhost:5173"]
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
-# Servire file statici per il frontend
-app.mount("/frontend", StaticFiles(directory="frontend"), name="frontend")
 
-# Funzione loop per aggiornamento CSV ogni ora
-def auto_update_csv(interval_sec: int = 360):
-    while True:
-        try:
-            load_csv_to_db()
-        except Exception as e:
-            print(f"Errore aggiornamento automatico CSV: {e}")
-        time.sleep(interval_sec)
+ROOT = Path(__file__).parent
+DATA_FILE = ROOT.parent / "stats_summary.json"
 
-# Avvia il thread in background
-thread = Thread(target=auto_update_csv, args=(360,), daemon=True)
-thread.start()
 
-@app.get("/api/v1/bg/stats")
-def bg_stats():
-    return get_bg_stats()
+# === ROUTES ===
 
-@app.get("/api/v1/bg/matches")
-def bg_matches(
-    limit: int = 20,
-    offset: int = 0,
-    hero: Optional[str] = Query(None, description="Filtra per eroe"),
-    min_placement: Optional[int] = Query(None, description="Filtra per posizionamento massimo"),
-    start_date: Optional[str] = Query(None, description="Filtra per data inizio (YYYY-MM-DD)"),
-    end_date: Optional[str] = Query(None, description="Filtra per data fine (YYYY-MM-DD)"),
-    sort_by: str = Query("start_time", description="Campo per ordinare: start_time, placement, rating"),
-    order: str = Query("desc", description="asc o desc")
-):
-    matches = list_matches()
+@app.get("/")
+def root():
+    return {"message": "🔥 Hearthstone Battlegrounds Stats API active!"}
 
-    # Filtri
-    if hero:
-        matches = [m for m in matches if m["hero"] == hero]
-    if min_placement is not None:
-        matches = [m for m in matches if m["placement"] <= min_placement]
-    if start_date:
-        matches = [m for m in matches if m["start_time"][:10] >= start_date]
-    if end_date:
-        matches = [m for m in matches if m["start_time"][:10] <= end_date]
 
-    # Ordinamento
-    reverse = True if order.lower() == "desc" else False
-    matches.sort(key=lambda m: m.get(sort_by, ""), reverse=reverse)
+@app.get("/api/v1/stats")
+def get_all_stats():
+    """Restituisce le statistiche globali, per eroe e per minion."""
+    if not DATA_FILE.exists():
+        raise HTTPException(status_code=404, detail="stats_summary.json non trovato")
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data
 
-    return matches[offset:offset+limit]
+
+@app.get("/api/v1/stats/heroes")
+def get_hero_stats():
+    """Statistiche per singolo eroe."""
+    if not DATA_FILE.exists():
+        raise HTTPException(status_code=404, detail="stats_summary.json non trovato")
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("by_hero", [])
+
+
+@app.get("/api/v1/stats/minions")
+def get_minion_stats():
+    """Statistiche per tipo di minion."""
+    if not DATA_FILE.exists():
+        raise HTTPException(status_code=404, detail="stats_summary.json non trovato")
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("by_minion_type", {})
+
+
+@app.get("/api/v1/stats/global")
+def get_global_stats():
+    """Statistiche complessive."""
+    if not DATA_FILE.exists():
+        raise HTTPException(status_code=404, detail="stats_summary.json non trovato")
+    with open(DATA_FILE, "r", encoding="utf-8") as f:
+        data = json.load(f)
+    return data.get("global", {})
