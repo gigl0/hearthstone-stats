@@ -5,6 +5,8 @@ from app.db.session import SessionLocal
 from app.models.models import BattlegroundsMatch
 import os
 from rich import print  # Per log colorati
+from datetime import datetime
+from app.models.models import SyncStatus
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 XML_FILE = os.path.join(BASE_DIR, "BgsLastGames.xml")
@@ -13,9 +15,9 @@ DATA_DIR = os.path.join(BASE_DIR, "app", "data")
 HEROES_JSON = os.path.join(DATA_DIR, "heroes_bg.json")
 MINIONS_JSON = os.path.join(DATA_DIR, "minions_bg.json")
 
-# --- Carica mapping eroi e minion ---
-# --- Carica mapping eroi e minion ---
+# --- Caricamento sicuro dei file JSON ---
 def safe_json_load(path):
+    """Tenta più codifiche per leggere file JSON in modo robusto."""
     for encoding in ("utf-8", "utf-8-sig", "latin-1"):
         try:
             with open(path, encoding=encoding) as f:
@@ -77,16 +79,17 @@ def import_from_hdt_enhanced(xml_path: str = XML_FILE):
                 if card_node is not None and card_node.text:
                     card_id = card_node.text.strip().upper().replace("_G", "")
                     info = MINION_DATA.get(card_id, {})
-                    minions.append({
+                    minion_data = {
                         "id": card_id,
                         "name": info.get("name", card_id),
                         "type": info.get("type", ""),
                         "tier": info.get("tier", ""),
                         "image": info.get("image", "")
-                    })
-                    minion_names.append(info.get("name", card_id))
-                    if info.get("type"): minion_types.append(info["type"])
-                    if info.get("image"): minion_images.append(info["image"])
+                    }
+                    minions.append(minion_data)
+                    minion_names.append(minion_data["name"])
+                    if minion_data["type"]: minion_types.append(minion_data["type"])
+                    if minion_data["image"]: minion_images.append(minion_data["image"])
 
         # --- METRICHE DERIVATE ---
         try:
@@ -113,15 +116,34 @@ def import_from_hdt_enhanced(xml_path: str = XML_FILE):
             placement=placement,
             rating=rating,
             rating_after=rating_after,
-            minions=json.dumps(minions, ensure_ascii=False)
+            minions=minions,  # ✅ Passiamo la lista, non una stringa
+            # Campi arricchiti per analisi
+            hero_name=hero_name,
+            hero_image=hero_image,
+            duration_min=duration_min,
+            rating_delta=rating_delta,
+            game_result=game_result,
+            minions_count=len(minions),
+            minions_list=", ".join(minion_names),
+            minion_types=", ".join(sorted(set(minion_types))),
+            minion_images="|".join(minion_images)
         )
+
         session.add(match)
         imported += 1
 
         print(f"[green]🧩 Match {imported}:[/green] {hero_name} "
-              f"({placement}° place, Δ={rating_delta}, {len(minions)} minions)")
-
+                f"({placement}° place, Δ={rating_delta}, {len(minions)} minions)")
+        sync = session.query(SyncStatus).first()
+    if not sync:
+        sync = SyncStatus(last_import_time=datetime.utcnow())
+        session.add(sync)
+    else:
+        sync.last_import_time = datetime.utcnow()
+    session.commit()
     session.commit()
     session.close()
 
     print(f"[bold green]✅ Import completato: {imported} nuove partite inserite.[/bold green]")
+
+   

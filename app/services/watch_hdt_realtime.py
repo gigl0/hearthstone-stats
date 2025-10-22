@@ -6,14 +6,14 @@ from app.services.bg_importer_enhanced import import_from_hdt_enhanced
 from rich import print
 
 LOG_DIR = os.path.expanduser(r"~\AppData\Roaming\HearthstoneDeckTracker")
-XML_FILE = os.path.join(LOG_DIR, "BgsLastGames")
+XML_FILE = os.path.join(LOG_DIR, "BgsLastGames.xml")
 
 
 class HDTLogHandler(FileSystemEventHandler):
     def on_modified(self, event):
         if event.is_directory:
             return
-        if os.path.basename(event.src_path) == "BgsLastGames":
+        if os.path.basename(event.src_path) == "BgsLastGames.xml":
             print(f"\n📜 File aggiornato: {event.src_path}")
         try:
             import_from_hdt_enhanced(XML_FILE)

@@ -109,3 +109,4 @@ def get_rating_trend(limit: int = 50, db: Session = Depends(get_db)):
         })
 
     return {"trend": trend_data}
+    
