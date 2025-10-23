@@ -48,11 +48,17 @@ export const Dashboard: React.FC = () => {
           getImportLogs(),
           getTrendStats(),
         ]);
+
         console.log("✅ Dati ricevuti:", { global, sync, logs, trend });
+        console.log("📊 Global Stats:", global);
+        console.log("🧙‍♂️ Sync Status:", sync);
+        console.log("📈 Trend Stats:", trend);
+
         setGlobalStats(global);
         setSyncStatus(sync);
         setLastImport(logs.length > 0 ? logs[0] : null);
         setTrendStats(trend.slice(-10));
+        setError(null);
       } catch (err) {
         console.error("❌ Errore caricamento dashboard:", err);
         setError("Impossibile caricare i dati della dashboard.");

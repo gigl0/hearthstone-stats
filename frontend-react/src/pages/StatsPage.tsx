@@ -41,7 +41,12 @@ export const StatsPage: React.FC = () => {
   };
 
   useEffect(() => {
+    
     loadStats();
+    console.log("📊 Global Stats:", global);
+    console.log("🧙‍♂️ Hero Stats:", heroStats);
+    console.log("📈 Trend Stats:", trendStats);
+
   }, []);
 
   if (loading) return <p style={{ color: "#aaa" }}>Caricamento statistiche...</p>;

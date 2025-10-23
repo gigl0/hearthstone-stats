@@ -1,48 +1,57 @@
-// ==============================
-// 🌍 API Client - Hearthstone BG
-// ==============================
-console.log("🌍 API URL:", process.env.REACT_APP_API_URL);
+// === FRONTEND API ===
+// Tutte le chiamate sono già allineate con il backend attuale FastAPI
 
-// Base API URL (da .env) — deve finire con /api/v1
 const API_URL = process.env.REACT_APP_API_URL || "http://localhost:8000";
+console.log("🌍 API BASE URL:", API_URL);
 
-// Helper generale per fetch con gestione errori
-async function safeFetch(endpoint: string, errorLabel: string) {
-  const res = await fetch(`${API_URL}${endpoint}`);
-  if (!res.ok) throw new Error(`Errore API ${errorLabel}: ${res.status}`);
-  return res.json();
-}
-
-// === 🧩 MATCHES ===
+// === MATCHES ===
 export const getRecentMatches = async () => {
-  return safeFetch(`/matches/recent`, "Matches");
+  const res = await fetch(`${API_URL}/api/v1/matches/recent`);
+  if (!res.ok) throw new Error(`Errore API Matches ${res.status}`);
+  return res.json();
 };
 
-// === 📊 STATS ===
+// === STATS ===
 export const getGlobalStats = async () => {
-  return safeFetch(`/stats/global`, "Stats Global");
+  const res = await fetch(`${API_URL}/api/v1/stats/global`);
+  if (!res.ok) throw new Error(`Errore API Stats Global ${res.status}`);
+  return res.json();
 };
 
 export const getHeroStats = async () => {
-  return safeFetch(`/stats/heroes`, "Hero Stats");
+  const res = await fetch(`${API_URL}/api/v1/stats/heroes`);
+  if (!res.ok) throw new Error(`Errore API Hero Stats ${res.status}`);
+  return res.json();
 };
 
 export const getTrendStats = async () => {
-  return safeFetch(`/stats/rating_trend`, "Trend");
+  const res = await fetch(`${API_URL}/api/v1/stats/rating_trend`);
+  if (!res.ok) throw new Error(`Errore API Trend ${res.status}`);
+  return res.json();
 };
 
-// === 🔄 IMPORT & SYNC ===
+export const getMinionStats = async () => {
+  const res = await fetch(`${API_URL}/api/v1/stats/minions`);
+  if (!res.ok) throw new Error(`Errore API Minions ${res.status}`);
+  return res.json();
+};
+
+// === IMPORT ===
 export const getImportLogs = async () => {
-  return safeFetch(`/import/logs`, "Import Logs");
+  const res = await fetch(`${API_URL}/api/v1/import/logs`);
+  if (!res.ok) throw new Error(`Errore API Import Logs ${res.status}`);
+  return res.json();
 };
 
 export const getSyncStatus = async () => {
-  return safeFetch(`/import/status`, "Sync Status");
+  const res = await fetch(`${API_URL}/api/v1/import/status`);
+  if (!res.ok) throw new Error(`Errore API Sync Status ${res.status}`);
+  return res.json();
 };
 
-// === ▶ Avvio Import Manuale ===
+// === IMPORT MANUALE ===
 export const triggerImport = async () => {
-  const res = await fetch(`${API_URL}/import/start`, { method: "POST" });
-  if (!res.ok) throw new Error(`Errore API Import Start: ${res.status}`);
+  const res = await fetch(`${API_URL}/api/v1/import/start`, { method: "POST" });
+  if (!res.ok) throw new Error(`Errore API Trigger Import ${res.status}`);
   return res.json();
 };
