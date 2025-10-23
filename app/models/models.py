@@ -1,7 +1,8 @@
 from sqlalchemy import Column, Integer, String, DateTime, Float, JSON
 from sqlalchemy.dialects.postgresql import JSONB
 from app.db.session import Base
-
+from sqlalchemy import Column, Integer, DateTime, String
+from datetime import datetime, UTC
 class BattlegroundsMatch(Base):
     __tablename__ = "battlegrounds_matches"
 
@@ -45,3 +46,13 @@ class SyncStatus(Base):
 
     id = Column(Integer, primary_key=True)
     last_import_time = Column(DateTime)
+class ImportLog(Base):
+    __tablename__ = "import_log"
+
+    id = Column(Integer, primary_key=True, index=True)
+    timestamp = Column(DateTime(timezone=True), default=lambda: datetime.now(UTC))
+    matches_imported = Column(Integer, default=0)
+    status = Column(String(255), default="OK")  # "OK" | "NO_NEW_MATCHES" | "ERROR"
+
+    def __repr__(self):
+        return f"<ImportLog {self.timestamp} ({self.status})>"

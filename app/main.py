@@ -9,6 +9,7 @@ from app.models.models import Base, SyncStatus
 
 # Routers principali (DB-driven)
 from app.routers import matches_router, stats_router
+from app.routers import matches_router, stats_router, import_router
 
 # --- Bootstrap DB: crea le tabelle se non esistono ---
 Base.metadata.create_all(bind=engine)
@@ -19,7 +20,7 @@ app = FastAPI(title="Hearthstone BG Stats API", version="1.3")
 # --- CORS ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  # puoi restringere a ["http://localhost:5173"]
+    allow_origins=["*"], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -28,6 +29,9 @@ app.add_middleware(
 # --- Routers ---
 app.include_router(matches_router.router)
 app.include_router(stats_router.router)
+app.include_router(matches_router.router)
+app.include_router(stats_router.router)
+app.include_router(import_router.router)
 
 
 # --- Root ---
@@ -68,3 +72,9 @@ def get_sync_status():
             }
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+import inspect
+print("=== ROUTES LOADED ===")
+for r in app.routes:
+    print(r.path)
+print("======================")
