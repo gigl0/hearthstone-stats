@@ -6,11 +6,13 @@ import {
   LinearScale,
   PointElement,
   LineElement,
+  Title,
   Tooltip,
   Legend,
 } from "chart.js";
 
-ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Tooltip, Legend);
+// ⚙️ Registrazione componenti Chart.js (obbligatoria con CRA)
+ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
 interface TrendPoint {
   end_time: string;
@@ -19,23 +21,37 @@ interface TrendPoint {
 
 export const RatingTrendChart: React.FC = () => {
   const [data, setData] = useState<TrendPoint[]>([]);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch("/api/v1/stats/rating_trend")
-      .then((r) => r.json())
-      .then(setData)
-      .catch(console.error);
+    console.log("✅ RatingTrendChart montato");
+    const fetchTrend = async () => {
+      try {
+        console.log("📡 Fetching /api/v1/stats/rating_trend ...");
+        const res = await fetch("/api/v1/stats/rating_trend");
+        const json = await res.json();
+        console.log("✅ Dati ricevuti:", json);
+        setData(json);
+      } catch (err) {
+        console.error("❌ Errore fetch rating trend:", err);
+        setError("Errore nel caricamento dei dati");
+      } finally {
+        setLoading(false);
+      }
+    };
+    fetchTrend();
   }, []);
 
-  if (data.length === 0) {
-    return <p>Caricamento trend rating...</p>;
-  }
+  if (loading) return <p style={{ color: "#ccc" }}>Caricamento trend rating...</p>;
+  if (error) return <p style={{ color: "tomato" }}>{error}</p>;
+  if (!data.length) return <p style={{ color: "#ccc" }}>Nessun dato disponibile.</p>;
 
-  // Genera array di colori per ogni segmento
+  // 🎨 Colori dinamici
   const segmentColors = data.map((point, i) => {
-    if (i === 0) return "#36A2EB"; // primo punto blu
+    if (i === 0) return "#36A2EB";
     const diff = point.rating_after - data[i - 1].rating_after;
-    return diff >= 0 ? "#4CAF50" : "#E53935"; // verde se guadagni, rosso se perdi
+    return diff >= 0 ? "#4CAF50" : "#E53935";
   });
 
   const chartData = {
@@ -51,14 +67,10 @@ export const RatingTrendChart: React.FC = () => {
       {
         label: "Rating nel tempo",
         data: data.map((d) => Number(d.rating_after)),
+        borderColor: "#4CAF50",
+        borderWidth: 2,
+        pointBackgroundColor: segmentColors,
         fill: false,
-        borderColor: (ctx: any) => {
-          const index = ctx.p0DataIndex;
-          return segmentColors[index] || "#36A2EB";
-        },
-        borderWidth: 3,
-        pointRadius: 5,
-        pointHoverRadius: 8,
         tension: 0.2,
       },
     ],
@@ -80,16 +92,26 @@ export const RatingTrendChart: React.FC = () => {
       },
     },
     scales: {
+      x: { ticks: { color: "#aaa" } },
       y: {
-        beginAtZero: false,
-        title: { display: true, text: "Rating" },
+        ticks: { color: "#aaa" },
+        title: { display: true, text: "Rating", color: "#ccc" },
       },
     },
   };
 
   return (
-    <div style={{ marginTop: "2rem" }}>
-      <h3>Andamento del Rating nel Tempo</h3>
+    <div
+      style={{
+        marginTop: "2rem",
+        background: "#1E1E1E",
+        padding: "1rem",
+        borderRadius: "10px",
+      }}
+    >
+      <h3 style={{ color: "#fff", marginBottom: "1rem" }}>
+        📈 Andamento del Rating nel Tempo
+      </h3>
       <Line data={chartData} options={options} />
     </div>
   );

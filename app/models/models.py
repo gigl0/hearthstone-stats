@@ -43,16 +43,16 @@ class BattlegroundsMatch(Base):
 
 class SyncStatus(Base):
     __tablename__ = "sync_status"
-
-    id = Column(Integer, primary_key=True)
-    last_import_time = Column(DateTime)
-class ImportLog(Base):
-    __tablename__ = "import_log"
-
     id = Column(Integer, primary_key=True, index=True)
-    timestamp = Column(DateTime(timezone=True), default=lambda: datetime.now(UTC))
-    matches_imported = Column(Integer, default=0)
-    status = Column(String(255), default="OK")  # "OK" | "NO_NEW_MATCHES" | "ERROR"
+    last_import_time = Column(DateTime, default=datetime.utcnow)
+    last_status = Column(String, default="PENDING")
 
+class ImportLog(Base):
+    __tablename__ = "import_logs"
+    id = Column(Integer, primary_key=True, index=True)
+    timestamp = Column(DateTime, default=datetime.utcnow)
+    matches_imported = Column(Integer, default=0)
+    status = Column(String, default="PENDING")
+    
     def __repr__(self):
-        return f"<ImportLog {self.timestamp} ({self.status})>"
+        return f"<ImportLog {self.timestamp} - {self.status} ({self.matches_imported} match)>"

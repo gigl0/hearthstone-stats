@@ -1,26 +1,23 @@
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from app.db.session import SessionLocal
+from app.db.session import get_db
 from app.models.models import BattlegroundsMatch
 
-router = APIRouter(prefix="/api/v1/matches", tags=["matches"])
+router = APIRouter(tags=["matches"])
 
-def get_db():
-    db = SessionLocal()
-    try:
-        yield db
-    finally:
-        db.close()
 
 @router.get("/recent")
 def get_recent_matches(limit: int = 10, db: Session = Depends(get_db)):
-    """Restituisce le ultime partite dal database."""
+    """
+    ✅ Restituisce le ultime partite registrate nel database,
+    ordinate per data di fine (end_time) discendente.
+    """
     matches = (
         db.query(BattlegroundsMatch)
         .order_by(BattlegroundsMatch.end_time.desc())
         .limit(limit)
         .all()
     )
-    if not matches:
-        raise HTTPException(status_code=404, detail="Nessuna partita trovata nel database")
-    return matches
+
+    # Non solleva errore: ritorna lista vuota se non ci sono partite
+    return {"matches": matches}
