@@ -86,7 +86,7 @@ export const MatchesPage: React.FC = () => {
             }
           `}
         </style>
-        
+
       {matches.map((m, idx) => {
         const gameResult: string = Array.isArray(m.game_result)
           ? m.game_result[0]
@@ -199,10 +199,14 @@ export const MatchesPage: React.FC = () => {
                     }
                   ) as MinionInfo | undefined;
 
-                  const src =
-                    minionImgs[i]?.trim() ||
-                    minion?.image ||
-                    placeholder;
+                  const rawImg = minionImgs[i]?.trim() || "";
+                  const fileName = rawImg.split("/").pop() || "";
+
+                  const src = rawImg.startsWith("http")
+                    ? rawImg
+                    : rawImg.includes("static/images/")
+                    ? `/images/minions/${fileName}`
+                    : `/images/minions/${fileName}`;
 
                   return (
                     <div
@@ -230,9 +234,8 @@ export const MatchesPage: React.FC = () => {
                             ? `${minion.name}\n${minion.type}\n${minion.effect}`
                             : "Immagine non disponibile"
                         }
-                        onError={(e) =>
-                          ((e.target as HTMLImageElement).src = placeholder)
-                        }
+                        onError={(e) => ((e.target as HTMLImageElement).src = "/images/placeholder.png")}
+
                       />
                       <p
                         style={{

@@ -1,2712 +1,2712 @@
 {
-  "BG19_010": {
-    "name": "Sewer Rat",
-    "type": "BEAST",
-    "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\n2/3 Turtle with <b>Taunt</b>.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG19_010.png"
-  },
-  "BG20_101": {
-    "name": "Roadboar",
-    "type": "QUILBOAR",
-    "effect": "<b>Rally:</b> Get 2 <b>Blood Gems</b>.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG20_101.png"
-  },
-  "BG20_104": {
-    "name": "Bonker",
-    "type": "QUILBOAR",
-    "effect": "<b>Windfury</b>. <b>Rally:</b> Play a <b>Blood Gem</b> on all your other minions.",
-    "attack": 3,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG20_104.png"
-  },
-  "BG20_203": {
-    "name": "Prophet of the Boar",
-    "type": "",
-    "effect": "<b>Taunt</b>\nAfter you play a Quilboar, get a <b>Blood Gem</b>.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG20_203.png"
-  },
-  "BG20_301": {
-    "name": "Sun-Bacon Relaxer",
-    "type": "QUILBOAR",
-    "effect": "When you sell this,\nget 2 <b>Blood Gems</b>.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG20_301.png"
-  },
-  "BG20_303": {
-    "name": "Charlga",
-    "type": "QUILBOAR",
-    "effect": "At the end of your turn,\nplay 2 <b>Blood Gems</b> on all\nyour other minions.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG20_303.png"
-  },
-  "BG21_002": {
-    "name": "Bird Buddy",
-    "type": "",
-    "effect": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG21_002.png"
-  },
-  "BG21_004": {
-    "name": "Insatiable Ur'zul",
-    "type": "DEMON",
-    "effect": "[x]<b>Taunt</b>. After you play a\nDemon, consume 2 minions\nin the Tavern to gain\ntheir stats.",
-    "attack": 4,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG21_004.png"
-  },
-  "BG21_005": {
-    "name": "Famished Felbat",
-    "type": "DEMON",
-    "effect": "At the end of your turn, your Demons each consume a minion in the Tavern to gain its stats.",
-    "attack": 9,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG21_005.png"
-  },
-  "BG21_006": {
-    "name": "Impulsive Trickster",
-    "type": "DEMON",
-    "effect": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\n  to another friendly minion. ",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG21_006.png"
-  },
-  "BG21_008": {
-    "name": "Saltscale Honcho",
-    "type": "MURLOC",
-    "effect": "After you play a Murloc, give a friendly Murloc other than it +2 Health.",
-    "attack": 5,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG21_008.png"
-  },
-  "BG21_013": {
-    "name": "Whelp Smuggler",
-    "type": "",
-    "effect": "Whenever a friendly Dragon gains Attack, give it +1 Health.",
-    "attack": 2,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG21_013.png"
-  },
-  "BG21_014": {
-    "name": "Prized Promo-Drake",
-    "type": "DRAGON",
-    "effect": "<b>Start of Combat:</b> Give your Dragons +{0}/+{1}.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG21_014.png"
-  },
-  "BG21_015": {
-    "name": "Tarecgosa",
-    "type": "DRAGON",
-    "effect": "This permanently keeps <b><b>Bonus Keyword</b>s</b> and stats gained in combat.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG21_015.png"
-  },
-  "BG21_018": {
-    "name": "Defiant Shipwright",
-    "type": "PIRATE",
-    "effect": "Whenever this gains Attack, gain +1 Health.",
-    "attack": 2,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG21_018.png"
-  },
-  "BG21_024": {
-    "name": "Grease Bot",
-    "type": "MECHANICAL",
-    "effect": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+2/+2 permanently.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG21_024.png"
-  },
-  "BG21_029": {
-    "name": "Icky Imp",
-    "type": "DEMON",
-    "effect": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG21_029.png"
-  },
-  "BG21_036": {
-    "name": "Master of Realities",
-    "type": "",
-    "effect": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +{0}/+{1}.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG21_036.png"
-  },
-  "BG21_037": {
-    "name": "Gemsplitter",
-    "type": "QUILBOAR",
-    "effect": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, get a <b>Blood Gem</b>.",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG21_037.png"
-  },
-  "BG22_202": {
-    "name": "Tad",
-    "type": "MURLOC",
-    "effect": "When you sell this,\nget a random Murloc.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG22_202.png"
-  },
-  "BG22_403": {
-    "name": "Young Murk-Eye",
-    "type": "MURLOC",
-    "effect": "[x]At the end of your turn,\ntrigger the <b>Battlecries</b> of\nadjacent Murlocs.",
-    "attack": 10,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG22_403.png"
-  },
-  "BG23_002": {
-    "name": "Shell Collector",
-    "type": "NAGA",
-    "effect": "<b>Battlecry:</b> Get a Gold Coin.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG23_002.png"
-  },
-  "BG23_004": {
-    "name": "Deep-Sea Angler",
-    "type": "NAGA",
-    "effect": "[x]<b>Spellcraft:</b> Give a minion\n+2 Health and <b>Taunt</b>\nuntil next turn.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG23_004.png"
-  },
-  "BG23_008": {
-    "name": "Glowscale",
-    "type": "NAGA",
-    "effect": "<b>Taunt</b>\n<b>Spellcraft:</b> Give a minion <b>Divine Shield</b> until next turn.",
-    "attack": 4,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG23_008.png"
-  },
-  "BG23_009": {
-    "name": "Lava Lurker",
-    "type": "NAGA",
-    "effect": "The first <b>Spellcraft</b> spell played on this each turn is permanent.",
-    "attack": 2,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG23_009.png"
-  },
-  "BG23_012": {
-    "name": "Corrupted Myrmidon",
-    "type": "NAGA",
-    "effect": "<b>Start of Combat:</b> Double this minion's stats.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG23_012.png"
-  },
-  "BG23_016": {
-    "name": "Reef Explorer",
-    "type": "",
-    "effect": "<b><b>Battlecry:</b> Discover</b> a minion of a type you don't control.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG23_016.png"
-  },
-  "BG23_017": {
-    "name": "Sanguine Champion",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Battlecry and Deathrattle:</b>\nYour <b>Blood Gems</b> give an\nextra +1/+1 this game.",
-    "attack": 18,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG23_017.png"
-  },
-  "BG23_018": {
-    "name": "Darkgaze Elder",
-    "type": "QUILBOAR",
-    "effect": "[x]Whenever you spend 6 Gold,\nplay a <b>Blood Gem</b> on\nall your Quilboar.\n<i>(6 Gold left!)</i>",
-    "attack": 5,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG23_018.png"
-  },
-  "BG23_318": {
-    "name": "Leeroy the Reckless",
-    "type": "",
-    "effect": "<b>Deathrattle:</b> Destroy the minion that killed this.",
-    "attack": 6,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG23_318.png"
-  },
-  "BG23_357": {
-    "name": "Mind Muck",
-    "type": "DEMON",
-    "effect": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\nminion in the Tavern\nto gain its stats.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG24_009": {
-    "name": "Picky Eater",
-    "type": "DEMON",
-    "effect": "[x]<b>Battlecry:</b> Consume a\nrandom minion in the\nTavern to gain its stats.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG24_500": {
-    "name": "Amber Guardian",
-    "type": "DRAGON",
-    "effect": "[x]<b>Taunt</b>\n<b>Start of Combat:</b> Give another\n friendly Dragon +{0}/+{1}\nand <b>Divine Shield</b>.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG24_500.png"
-  },
-  "BG24_704": {
-    "name": "Interrogator Whitemane",
-    "type": "",
-    "effect": "[x]<b>Start of Combat:</b> Give an\nenemy minion from Tier 5 or\nhigher <b>Taunt</b>. It takes double\ndamage this combat.",
-    "attack": 8,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG24_704.png"
-  },
-  "BG24_715": {
-    "name": "Patient Scout",
-    "type": "",
-    "effect": "[x]When you sell this,\n<b>Discover</b> a Tier 1 minion.\n<i>(Upgrades each turn!)</i>",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG24_715.png"
-  },
-  "BG25_001": {
-    "name": "Risen Rider",
-    "type": "UNDEAD",
-    "effect": "<b>Taunt</b>\n<b>Reborn</b>",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG25_001.png"
-  },
-  "BG25_005": {
-    "name": "Jelly Belly",
-    "type": "UNDEAD",
-    "effect": "After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG25_005.png"
-  },
-  "BG25_007": {
-    "name": "Anub'arak, Nerubian King",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Deathrattle:</b> Your Undead\nhave +1 Attack this game\n<i>(wherever they are)</i>.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG25_007.png"
-  },
-  "BG25_008": {
-    "name": "Eternal Knight",
-    "type": "UNDEAD",
-    "effect": "[x]Has +{0}/+{1} for each friendly\nEternal Knight that died this\n  game <i>(wherever this is)</i>.",
-    "attack": 4,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG25_008.png"
-  },
-  "BG25_009": {
-    "name": "Eternal Summoner",
-    "type": "UNDEAD",
-    "effect": "[x]<b><b>Reborn</b>.</b> <b>Deathrattle:</b>\nSummon 1 Eternal Knight.",
-    "attack": 8,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG25_009.png"
-  },
-  "BG25_010": {
-    "name": "Handless Forsaken",
-    "type": "UNDEAD",
-    "effect": "<b>Deathrattle:</b> Summon a 2/1 Hand with <b>Reborn</b>.",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG25_010.png"
-  },
-  "BG25_011": {
-    "name": "Nerubian Deathswarmer",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Battlecry:</b> Your Undead\nhave +1 Attack this game\n<i>(wherever they are)</i>.",
-    "attack": 1,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG25_011.png"
-  },
-  "BG25_013": {
-    "name": "Rot Hide Gnoll",
-    "type": "UNDEAD",
-    "effect": "Has +1 Attack for each friendly minion that died this combat.",
-    "attack": 1,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG25_013.png"
-  },
-  "BG25_016": {
-    "name": "Sin'dorei Straight Shot",
-    "type": "",
-    "effect": "[x]<b>Divine Shield</b>, <b>Windfury</b>\n<b>Rally:</b> Remove <b>Reborn</b> and\n <b>Taunt</b> from the target.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG25_016.png"
-  },
-  "BG25_022": {
-    "name": "Scarlet Skull",
-    "type": "UNDEAD",
-    "effect": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +1/+2.",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG25_022.png"
-  },
-  "BG25_032": {
-    "name": "Peggy Sturdybone",
-    "type": "PIRATE",
-    "effect": "[x]Whenever a card is added to\nyour hand, give another\nfriendly Pirate +1/+1.",
-    "attack": 4,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG25_032.png"
-  },
-  "BG25_034": {
-    "name": "Captain Sanders",
-    "type": "PIRATE",
-    "effect": "<b>Battlecry:</b> Make a friendly minion from Tier 6 or below Golden.",
-    "attack": 9,
-    "health": 9,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG25_034.png"
-  },
-  "BG25_040": {
-    "name": "Blazing Skyfin",
-    "type": "DRAGON",
-    "effect": "After you trigger a <b>Battlecry</b>, gain +1/+1.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG25_040.png"
-  },
-  "BG25_105": {
-    "name": "Poetic Pen Pal",
-    "type": "",
-    "effect": "<b>Battlecry:</b> Reduce the Cost of your next <b>Buddy</b> by (2).",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG25_105.png"
-  },
-  "BG25_309": {
-    "name": "General Drakkisath",
-    "type": "DRAGON",
-    "effect": "[x]<b>Battlecry:</b> Get a 2/1\nSmolderwing with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
-    "attack": 2,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG25_309.png"
-  },
-  "BG25_354": {
-    "name": "Titus Rivendare",
-    "type": "",
-    "effect": "Your <b>Deathrattles</b> trigger an extra time.",
-    "attack": 1,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG25_354.png"
-  },
-  "BG25_806": {
-    "name": "Sly Raptor",
-    "type": "BEAST",
-    "effect": "<b>Deathrattle:</b> Summon a random Beast. Set its stats to 6/6.",
-    "attack": 1,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG25_806.png"
-  },
-  "BG26_135": {
-    "name": "Southsea Busker",
-    "type": "PIRATE",
-    "effect": "<b>Battlecry:</b> Gain\n1 Gold next turn.",
-    "attack": 3,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG26_135.png"
-  },
-  "BG26_137": {
-    "name": "Bream Counter",
-    "type": "MURLOC",
-    "effect": "While this is in your hand, after you play a Murloc, gain +{0}/+{1}.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_137.png"
-  },
-  "BG26_147": {
-    "name": "Accord-o-Tron",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Magnetic</b>\nAt the start of your turn,\ngain 1 Gold.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_147.png"
-  },
-  "BG26_149": {
-    "name": "Polarizing Beatboxer",
-    "type": "MECHANICAL",
-    "effect": "Whenever you <b>Magnetize</b> another minion, it also <b>Magnetizes</b> to this.",
-    "attack": 5,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG26_149.png"
-  },
-  "BG26_152": {
-    "name": "Utility Drone",
-    "type": "MECHANICAL",
-    "effect": "[x]At the end of your turn,\ngive your minions +{0}/+{1}\nfor each <b>Magnetization</b>\nthey have.",
-    "attack": 3,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_152.png"
-  },
-  "BG26_159": {
-    "name": "Moon-Bacon Jazzer",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game.",
-    "attack": 2,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG26_159.png"
-  },
-  "BG26_160": {
-    "name": "Prickly Piper",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Deathrattle:</b> Your <b>Blood\nGems</b> give an extra\n+1 Attack this game.",
-    "attack": 5,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG26_160.png"
-  },
-  "BG26_175": {
-    "name": "Elemental of Surprise",
-    "type": "ELEMENTAL",
-    "effect": "<b>Divine Shield</b>\nThis minion can triple with any Elemental.",
-    "attack": 8,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG26_175.png"
-  },
-  "BG26_350": {
-    "name": "Bassgill",
-    "type": "MURLOC",
-    "effect": "<b>Deathrattle:</b> Summon the highest-Health Murloc\nfrom your hand for this combat only.",
-    "attack": 5,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG26_350.png"
-  },
-  "BG26_354": {
-    "name": "Choral Mrrrglr",
-    "type": "MURLOC",
-    "effect": "[x]<b>Start of Combat:</b> Gain\nthe stats of all the\nminions in your hand.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG26_354.png"
-  },
-  "BG26_360": {
-    "name": "Scourfin",
-    "type": "MURLOC",
-    "effect": "<b>Deathrattle:</b> Give a\nrandom minion in your hand +5/+5.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG26_360.png"
-  },
-  "BG26_370": {
-    "name": "Hungry Snapjaw",
-    "type": "BEAST",
-    "effect": "[x]After a friendly Beast\ndies, gain +1 Health\npermanently.",
-    "attack": 4,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG26_370.png"
-  },
-  "BG26_501": {
-    "name": "Reef Riffer",
-    "type": "NAGA",
-    "effect": "<b>Spellcraft:</b> Give a minion stats equal to your Tier until next turn.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG26_501.png"
-  },
-  "BG26_502": {
-    "name": "Deep Blue Crooner",
-    "type": "NAGA",
-    "effect": "<b>Spellcraft:</b> Give a minion +{0}/+{1} until next turn. Improve your future Deep Blues.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_502.png"
-  },
-  "BG26_505": {
-    "name": "Zesty Shaker",
-    "type": "NAGA",
-    "effect": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get a new copy of it.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG26_505.png"
-  },
-  "BG26_800": {
-    "name": "Manasaber",
-    "type": "BEAST",
-    "effect": "<b>Deathrattle:</b> Summon two 0/1 Cublings with <b>Taunt</b>.",
-    "attack": 4,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG26_800.png"
-  },
-  "BG26_801": {
-    "name": "Rylak Metalhead",
-    "type": "BEAST",
-    "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Trigger the\n<b>Battlecry</b> of an\nadjacent minion.",
-    "attack": 5,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_801.png"
-  },
-  "BG26_805": {
-    "name": "Humming Bird",
-    "type": "BEAST",
-    "effect": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +1 Attack.",
-    "attack": 1,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG26_805.png"
-  },
-  "BG26_810": {
-    "name": "Gunpowder Courier",
-    "type": "PIRATE",
-    "effect": "Whenever you spend 5 Gold,\ngive your Pirates +1 Attack.\n<i>(5 Gold left!)</i>",
-    "attack": 1,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG26_810.png"
-  },
-  "BG26_814": {
-    "name": "Lovesick Balladist",
-    "type": "PIRATE",
-    "effect": "<b>Battlecry:</b> Give a Pirate\n+1 Health. <i>(Improved by each Gold you spent this turn!)</i>",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_814.png"
-  },
-  "BG26_817": {
-    "name": "Blade Collector",
-    "type": "PIRATE",
-    "effect": "Also damages the minions next to whomever\nthis attacks.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG26_817.png"
-  },
-  "BG26_ICC_901": {
-    "name": "Drakkari Enchanter",
-    "type": "",
-    "effect": "Your end of turn effects trigger twice.",
-    "attack": 1,
-    "health": 5,
-    "cost": 5,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG26_ICC_901.png"
-  },
-  "BG27_002": {
-    "name": "Oozeling Gladiator",
-    "type": "",
-    "effect": "<b>Battlecry:</b> Get two Slimy Shields that give\n+1/+1 and <b><b>Taunt</b>.</b>",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG27_002.png"
-  },
-  "BG27_005": {
-    "name": "Timecap'n Hooktail",
-    "type": "PIRATE",
-    "effect": "[x]Whenever you cast a\nTavern spell, give your\nminions +{0} Attack.",
-    "attack": 1,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG27_005.png"
-  },
-  "BG27_008": {
-    "name": "Mechanized Gift Horse",
-    "type": "BEAST",
-    "effect": "[x]<b>Deathrattle:</b> Summon two\n2/2 Mechorses with\n\"<b>Deathrattle:</b> Summon a\n1/1 Mechapony.\"",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG27_008.png"
-  },
-  "BG27_013": {
-    "name": "Transmuted Bramblewitch",
-    "type": "ELEMENTAL",
-    "effect": "[x]<b>Rally:</b> Set the target's stats\nto 3/3. <i>(Once per combat.)</i>",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG27_013.png"
-  },
-  "BG27_016": {
-    "name": "Champion of Sargeras",
-    "type": "DEMON",
-    "effect": "<b>Battlecry and Deathrattle:</b> Minions in the Tavern have +4/+4 this game.",
-    "attack": 10,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_016.png"
-  },
-  "BG27_017": {
-    "name": "Obsidian Ravager",
-    "type": "DRAGON",
-    "effect": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\nthe target and an adjacent\nminion.",
-    "attack": 7,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_017.png"
-  },
-  "BG27_021": {
-    "name": "The Boommobile",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>",
-    "attack": 30,
-    "health": 30,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_021.png"
-  },
-  "BG27_024": {
-    "name": "Daggerspine Thrasher",
-    "type": "NAGA",
-    "effect": "[x]Whenever you cast a spell,\ngain <b>Divine Shield</b>,\n<b>Windfury</b>, or <b>Venomous</b>\nuntil next turn.",
-    "attack": 3,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG27_024.png"
-  },
-  "BG27_025": {
-    "name": "The Glad-iator",
-    "type": "NAGA",
-    "effect": "<b>Divine Shield</b>\nWhenever you cast a spell, gain +1 Attack.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG27_025.png"
-  },
-  "BG27_079": {
-    "name": "Hawkstrider Herald",
-    "type": "BEAST",
-    "effect": "<b>Start of Combat:</b> Trigger your two left-most <b>Deathrattles</b>.",
-    "attack": 6,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG27_079.png"
-  },
-  "BG27_081": {
-    "name": "Cultist S'Thara",
-    "type": "",
-    "effect": "[x]<b><b>Stealth</b>.</b> <b>Deathrattle:</b>\nSummon your first Demon\nthat died this combat\n with its maximum stats.",
-    "attack": 12,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG27_081.png"
-  },
-  "BG27_084": {
-    "name": "Sprightly Scarab",
-    "type": "BEAST",
-    "effect": "[x]<b>Choose One -</b> Give a Beast\n+{0}/+{1} and <b>Reborn</b>; or\n+{2} Attack and <b>Windfury</b>.",
-    "attack": 3,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG27_084.png"
-  },
-  "BG27_508": {
-    "name": "King Varian",
-    "type": "",
-    "effect": "When you sell this, <b>Discover</b> two\nTier 6 minions.",
-    "attack": 9,
-    "health": 9,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_508.png"
-  },
-  "BG27_513": {
-    "name": "Tide Oracle Morgl",
-    "type": "MURLOC",
-    "effect": "[x]<b><b>Poisonous</b>.</b> When this\nattacks and kills a minion,\ngive its maximum stats to a\nminion in your hand.",
-    "attack": 1,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_513.png"
-  },
-  "BG27_514": {
-    "name": "Sea Witch Zar'jira",
-    "type": "NAGA",
-    "effect": "[x]<b>Spellcraft:</b> Choose a\ndifferent minion in the\n Tavern to get a copy of.",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_514.png"
-  },
-  "BG27_518": {
-    "name": "Moira Bronzebeard",
-    "type": "",
-    "effect": "Your <b>Battlecries</b> and <b>Deathrattles</b> trigger twice.",
-    "attack": 3,
-    "health": 9,
-    "cost": 0,
-    "techLevel": 7,
-    "image": "static\\images\\minions\\BG27_518.png"
-  },
-  "BG27_822": {
-    "name": "Niuzao",
-    "type": "BEAST",
-    "effect": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\na random enemy minion\nother than the target.",
-    "attack": 7,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG27_822.png"
-  },
-  "BG28_303": {
-    "name": "Disguised Graverobber",
-    "type": "",
-    "effect": "<b>Battlecry:</b> Destroy a friendly Undead to get\na plain copy of it.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG28_303.png"
-  },
-  "BG28_309": {
-    "name": "Mummifier",
-    "type": "UNDEAD",
-    "effect": "<b>Deathrattle:</b> Give a different friendly Undead <b>Reborn</b>.",
-    "attack": 5,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG28_309.png"
-  },
-  "BG28_405": {
-    "name": "Silivaz the Vindictive",
-    "type": "NAGA",
-    "effect": "<b>Spellcraft: Discover</b> a Tavern spell.",
-    "attack": 5,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG28_550": {
-    "name": "Rodeo Performer",
-    "type": "",
-    "effect": "<b>Battlecry:</b> <b>Discover</b> a Tavern spell.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG28_551": {
-    "name": "Nalaa the Redeemer",
-    "type": "",
-    "effect": "[x]Whenever you cast a Tavern\nspell, give a friendly minion\nof each type +{0}/+{1}.",
-    "attack": 5,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG28_551.png"
-  },
-  "BG28_583": {
-    "name": "Geomagus Roogug",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay a <b>Blood Gem</b> on a\n  different friendly minion.",
-    "attack": 4,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG28_583.png"
-  },
-  "BG28_597": {
-    "name": "Sandstone Drake",
-    "type": "DRAGON",
-    "effect": "[x]At the end of your turn, gain\n+1 Attack. Repeat for each\ncard you played this turn.",
-    "attack": 0,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG29_140": {
-    "name": "False Implicator",
-    "type": "DEMON",
-    "effect": "[x]At the end of your turn,\nconsume a minion in the\n Tavern to gain its stats.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG29_140.png"
-  },
-  "BG29_611": {
-    "name": "Cord Puller",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Divine Shield</b>\n<b>Deathrattle:</b> Summon a\n1/1 Microbot.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG29_813": {
-    "name": "Persistent Poet",
-    "type": "DRAGON",
-    "effect": "[x]<b>Divine Shield</b>. Adjacent\nDragons permanently keep\n<b><b>Bonus Keyword</b>s</b> and stats\ngained in combat.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG29_814": {
-    "name": "Misfit Dragonling",
-    "type": "DRAGON",
-    "effect": "<b>Start of Combat:</b> Gain stats equal to your Tier.",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG29_814.png"
-  },
-  "BG29_840": {
-    "name": "Mooneater's Champion",
-    "type": "",
-    "effect": "After you play an odd-Tier card, give your odd-Tier minions +1/+1.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BG29_840.png"
-  },
-  "BG29_841": {
-    "name": "Greymane's Champion",
-    "type": "",
-    "effect": "After you play an even-Tier card, give your even-Tier minions +{0}/+{1}.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BG29_841.png"
-  },
-  "BG29_871": {
-    "name": "Silithid Burrower",
-    "type": "BEAST",
-    "effect": "[x]<b>Deathrattle:</b> Give your\nBeasts +{0}/+{0}.\n<b>Avenge (1):</b> Improve this by\n+1/+1 permanently.",
-    "attack": 5,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG29_888": {
-    "name": "Glim Guardian",
-    "type": "DRAGON",
-    "effect": "<b>Rally:</b> Gain +{0} Attack.",
-    "attack": 1,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG30_008": {
-    "name": "Greenskeeper",
-    "type": "DRAGON",
-    "effect": "<b>Rally:</b> Trigger your\nright-most <b>Battlecry</b>.",
-    "attack": 4,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG30_121": {
-    "name": "Hot-Air Surveyor",
-    "type": "QUILBOAR",
-    "effect": "<b>Blood Gems</b> played\nfrom your hand cast an extra time.",
-    "attack": 4,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG30_122": {
-    "name": "Mrglin' Burglar",
-    "type": "MURLOC",
-    "effect": "[x]After you play a Murloc,\ngive a friendly minion and\na minion in your hand\n+{0}/+{1}.",
-    "attack": 8,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG30_123": {
-    "name": "Fearless Foodie",
-    "type": "QUILBOAR",
-    "effect": "<b>Choose One - </b>Your <b>Blood Gems</b> give an extra +1/+1 this game; or Get 4 <b>Blood Gems</b>.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG30_125": {
-    "name": "Cadaver Caretaker",
-    "type": "UNDEAD",
-    "effect": "<b>Deathrattle:</b> Summon three 1/1 Skeletons.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG30_129": {
-    "name": "Catacomb Crasher",
-    "type": "UNDEAD",
-    "effect": "Whenever you would summon\na minion that doesn't fit in your warband, give your minions +1/+1 permanently.",
-    "attack": 5,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG30_160": {
-    "name": "Bountiful Bedrock",
-    "type": "ELEMENTAL",
-    "effect": "[x]At the end of every 2 turns,\nget a random Elemental.\n<i>({0} turns left!)</i>",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG31_144": {
-    "name": "Adaptive Ancestor",
-    "type": "MURLOC",
-    "effect": "[x]<b>Choose One - </b>Gain +3\nAttack and <b>Divine Shield</b>; or\n+3 Health and <b>Venomous</b>.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG31_170": {
-    "name": "Frantic Alarm-o-Bot",
-    "type": "MECHANICAL",
-    "effect": "<b>Magnetic</b>\n<b>Windfury</b>",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG31_175": {
-    "name": "Holo Rover",
-    "type": "MECHANICAL",
-    "effect": "<b><b>Divine Shield</b>\n</b><b>Rally:</b> Get a random <b>Magnetic</b> Mech.",
-    "attack": 4,
-    "health": 12,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG31_177": {
-    "name": "Mechagnome Interpreter",
-    "type": "MECHANICAL",
-    "effect": "[x]Whenever you play or\n<b>Magnetize</b> a Mech,\ngive it +2/+1.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG31_320": {
-    "name": "Crater Miner",
-    "type": "QUILBOAR",
-    "effect": "<b>Choose One - </b>Get 2 <b>Blood Gems</b>; or Get a random 1-Cost Tavern spell.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG31_330": {
-    "name": "Ominous Seer",
-    "type": "NAGA",
-    "effect": "<b>Battlecry:</b> The next\nTavern spell you buy\ncosts (1) less.",
-    "attack": 2,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG31_360": {
-    "name": "Arcane Behemoth",
-    "type": "ELEMENTAL",
-    "effect": "[x]<b>Taunt</b>\nAfter you sell an Elemental,\ngain its stats.",
-    "attack": 4,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 7,
-    "image": ""
-  },
-  "BG31_361": {
-    "name": "Bellowing Tyrant",
-    "type": "BEAST",
-    "effect": "[x]<b>Taunt</b>\nHas +4/+3 for each Beast\nyou've summoned this game\n<i>(wherever this is)</i>.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 7,
-    "image": ""
-  },
-  "BG31_810": {
-    "name": "Ultraviolet Ascendant",
-    "type": "ELEMENTAL",
-    "effect": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Upgrades after you play an Elemental!)</i>",
-    "attack": 5,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG31_812": {
-    "name": "Ichoron the Protector",
-    "type": "ELEMENTAL",
-    "effect": "<b>Divine Shield</b>\nWhenever you play an Elemental, give it <b>Divine Shield</b> until next turn.",
-    "attack": 3,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG31_815": {
-    "name": "Dune Dweller",
-    "type": "ELEMENTAL",
-    "effect": "[x]<b>Battlecry:</b> Give Elementals\nin the Tavern +{0}/+{1}\nthis game.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG31_816": {
-    "name": "Fire Baller",
-    "type": "ELEMENTAL",
-    "effect": "[x]When you sell this, give\nyour minions +1 Attack.\nImprove your future\nBallers.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG31_818": {
-    "name": "Snow Baller",
-    "type": "ELEMENTAL",
-    "effect": "[x]When you sell this, give\nyour minions +1 Health.\nImprove your future\nBallers.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG31_830": {
-    "name": "Weary Mage",
-    "type": "NAGA",
-    "effect": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2. If it's a Naga,\nalso give it <b>Reborn</b>\nuntil next turn.",
-    "attack": 5,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG31_835": {
-    "name": "Deathly Striker",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Avenge ({0}):</b> Get a random\nUndead. <b>Deathrattle:</b>\nSummon it from your hand\nfor this combat only.",
-    "attack": 8,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG31_859": {
-    "name": "Technical Element",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Magnetic</b>\nCan <b>Magnetize</b> to both\n  Mechs and Elementals.",
-    "attack": 5,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG31_875": {
-    "name": "Tardy Traveler",
-    "type": "DEMON",
-    "effect": "When you sell this, get a copy of a Tavern spell in the Tavern.",
-    "attack": 3,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG31_925": {
-    "name": "Showy Cyclist",
-    "type": "NAGA",
-    "effect": "[x]<b>Deathrattle:</b> Give your Naga\n+{1}/+{1}. <i>(Improved by\nevery 4 spells you've\ncast this game!)</i>",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG31_999": {
-    "name": "Stitched Salvager",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Start of Combat:</b> Destroy the\nminion to the left. <b>Deathrattle:</b>\nSummon an exact copy of it.\n      <i>(Except Stitched Salvager.)</i>   ",
-    "attack": 16,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 7,
-    "image": ""
-  },
-  "BG32_111": {
-    "name": "Nightmare Par-tea Guest",
-    "type": "ALL",
-    "effect": "<b>Battlecry and Deathrattle:</b> Get a Misplaced Tea Set.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG32_173": {
-    "name": "Rickety Repairbot",
-    "type": "MECHANICAL",
-    "effect": "[x]At the end of your turn,\n<b>Magnetize</b> a random\n   <b>Magnetic</b> Mech to this.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_202": {
-    "name": "Valiant Tiger",
-    "type": "BEAST",
-    "effect": "<b><b>Taunt</b>.\nDeathrattle:</b> Give your right-most Beast +5/+5 permanently.",
-    "attack": 6,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG32_231": {
-    "name": "Elite Navigator",
-    "type": "PIRATE",
-    "effect": "<b>Battlecry:</b> Make a friendly Pirate from Tier 4 or below Golden.",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_232": {
-    "name": "Thieving Rascal",
-    "type": "PIRATE",
-    "effect": "[x]At the start of your turn,\ngain 1 Gold. Repeat for\neach friendly Golden\nminion.",
-    "attack": 5,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_235": {
-    "name": "Surfing Sylvar",
-    "type": "PIRATE",
-    "effect": "[x]At the end of your turn, give\nadjacent minions +1 Attack.\nRepeat for each friendly\nGolden minion.",
-    "attack": 1,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG32_236": {
-    "name": "Aureate Laureate",
-    "type": "PIRATE",
-    "effect": "<b>Divine Shield</b>\n<b>Battlecry:</b> Make this minion Golden.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG32_325": {
-    "name": "Noisul of the Many Faces",
-    "type": "UNDEAD",
-    "effect": "[x]Whenever you summon an\nUndead, give all your\nUndead +{0}/+{1}\npermanently.",
-    "attack": 2,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_330": {
-    "name": "Flighty Scout",
-    "type": "MURLOC",
-    "effect": "[x]<b>Start of Combat:</b> If this\nminion is in your hand,\nsummon a copy of it.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG32_331": {
-    "name": "Grimscale Elegist",
-    "type": "MURLOC",
-    "effect": "[x]At the end of your turn,\ngive a friendly minion and\na minion in your hand\n+1/+1.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG32_341": {
-    "name": "Humon'gozz",
-    "type": "",
-    "effect": "[x]<b>Divine Shield</b>\nYour Tavern spells that\ngive stats grant an extra\n+1/+2.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG32_430": {
-    "name": "Glowgullet Warlord",
-    "type": "QUILBOAR",
-    "effect": "<b>Deathrattle:</b> Summon two 1/1 Quilboar with <b>Taunt</b>. Play a <b>Blood Gem</b> on them.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG32_820": {
-    "name": "Firescale Hoarder",
-    "type": "DRAGON",
-    "effect": "<b>Battlecry and Deathrattle:</b> Get a Shiny Ring.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_821": {
-    "name": "Felfire Conjurer",
-    "type": "DRAGON",
-    "effect": "[x]At the end of your turn,\nyour Tavern spells that\ngive stats grant an extra\n+{0}/+{1} this game.",
-    "attack": 7,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG32_822": {
-    "name": "Fire-forged Evoker",
-    "type": "DRAGON",
-    "effect": "[x]<b>Start of Combat:</b> Give your\nother Dragons +{0}/+{1}.\nAfter you cast a Tavern\nspell, improve this.",
-    "attack": 8,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG32_835": {
-    "name": "Tranquil Meditative",
-    "type": "NAGA",
-    "effect": "[x]<b>Spellcraft:</b> Your Tavern\nspells that give stats\ngrant an extra +2 Health\nthis game.",
-    "attack": 3,
-    "health": 9,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_836": {
-    "name": "Coilskar Sapper",
-    "type": "NAGA",
-    "effect": "<b>Taunt</b>\n<b>Deathrattle:</b> Get 2 random <b>Spellcraft</b> spells.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG32_837": {
-    "name": "Fauna Whisperer",
-    "type": "NAGA",
-    "effect": "[x]At the end of your turn, cast\nNatural Blessing on the\nminion to the left of this.",
-    "attack": 3,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG32_860": {
-    "name": "Shoalfin Mystic",
-    "type": "MURLOC",
-    "effect": "[x]When you sell this,\nyour Tavern spells that\ngive stats grant an extra\n+1/+1 this game.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG32_869": {
-    "name": "Beacon of Hope",
-    "type": "",
-    "effect": "<b>Battlecry:</b> If you lost your last combat, <b>Discover</b> a Tier 5 minion.",
-    "attack": 5,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG32_880": {
-    "name": "Friendly Geist",
-    "type": "UNDEAD",
-    "effect": "<b>Deathrattle:</b> Your Tavern spells that give stats grant an extra +{0} Attack this game.",
-    "attack": 6,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG32_891": {
-    "name": "Shadowdancer",
-    "type": "DEMON",
-    "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get a Staff\nof Enrichment.",
-    "attack": 4,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_111": {
-    "name": "Carapace Raiser",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Deathrattle</b>: Get a\nHaunted Carapace.",
-    "attack": 6,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_113": {
-    "name": "Campfire Shadow",
-    "type": "UNDEAD",
-    "effect": "<b>Rally:</b> Get a plain copy of a random enemy minion.",
-    "attack": 4,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_115": {
-    "name": "Ride-or-Die",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Reborn</b>\nYour other Undead have\n+1 Attack.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG33_116": {
-    "name": "Oranomonos, the Wilted",
-    "type": "UNDEAD",
-    "effect": "[x]After a friendly minion is\n<b>Reborn</b>, your Undead have\n+{0} Attack this game\n<i>(wherever they are)</i>.",
-    "attack": 3,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_140": {
-    "name": "River Skipper",
-    "type": "MURLOC",
-    "effect": "When you sell this, get a random Tier 1 minion.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG33_152": {
-    "name": "Improviser",
-    "type": "DEMON",
-    "effect": "[x]<b>Avenge ({0}):</b> Minions in\nthe Tavern have +{1}/+{2}\nnext turn.",
-    "attack": 2,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_153": {
-    "name": "Cupcake Peddler",
-    "type": "DEMON",
-    "effect": "<b>Avenge ({0}):</b> Get Corrupted Cupcakes.",
-    "attack": 2,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_154": {
-    "name": "Lord of the Ruins",
-    "type": "DEMON",
-    "effect": "After a friendly Demon deals damage, give friendly minions other than it +{0}/+{1}.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_155": {
-    "name": "Devout Hellcaller",
-    "type": "DEMON",
-    "effect": "After another friendly Demon deals damage, gain +{0}/+{1} permanently.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_156": {
-    "name": "Silent Enforcer",
-    "type": "DEMON",
-    "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal {0} damage\nto all minions <i>(except\nfriendly Demons)</i>.",
-    "attack": 8,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_157": {
-    "name": "Void Earl",
-    "type": "DEMON",
-    "effect": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon two\n  1/3 Demons with <b>Taunt</b>.",
-    "attack": 6,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_240": {
-    "name": "Charmwing",
-    "type": "DRAGON",
-    "effect": "[x]<b>Rally:</b> Give {0} friendly Dragons\nthis minion's Health\n<i>(except Charmwing)</i>.",
-    "attack": 3,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_241": {
-    "name": "Sleepy Supporter",
-    "type": "DRAGON",
-    "effect": "<b>Rally:</b> Give another random friendly Dragon +{0}/+{1}.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG33_244": {
-    "name": "Nimble Hatchling",
-    "type": "DRAGON",
-    "effect": "<b>Battlecry:</b> Get a Nimble Wingbeat.",
-    "attack": 3,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_245": {
-    "name": "Twilight Watcher",
-    "type": "DRAGON",
-    "effect": "Whenever a friendly Dragon attacks, give your Dragons +{0}/+{1}.",
-    "attack": 3,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_300": {
-    "name": "All-Seeing Elder",
-    "type": "",
-    "effect": "[x]<b>Start of Combat:</b> Gain the\nAttack of your left-most\n  minion and the Health of\n    your right-most minion.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_311": {
-    "name": "Felblaze Leader",
-    "type": "ELEMENTAL",
-    "effect": "<b>Rally:</b> Give minions in\nthe Tavern +{0}/+{1}\nthis game.",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_315": {
-    "name": "Greedy Snaketongue",
-    "type": "NAGA",
-    "effect": "<b>Rally:</b> Get a Gold Coin.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_318": {
-    "name": "Bile Spitter",
-    "type": "MURLOC",
-    "effect": "[x]<b>Venomous</b>\n <b>Rally:</b> Give another friendly\nMurloc <b>Venomous</b>.",
-    "attack": 1,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_319": {
-    "name": "Rimescale Priestess",
-    "type": "NAGA",
-    "effect": "<b>Spellcraft:</b> Get a random Tavern spell that gives stats.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_320": {
-    "name": "Primeval Monstrosity",
-    "type": "ALL",
-    "effect": "[x]<b>Stealth</b>. Whenever a friendly\n<b>Rally</b> minion attacks, give a\n friendly minion of each type\n   +{0}/+{1} permanently.",
-    "attack": 5,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_325": {
-    "name": "Geared Guard",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Rally:</b> Give a different\nfriendly minion\n<b>Divine Shield</b>.",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG33_331": {
-    "name": "Lantern Lava",
-    "type": "ELEMENTAL",
-    "effect": "[x]Get a plain copy of the first\nElemental you sell each turn\n<i>(except Lantern Lava).</i>",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_334": {
-    "name": "Vine Climber",
-    "type": "ELEMENTAL",
-    "effect": "[x]Whenever you play an\nElemental, give it +{0}/+{1}.\n<i>(Improved by each minion\n        you've played this turn!)</i>   ",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_337": {
-    "name": "Avalanche Caller",
-    "type": "ELEMENTAL",
-    "effect": "At the end of your turn, get a Mounting Avalanche.",
-    "attack": 6,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_370": {
-    "name": "Expert Technician",
-    "type": "",
-    "effect": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Your left-\nmost minion immediately\nattacks the enemy minion\nthat killed this.",
-    "attack": 5,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_371": {
-    "name": "P-0UL-TR-0N",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Avenge ({0}):</b> Gain\n<b>Divine Shield</b> and attack\nimmediately.",
-    "attack": 8,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_430": {
-    "name": "Prodigious Tusker",
-    "type": "QUILBOAR",
-    "effect": "[x]Whenever a friendly <b>Rally</b>\nminion attacks, play 2\n<b>Blood Gems</b> on this.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG33_700": {
-    "name": "Friendly Bouncer",
-    "type": "",
-    "effect": "<b>Rally:</b> Get and summon a random <b>Rally</b> minion.",
-    "attack": 6,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_802": {
-    "name": "Ruins Renovator",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Divine Shield</b>\n <b>Deathrattle:</b> Summon a\nrandom <b>Divine Shield</b>\nminion.",
-    "attack": 5,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_805": {
-    "name": "Gleaming Trader",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Divine Shield</b>. After a friendly\nminion loses <b>Divine Shield</b>,\nyour minions have +{0} Attack\n      for the rest of this combat.   ",
-    "attack": 3,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_807": {
-    "name": "Whirring Protector",
-    "type": "MECHANICAL",
-    "effect": "<b>Magnetic</b>\n<b>Rally:</b> Give your other minions +{1} Attack.",
-    "attack": 8,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_808": {
-    "name": "Super Constructor",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Rally:</b> Your Tavern spells\nthat give stats grant an\n  extra +1/+1 this game.",
-    "attack": 4,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_809": {
-    "name": "Divine Sparkbot",
-    "type": "MECHANICAL",
-    "effect": "<b>Divine Shield</b>, <b>Taunt</b> <b>Deathrattle:</b> Get a Sanctify.",
-    "attack": 4,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_820": {
-    "name": "Lost City Looter",
-    "type": "PIRATE",
-    "effect": "[x]<b>Taunt</b>\nAt the end of your turn,\nget a random <b>Bounty</b>.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_821": {
-    "name": "Shipwrecked Rascal",
-    "type": "PIRATE",
-    "effect": "<b>Battlecry and Deathrattle:</b> Get a random <b>Bounty</b>.",
-    "attack": 5,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_822": {
-    "name": "Bigwig Bandit",
-    "type": "PIRATE",
-    "effect": "[x]<b>Rally:</b> Get a random <b>Bounty</b>.",
-    "attack": 4,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_823": {
-    "name": "Sky Admiral Rogers",
-    "type": "PIRATE",
-    "effect": "[x]After you spend\n{2} Gold, get a random\n<b>Bounty</b>. <i>({0} left!)</i>",
-    "attack": 4,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_825": {
-    "name": "Proud Privateer",
-    "type": "PIRATE",
-    "effect": "You cast your <b>Bounties</b> twice.",
-    "attack": 8,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_826": {
-    "name": "Wizened Captain",
-    "type": "PIRATE",
-    "effect": "Whenever you cast a Tavern spell, gain +{0}/+{1}.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BG33_827": {
-    "name": "Yorik Smite",
-    "type": "PIRATE",
-    "effect": "At the end of your turn, give your minions +{0}/+{1}. Golden ones gain +{2}/+{3} instead.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_828": {
-    "name": "Ship Master Eudora",
-    "type": "PIRATE",
-    "effect": "<b>Deathrattle:</b> Give your\nminions +{0}/+{1}.\nGolden ones keep it permanently.",
-    "attack": 10,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_830": {
-    "name": "Azsharan Cutlassier",
-    "type": "PIRATE",
-    "effect": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an extra\n+1 Attack this game.",
-    "attack": 6,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_840": {
-    "name": "Stomping Stegodon",
-    "type": "BEAST",
-    "effect": "[x]<b>Rally:</b> Give your other\nBeasts +{0} Attack and\nthis <b>Rally</b>.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_841": {
-    "name": "Lightfeather Screecher",
-    "type": "BEAST",
-    "effect": "[x]<b>Taunt</b>\n<b>Start of Combat:</b> Give your\n left-most Beast <b>Windfury</b>\nand <b>Divine Shield</b>.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_842": {
-    "name": "Raptor Elder",
-    "type": "BEAST",
-    "effect": "[x]<b>Stealth</b>. Your Beasts have\n+{0}/+{1}. <i>(Improved by each\nBeast you've summoned\nthis combat!)</i>",
-    "attack": 2,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_870": {
-    "name": "Golem Archivist",
-    "type": "",
-    "effect": "[x]<b>Battlecry:</b> The next Tavern\nspell you buy costs (2) less.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_883": {
-    "name": "Razorfen Vineweaver",
-    "type": "QUILBOAR",
-    "effect": "<b>Rally:</b> Play 3 permanent <b>Blood Gems</b> on this.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_884": {
-    "name": "Bloodsnout Warlord",
-    "type": "QUILBOAR",
-    "effect": "[x]Whenever a friendly <b>Rally</b>\nminion attacks, play {0}\n<b>Blood Gems</b> on all\nyour minions.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_885": {
-    "name": "Sanguine Refiner",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Rally:</b> Your <b>Blood Gems</b>\ngive an extra +{0}/+{1}\nthis game.",
-    "attack": 3,
-    "health": 10,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_886": {
-    "name": "Tusked Camper",
-    "type": "QUILBOAR",
-    "effect": "[x]<b>Rally:</b> Play a <b>Blood Gem</b>\non this.",
-    "attack": 2,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 1,
-    "image": ""
-  },
-  "BG33_888": {
-    "name": "Hog Watcher",
-    "type": "",
-    "effect": "<b>Battlecry:</b> Give a Quilboar <b>Divine Shield</b>.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BG33_891": {
-    "name": "Magicfin Mycologist",
-    "type": "MURLOC",
-    "effect": "[x]Once per turn, after you\nbuy a Tavern spell, get a\n1/1 Murloc and teach\nit that spell. <i>({0} left!)</i>",
-    "attack": 4,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_892": {
-    "name": "Flotsam Flinger",
-    "type": "MURLOC",
-    "effect": "At the start of your turn, trigger the <b>Battlecries</b> of your minions from Tier 3 or below.",
-    "attack": 3,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_893": {
-    "name": "Primitive Painter",
-    "type": "MURLOC",
-    "effect": "After you play a card from Tier 3 or below, give your Murlocs +{0}/+{1}.",
-    "attack": 3,
-    "health": 8,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_894": {
-    "name": "Coldlight Diver",
-    "type": "MURLOC",
-    "effect": "<b>Battlecry and Deathrattle:</b> Get a random Tier 1 Tavern spell.",
-    "attack": 3,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_895": {
-    "name": "Hot Springer",
-    "type": "MURLOC",
-    "effect": "<b>Battlecry:</b> Give your other Murlocs +{0} Health.",
-    "attack": 5,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG33_897": {
-    "name": "Murky, Splash Fisher",
-    "type": "MURLOC",
-    "effect": "<b>Battlecry:</b> Get a copy of Murky's Fish.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BG33_920": {
-    "name": "Wrathscale Rogue",
-    "type": "NAGA",
-    "effect": "After another friendly Naga gains Health, give it that much Attack.",
-    "attack": 3,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_923": {
-    "name": "Sundered Matriarch",
-    "type": "NAGA",
-    "effect": "Whenever you cast a spell,\ngive your minions\n+{0} Health.",
-    "attack": 7,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BG33_924": {
-    "name": "Blue Whelp",
-    "type": "DRAGON",
-    "effect": "<b>Rally:</b> Your Tavern spells give an extra +{0} Health this game.",
-    "attack": 1,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BG_AV_309": {
-    "name": "Piggyback Imp",
-    "type": "DEMON",
-    "effect": "<b>Deathrattle:</b> Summon a 4/1 Imp.",
-    "attack": 4,
-    "health": 1,
-    "cost": 3,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BG_AV_309.png"
-  },
-  "BG_BOT_911": {
-    "name": "Annoy-o-Module",
-    "type": "MECHANICAL",
-    "effect": "<b>Magnetic</b>\n<b>Divine Shield</b>\n<b>Taunt</b>",
-    "attack": 2,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BG_BOT_911.png"
-  },
-  "BG_CFM_315": {
-    "name": "Alleycat",
-    "type": "BEAST",
-    "effect": "<b>Battlecry:</b> Summon a 1/1 Cat.",
-    "attack": 1,
-    "health": 1,
-    "cost": 1,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG_CFM_315.png"
-  },
-  "BG_DAL_775": {
-    "name": "Tunnel Blaster",
-    "type": "",
-    "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal 3 damage\nto all minions.",
-    "attack": 3,
-    "health": 7,
-    "cost": 7,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG_DAL_775.png"
-  },
-  "BG_DEEP_015": {
-    "name": "Prosthetic Hand",
-    "type": "MECHANICAL",
-    "effect": "<b>Magnetic</b>, <b>Reborn</b>\nCan <b>Magnetize</b> to\nMechs or Undead.",
-    "attack": 3,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BG_DEEP_015.png"
-  },
-  "BG_GVG_085": {
-    "name": "Annoy-o-Tron",
-    "type": "MECHANICAL",
-    "effect": "<b>Taunt</b>\n<b>Divine Shield</b>",
-    "attack": 1,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BG_GVG_085.png"
-  },
-  "BG_LOE_077": {
-    "name": "Brann Bronzebeard",
-    "type": "",
-    "effect": "Your <b>Battlecries</b> trigger twice.",
-    "attack": 2,
-    "health": 4,
-    "cost": 3,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO31_201": {
-    "name": "Gathering Stormer",
-    "type": "ELEMENTAL",
-    "effect": "[x]When you sell this, your\nteammate gains 1 Gold.\n<i>(Upgrades each turn!)</i>",
-    "attack": 5,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BGDUO31_202": {
-    "name": "Loyal Mobster",
-    "type": "QUILBOAR",
-    "effect": "[x]At the end of your turn, play\na <b>Blood Gem</b> on all your\nteammate's minions.",
-    "attack": 6,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BGDUO31_203": {
-    "name": "Shifty Snake",
-    "type": "BEAST",
-    "effect": "[x]<b>Deathrattle:</b> Your\nteammate gets a random\n<b>Deathrattle</b> minion.",
-    "attack": 6,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO31_205": {
-    "name": "Selfless Sightseer",
-    "type": "DRAGON",
-    "effect": "[x]<b>Battlecry:</b> Increase\nyour team's maximum\nGold by (1).",
-    "attack": 6,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO31_207": {
-    "name": "Wheeled Crewmate",
-    "type": "PIRATE",
-    "effect": "[x]<b>Deathrattle:</b> Reduce the\nCost of upgrading your\nteam's Taverns by (1).",
-    "attack": 6,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BGDUO31_208": {
-    "name": "San'layn Scribe",
-    "type": "UNDEAD",
-    "effect": "Has +4/+4 for each of your team's San'layn Scribes that died this game <i>(wherever this is)</i>.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO31_209": {
-    "name": "Private Chef",
-    "type": "NAGA",
-    "effect": "[x]<b>Spellcraft:</b> Choose a minion.\nGet a different random\nminion of its type, then\n<b>Pass</b> it.",
-    "attack": 5,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO31_211": {
-    "name": "Transport Reactor",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Magnetic</b>\nHas +1/+1 for each time\nyour team has <b>Passed</b> this\n   game <i>(wherever this is).</i>",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BGDUO31_212": {
-    "name": "Mantid King",
-    "type": "",
-    "effect": "[x]After your team <b>Passes</b>,\nrandomly gain <b>Venomous</b>,\n<b>Taunt</b>, or <b>Divine Shield</b>\nuntil next turn.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO33_140": {
-    "name": "Bottom Feeder",
-    "type": "MURLOC",
-    "effect": "[x]At the end of your turn,\nyou and your teammate\neach get a random\nTier 1 card.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BGDUO33_150": {
-    "name": "Dark Dazzler",
-    "type": "DEMON",
-    "effect": "[x]After your teammate sells\na minion, gain its stats.\n<i>(Once per turn.)</i>",
-    "attack": 4,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 6,
-    "image": ""
-  },
-  "BGDUO_100": {
-    "name": "Wanderer Cho",
-    "type": "",
-    "effect": "1 <b>Pass</b> each turn\nis free. <i>(1 left!)</i>",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BGDUO_104": {
-    "name": "Friendly Saloonkeeper",
-    "type": "",
-    "effect": "<b>Battlecry:</b> Your teammate gets a Gold Coin.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 2,
-    "image": ""
-  },
-  "BGDUO_105": {
-    "name": "Magnanimoose",
-    "type": "BEAST",
-    "effect": "[x]<b>Deathrattle:</b> Summon a copy of\na minion from your teammate's\nwarband. Set its Health to 1\n<i>   (except Magnanimoose).</i>",
-    "attack": 5,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO_107": {
-    "name": "Doting Dracthyr",
-    "type": "DRAGON",
-    "effect": "At the end of your turn, give your teammate's minions +1 Attack.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BGDUO_108": {
-    "name": "Mirror Monster",
-    "type": "ALL",
-    "effect": "When you buy or <b>Discover</b> this, get an extra copy\nand <b>Pass</b> it.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO_109": {
-    "name": "Support System",
-    "type": "MECHANICAL",
-    "effect": "[x]At the end of your turn,\ngive a minion in your\nteammate's warband\n<b>Divine Shield</b>.",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO_110": {
-    "name": "Feisty Freshwater",
-    "type": "ELEMENTAL",
-    "effect": "[x]<b>Deathrattle:</b> You and your\nteammate each gain two\n  <b>Refreshes</b> that cost (0).",
-    "attack": 6,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO_111": {
-    "name": "Generous Geomancer",
-    "type": "QUILBOAR",
-    "effect": "<b>Deathrattle:</b> You and your teammate each get a <b>Blood Gem</b>.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BGDUO_111.png"
-  },
-  "BGDUO_112": {
-    "name": "Grave Narrator",
-    "type": "UNDEAD",
-    "effect": "[x]<b>Avenge (3):</b> Your teammate\ngets a random minion of\n their most common type.",
-    "attack": 2,
-    "health": 7,
-    "cost": 0,
-    "techLevel": 4,
-    "image": ""
-  },
-  "BGDUO_114": {
-    "name": "Passenger",
-    "type": "",
-    "effect": "The first time your team <b>Passes</b> each turn,\ngain +1/+2.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BGDUO_114.png"
-  },
-  "BGDUO_115": {
-    "name": "Jumping Jack",
-    "type": "ALL",
-    "effect": "[x]After the first time this\nis sold, <b>Pass</b> it.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": ""
-  },
-  "BGDUO_117": {
-    "name": "Puddle Prancer",
-    "type": "MURLOC",
-    "effect": "After this is <b>Passed</b>,\ngain +4/+4.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGDUO_117.png"
-  },
-  "BGDUO_118": {
-    "name": "Plunder Pal",
-    "type": "PIRATE",
-    "effect": "At the start of your turn, you and your teammate each gain 1 Gold.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGDUO_118.png"
-  },
-  "BGDUO_119": {
-    "name": "Orc-estra Conductor",
-    "type": "",
-    "effect": "[x]<b>Battlecry:</b> Give a minion\n+{0}/+{1} <i>(Upgraded for\neach Orc-estra your team\n  has played this game)</i>.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGDUO_119.png"
-  },
-  "BGDUO_120": {
-    "name": "Well Wisher",
-    "type": "",
-    "effect": "<b>Spellcraft:</b> <b>Pass</b> a different non-Golden minion.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO_121": {
-    "name": "Man'ari Messenger",
-    "type": "DEMON",
-    "effect": "<b>Battlecry:</b> Minions in\nyour team's Taverns have +1/+1 this game.",
-    "attack": 9,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BGDUO_121.png"
-  },
-  "BGDUO_122": {
-    "name": "Storm Splitter",
-    "type": "NAGA",
-    "effect": "Once per turn, after you <b>Pass</b> a Tavern spell, get a new copy of it.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": ""
-  },
-  "BGDUO_125": {
-    "name": "Sandy",
-    "type": "",
-    "effect": "[x]<b>Start of Combat:</b>\nTransform into a copy of\nyour teammate's highest-\nHealth minion.",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 7,
-    "image": ""
-  },
-  "BGS_002": {
-    "name": "Soul Juggler",
-    "type": "DEMON",
-    "effect": "After a friendly Demon dies, deal {0} damage to the highest-Health enemy minion.",
-    "attack": 3,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_002.png"
-  },
-  "BGS_018": {
-    "name": "Goldrinn, the Great Wolf",
-    "type": "BEAST",
-    "effect": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +{0}/+{1}.",
-    "attack": 5,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BGS_018.png"
-  },
-  "BGS_020": {
-    "name": "Primalfin Lookout",
-    "type": "MURLOC",
-    "effect": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
-    "attack": 3,
-    "health": 2,
-    "cost": 5,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BGS_020.png"
-  },
-  "BGS_021": {
-    "name": "Mama Bear",
-    "type": "BEAST",
-    "effect": "Whenever you summon a Beast, give it +{0}/+{1}.",
-    "attack": 6,
-    "health": 6,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BGS_021.png"
-  },
-  "BGS_030": {
-    "name": "King Bagurgle",
-    "type": "MURLOC",
-    "effect": "<b>Battlecry:</b> Give your other Murlocs +{0}/+{1}.",
-    "attack": 3,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BGS_030.png"
-  },
-  "BGS_040": {
-    "name": "Nadina the Red",
-    "type": "",
-    "effect": "<b>Deathrattle:</b> Give 3 friendly Dragons <b>Divine Shield</b>.",
-    "attack": 8,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BGS_040.png"
-  },
-  "BGS_041": {
-    "name": "Kalecgos, Arcane Aspect",
-    "type": "DRAGON",
-    "effect": "[x]After you trigger a <b>Battlecry</b>,\ngive your Dragons +{0}/+{1}.",
-    "attack": 4,
-    "health": 12,
-    "cost": 0,
-    "techLevel": 6,
-    "image": "static\\images\\minions\\BGS_041.png"
-  },
-  "BGS_049": {
-    "name": "Freedealing Gambler",
-    "type": "PIRATE",
-    "effect": "This minion sells for\n3 Gold.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BGS_049.png"
-  },
-  "BGS_066": {
-    "name": "Goldgrubber",
-    "type": "PIRATE",
-    "effect": "[x]At the end of your turn,\ngain +{0}/+{1} for each\n  friendly Golden minion.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_066.png"
-  },
-  "BGS_071": {
-    "name": "Deflect-o-Bot",
-    "type": "MECHANICAL",
-    "effect": "[x]<b>Divine Shield</b>\nWhenever you summon a Mech\nduring combat, gain +2 Attack\nand <b>Divine Shield</b>.",
-    "attack": 3,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_071.png"
-  },
-  "BGS_078": {
-    "name": "Monstrous Macaw",
-    "type": "BEAST",
-    "effect": "[x]<b>Rally:</b> Trigger your\nleft-most <b>Deathrattle</b>\n  <i>(except this minion's)</i>.",
-    "attack": 4,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_078.png"
-  },
-  "BGS_104": {
-    "name": "Nomi, Kitchen Nightmare",
-    "type": "",
-    "effect": "[x]After you play an Elemental,\ngive Elementals in the\nTavern +{0}/+{1} this game.",
-    "attack": 4,
-    "health": 4,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BGS_104.png"
-  },
-  "BGS_115": {
-    "name": "Sellemental",
-    "type": "ELEMENTAL",
-    "effect": "[x]When you sell this,\nget a 3/3 Elemental.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BGS_115.png"
-  },
-  "BGS_116": {
-    "name": "Refreshing Anomaly",
-    "type": "ELEMENTAL",
-    "effect": "[x]<b>Battlecry:</b> Gain 2\n<b>Refreshes</b> that cost (0).",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BGS_116.png"
-  },
-  "BGS_119": {
-    "name": "Crackling Cyclone",
-    "type": "ELEMENTAL",
-    "effect": "<b>Divine Shield</b>\n<b>Windfury</b>",
-    "attack": 4,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 2,
-    "image": "static\\images\\minions\\BGS_119.png"
-  },
-  "BGS_121": {
-    "name": "Gentle Djinni",
-    "type": "ELEMENTAL",
-    "effect": "<b>Taunt</b>\n <b>Deathrattle:</b> Get a random Elemental.",
-    "attack": 4,
-    "health": 5,
-    "cost": 0,
-    "techLevel": 5,
-    "image": "static\\images\\minions\\BGS_121.png"
-  },
-  "BGS_123": {
-    "name": "Tavern Tempest",
-    "type": "ELEMENTAL",
-    "effect": "<b>Battlecry:</b> Get a random Elemental.",
-    "attack": 2,
-    "health": 2,
-    "cost": 0,
-    "techLevel": 4,
-    "image": "static\\images\\minions\\BGS_123.png"
-  },
-  "BGS_126": {
-    "name": "Wildfire Elemental",
-    "type": "ELEMENTAL",
-    "effect": "After this attacks and\nkills a minion, deal\nexcess damage to an adjacent minion.",
-    "attack": 6,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_126.png"
-  },
-  "BGS_127": {
-    "name": "Molten Rock",
-    "type": "ELEMENTAL",
-    "effect": "[x]After you play an\nElemental, gain\n+{1} Health.",
-    "attack": 3,
-    "health": 3,
-    "cost": 0,
-    "techLevel": 1,
-    "image": "static\\images\\minions\\BGS_127.png"
-  },
-  "BGS_131": {
-    "name": "Deadly Spore",
-    "type": "",
-    "effect": "<b>Venomous</b>",
-    "attack": 1,
-    "health": 1,
-    "cost": 0,
-    "techLevel": 3,
-    "image": "static\\images\\minions\\BGS_131.png"
-  }
+    "BG19_010": {
+        "name": "Sewer Rat",
+        "type": "BEAST",
+        "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Summon a\n2/3 Turtle with <b>Taunt</b>.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG19_010.png"
+    },
+    "BG20_101": {
+        "name": "Roadboar",
+        "type": "QUILBOAR",
+        "effect": "<b>Rally:</b> Get 2 <b>Blood Gems</b>.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG20_101.png"
+    },
+    "BG20_104": {
+        "name": "Bonker",
+        "type": "QUILBOAR",
+        "effect": "<b>Windfury</b>. <b>Rally:</b> Play a <b>Blood Gem</b> on all your other minions.",
+        "attack": 3,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG20_104.png"
+    },
+    "BG20_203": {
+        "name": "Prophet of the Boar",
+        "type": "",
+        "effect": "<b>Taunt</b>\nAfter you play a Quilboar, get a <b>Blood Gem</b>.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG20_203.png"
+    },
+    "BG20_301": {
+        "name": "Sun-Bacon Relaxer",
+        "type": "QUILBOAR",
+        "effect": "When you sell this,\nget 2 <b>Blood Gems</b>.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG20_301.png"
+    },
+    "BG20_303": {
+        "name": "Charlga",
+        "type": "QUILBOAR",
+        "effect": "At the end of your turn,\nplay 2 <b>Blood Gems</b> on all\nyour other minions.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG20_303.png"
+    },
+    "BG21_002": {
+        "name": "Bird Buddy",
+        "type": "",
+        "effect": "<b>Avenge (1):</b> Give your Beasts +1/+1.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG21_002.png"
+    },
+    "BG21_004": {
+        "name": "Insatiable Ur'zul",
+        "type": "DEMON",
+        "effect": "[x]<b>Taunt</b>. After you play a\nDemon, consume 2 minions\nin the Tavern to gain\ntheir stats.",
+        "attack": 4,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG21_004.png"
+    },
+    "BG21_005": {
+        "name": "Famished Felbat",
+        "type": "DEMON",
+        "effect": "At the end of your turn, your Demons each consume a minion in the Tavern to gain its stats.",
+        "attack": 9,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG21_005.png"
+    },
+    "BG21_006": {
+        "name": "Impulsive Trickster",
+        "type": "DEMON",
+        "effect": "[x]<b>Deathrattle:</b> Give this\nminion's maximum Health\n  to another friendly minion. ",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG21_006.png"
+    },
+    "BG21_008": {
+        "name": "Saltscale Honcho",
+        "type": "MURLOC",
+        "effect": "After you play a Murloc, give a friendly Murloc other than it +2 Health.",
+        "attack": 5,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG21_008.png"
+    },
+    "BG21_013": {
+        "name": "Whelp Smuggler",
+        "type": "",
+        "effect": "Whenever a friendly Dragon gains Attack, give it +1 Health.",
+        "attack": 2,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG21_013.png"
+    },
+    "BG21_014": {
+        "name": "Prized Promo-Drake",
+        "type": "DRAGON",
+        "effect": "<b>Start of Combat:</b> Give your Dragons +{0}/+{1}.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG21_014.png"
+    },
+    "BG21_015": {
+        "name": "Tarecgosa",
+        "type": "DRAGON",
+        "effect": "This permanently keeps <b><b>Bonus Keyword</b>s</b> and stats gained in combat.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG21_015.png"
+    },
+    "BG21_018": {
+        "name": "Defiant Shipwright",
+        "type": "PIRATE",
+        "effect": "Whenever this gains Attack, gain +1 Health.",
+        "attack": 2,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG21_018.png"
+    },
+    "BG21_024": {
+        "name": "Grease Bot",
+        "type": "MECHANICAL",
+        "effect": "<b>Divine Shield</b>\nAfter a friendly minion loses\n<b>Divine Shield</b>, give it\n+2/+2 permanently.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG21_024.png"
+    },
+    "BG21_029": {
+        "name": "Icky Imp",
+        "type": "DEMON",
+        "effect": "<b>Deathrattle:</b> Summon two 1/1 Imps.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG21_029.png"
+    },
+    "BG21_036": {
+        "name": "Master of Realities",
+        "type": "",
+        "effect": "<b><b>Taunt</b>.</b> After a friendly Elemental gains stats, gain +{0}/+{1}.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG21_036.png"
+    },
+    "BG21_037": {
+        "name": "Gemsplitter",
+        "type": "QUILBOAR",
+        "effect": "<b>Divine Shield</b>\nAfter a friendly minion loses <b>Divine Shield</b>, get a <b>Blood Gem</b>.",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG21_037.png"
+    },
+    "BG22_202": {
+        "name": "Tad",
+        "type": "MURLOC",
+        "effect": "When you sell this,\nget a random Murloc.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG22_202.png"
+    },
+    "BG22_403": {
+        "name": "Young Murk-Eye",
+        "type": "MURLOC",
+        "effect": "[x]At the end of your turn,\ntrigger the <b>Battlecries</b> of\nadjacent Murlocs.",
+        "attack": 10,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG22_403.png"
+    },
+    "BG23_002": {
+        "name": "Shell Collector",
+        "type": "NAGA",
+        "effect": "<b>Battlecry:</b> Get a Gold Coin.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG23_002.png"
+    },
+    "BG23_004": {
+        "name": "Deep-Sea Angler",
+        "type": "NAGA",
+        "effect": "[x]<b>Spellcraft:</b> Give a minion\n+2 Health and <b>Taunt</b>\nuntil next turn.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG23_004.png"
+    },
+    "BG23_008": {
+        "name": "Glowscale",
+        "type": "NAGA",
+        "effect": "<b>Taunt</b>\n<b>Spellcraft:</b> Give a minion <b>Divine Shield</b> until next turn.",
+        "attack": 4,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG23_008.png"
+    },
+    "BG23_009": {
+        "name": "Lava Lurker",
+        "type": "NAGA",
+        "effect": "The first <b>Spellcraft</b> spell played on this each turn is permanent.",
+        "attack": 2,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG23_009.png"
+    },
+    "BG23_012": {
+        "name": "Corrupted Myrmidon",
+        "type": "NAGA",
+        "effect": "<b>Start of Combat:</b> Double this minion's stats.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG23_012.png"
+    },
+    "BG23_016": {
+        "name": "Reef Explorer",
+        "type": "",
+        "effect": "<b><b>Battlecry:</b> Discover</b> a minion of a type you don't control.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG23_016.png"
+    },
+    "BG23_017": {
+        "name": "Sanguine Champion",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Battlecry and Deathrattle:</b>\nYour <b>Blood Gems</b> give an\nextra +1/+1 this game.",
+        "attack": 18,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG23_017.png"
+    },
+    "BG23_018": {
+        "name": "Darkgaze Elder",
+        "type": "QUILBOAR",
+        "effect": "[x]Whenever you spend 6 Gold,\nplay a <b>Blood Gem</b> on\nall your Quilboar.\n<i>(6 Gold left!)</i>",
+        "attack": 5,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG23_018.png"
+    },
+    "BG23_318": {
+        "name": "Leeroy the Reckless",
+        "type": "",
+        "effect": "<b>Deathrattle:</b> Destroy the minion that killed this.",
+        "attack": 6,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG23_318.png"
+    },
+    "BG23_357": {
+        "name": "Mind Muck",
+        "type": "DEMON",
+        "effect": "[x]<b>Battlecry:</b> Choose a friendly\nDemon. It consumes a\nminion in the Tavern\nto gain its stats.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG23_357.png"
+    },
+    "BG24_009": {
+        "name": "Picky Eater",
+        "type": "DEMON",
+        "effect": "[x]<b>Battlecry:</b> Consume a\nrandom minion in the\nTavern to gain its stats.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG24_009.png"
+    },
+    "BG24_500": {
+        "name": "Amber Guardian",
+        "type": "DRAGON",
+        "effect": "[x]<b>Taunt</b>\n<b>Start of Combat:</b> Give another\n friendly Dragon +{0}/+{1}\nand <b>Divine Shield</b>.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG24_500.png"
+    },
+    "BG24_704": {
+        "name": "Interrogator Whitemane",
+        "type": "",
+        "effect": "[x]<b>Start of Combat:</b> Give an\nenemy minion from Tier 5 or\nhigher <b>Taunt</b>. It takes double\ndamage this combat.",
+        "attack": 8,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG24_704.png"
+    },
+    "BG24_715": {
+        "name": "Patient Scout",
+        "type": "",
+        "effect": "[x]When you sell this,\n<b>Discover</b> a Tier 1 minion.\n<i>(Upgrades each turn!)</i>",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG24_715.png"
+    },
+    "BG25_001": {
+        "name": "Risen Rider",
+        "type": "UNDEAD",
+        "effect": "<b>Taunt</b>\n<b>Reborn</b>",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG25_001.png"
+    },
+    "BG25_005": {
+        "name": "Jelly Belly",
+        "type": "UNDEAD",
+        "effect": "After a friendly minion is <b>Reborn</b>, gain +{0}/+{1} permanently.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG25_005.png"
+    },
+    "BG25_007": {
+        "name": "Anub'arak, Nerubian King",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Deathrattle:</b> Your Undead\nhave +1 Attack this game\n<i>(wherever they are)</i>.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG25_007.png"
+    },
+    "BG25_008": {
+        "name": "Eternal Knight",
+        "type": "UNDEAD",
+        "effect": "[x]Has +{0}/+{1} for each friendly\nEternal Knight that died this\n  game <i>(wherever this is)</i>.",
+        "attack": 4,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG25_008.png"
+    },
+    "BG25_009": {
+        "name": "Eternal Summoner",
+        "type": "UNDEAD",
+        "effect": "[x]<b><b>Reborn</b>.</b> <b>Deathrattle:</b>\nSummon 1 Eternal Knight.",
+        "attack": 8,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG25_009.png"
+    },
+    "BG25_010": {
+        "name": "Handless Forsaken",
+        "type": "UNDEAD",
+        "effect": "<b>Deathrattle:</b> Summon a 2/1 Hand with <b>Reborn</b>.",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG25_010.png"
+    },
+    "BG25_011": {
+        "name": "Nerubian Deathswarmer",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Battlecry:</b> Your Undead\nhave +1 Attack this game\n<i>(wherever they are)</i>.",
+        "attack": 1,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG25_011.png"
+    },
+    "BG25_013": {
+        "name": "Rot Hide Gnoll",
+        "type": "UNDEAD",
+        "effect": "Has +1 Attack for each friendly minion that died this combat.",
+        "attack": 1,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG25_013.png"
+    },
+    "BG25_016": {
+        "name": "Sin'dorei Straight Shot",
+        "type": "",
+        "effect": "[x]<b>Divine Shield</b>, <b>Windfury</b>\n<b>Rally:</b> Remove <b>Reborn</b> and\n <b>Taunt</b> from the target.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG25_016.png"
+    },
+    "BG25_022": {
+        "name": "Scarlet Skull",
+        "type": "UNDEAD",
+        "effect": "<b>Reborn</b>\n<b>Deathrattle:</b> Give a friendly Undead +1/+2.",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG25_022.png"
+    },
+    "BG25_032": {
+        "name": "Peggy Sturdybone",
+        "type": "PIRATE",
+        "effect": "[x]Whenever a card is added to\nyour hand, give another\nfriendly Pirate +1/+1.",
+        "attack": 4,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG25_032.png"
+    },
+    "BG25_034": {
+        "name": "Captain Sanders",
+        "type": "PIRATE",
+        "effect": "<b>Battlecry:</b> Make a friendly minion from Tier 6 or below Golden.",
+        "attack": 9,
+        "health": 9,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG25_034.png"
+    },
+    "BG25_040": {
+        "name": "Blazing Skyfin",
+        "type": "DRAGON",
+        "effect": "After you trigger a <b>Battlecry</b>, gain +1/+1.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG25_040.png"
+    },
+    "BG25_105": {
+        "name": "Poetic Pen Pal",
+        "type": "",
+        "effect": "<b>Battlecry:</b> Reduce the Cost of your next <b>Buddy</b> by (2).",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG25_105.png"
+    },
+    "BG25_309": {
+        "name": "General Drakkisath",
+        "type": "DRAGON",
+        "effect": "[x]<b>Battlecry:</b> Get a 2/1\nSmolderwing with\n\"<b>Battlecry:</b> Give a\nDragon +5 Attack.\"",
+        "attack": 2,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG25_309.png"
+    },
+    "BG25_354": {
+        "name": "Titus Rivendare",
+        "type": "",
+        "effect": "Your <b>Deathrattles</b> trigger an extra time.",
+        "attack": 1,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG25_354.png"
+    },
+    "BG25_806": {
+        "name": "Sly Raptor",
+        "type": "BEAST",
+        "effect": "<b>Deathrattle:</b> Summon a random Beast. Set its stats to 6/6.",
+        "attack": 1,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG25_806.png"
+    },
+    "BG26_135": {
+        "name": "Southsea Busker",
+        "type": "PIRATE",
+        "effect": "<b>Battlecry:</b> Gain\n1 Gold next turn.",
+        "attack": 3,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG26_135.png"
+    },
+    "BG26_137": {
+        "name": "Bream Counter",
+        "type": "MURLOC",
+        "effect": "While this is in your hand, after you play a Murloc, gain +{0}/+{1}.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_137.png"
+    },
+    "BG26_147": {
+        "name": "Accord-o-Tron",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Magnetic</b>\nAt the start of your turn,\ngain 1 Gold.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_147.png"
+    },
+    "BG26_149": {
+        "name": "Polarizing Beatboxer",
+        "type": "MECHANICAL",
+        "effect": "Whenever you <b>Magnetize</b> another minion, it also <b>Magnetizes</b> to this.",
+        "attack": 5,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG26_149.png"
+    },
+    "BG26_152": {
+        "name": "Utility Drone",
+        "type": "MECHANICAL",
+        "effect": "[x]At the end of your turn,\ngive your minions +{0}/+{1}\nfor each <b>Magnetization</b>\nthey have.",
+        "attack": 3,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_152.png"
+    },
+    "BG26_159": {
+        "name": "Moon-Bacon Jazzer",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Battlecry:</b> Your <b>Blood\nGems</b> give an extra\n+1 Health this game.",
+        "attack": 2,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG26_159.png"
+    },
+    "BG26_160": {
+        "name": "Prickly Piper",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Deathrattle:</b> Your <b>Blood\nGems</b> give an extra\n+1 Attack this game.",
+        "attack": 5,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG26_160.png"
+    },
+    "BG26_175": {
+        "name": "Elemental of Surprise",
+        "type": "ELEMENTAL",
+        "effect": "<b>Divine Shield</b>\nThis minion can triple with any Elemental.",
+        "attack": 8,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG26_175.png"
+    },
+    "BG26_350": {
+        "name": "Bassgill",
+        "type": "MURLOC",
+        "effect": "<b>Deathrattle:</b> Summon the highest-Health Murloc\nfrom your hand for this combat only.",
+        "attack": 5,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG26_350.png"
+    },
+    "BG26_354": {
+        "name": "Choral Mrrrglr",
+        "type": "MURLOC",
+        "effect": "[x]<b>Start of Combat:</b> Gain\nthe stats of all the\nminions in your hand.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG26_354.png"
+    },
+    "BG26_360": {
+        "name": "Scourfin",
+        "type": "MURLOC",
+        "effect": "<b>Deathrattle:</b> Give a\nrandom minion in your hand +5/+5.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG26_360.png"
+    },
+    "BG26_370": {
+        "name": "Hungry Snapjaw",
+        "type": "BEAST",
+        "effect": "[x]After a friendly Beast\ndies, gain +1 Health\npermanently.",
+        "attack": 4,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG26_370.png"
+    },
+    "BG26_501": {
+        "name": "Reef Riffer",
+        "type": "NAGA",
+        "effect": "<b>Spellcraft:</b> Give a minion stats equal to your Tier until next turn.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG26_501.png"
+    },
+    "BG26_502": {
+        "name": "Deep Blue Crooner",
+        "type": "NAGA",
+        "effect": "<b>Spellcraft:</b> Give a minion +{0}/+{1} until next turn. Improve your future Deep Blues.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_502.png"
+    },
+    "BG26_505": {
+        "name": "Zesty Shaker",
+        "type": "NAGA",
+        "effect": "[x]Once per turn, when a\n<b>Spellcraft</b> spell is played on\n this, get a new copy of it.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG26_505.png"
+    },
+    "BG26_800": {
+        "name": "Manasaber",
+        "type": "BEAST",
+        "effect": "<b>Deathrattle:</b> Summon two 0/1 Cublings with <b>Taunt</b>.",
+        "attack": 4,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG26_800.png"
+    },
+    "BG26_801": {
+        "name": "Rylak Metalhead",
+        "type": "BEAST",
+        "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Trigger the\n<b>Battlecry</b> of an\nadjacent minion.",
+        "attack": 5,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_801.png"
+    },
+    "BG26_805": {
+        "name": "Humming Bird",
+        "type": "BEAST",
+        "effect": "<b>Start of Combat:</b> For the rest of this combat, your Beasts have +1 Attack.",
+        "attack": 1,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG26_805.png"
+    },
+    "BG26_810": {
+        "name": "Gunpowder Courier",
+        "type": "PIRATE",
+        "effect": "Whenever you spend 5 Gold,\ngive your Pirates +1 Attack.\n<i>(5 Gold left!)</i>",
+        "attack": 1,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG26_810.png"
+    },
+    "BG26_814": {
+        "name": "Lovesick Balladist",
+        "type": "PIRATE",
+        "effect": "<b>Battlecry:</b> Give a Pirate\n+1 Health. <i>(Improved by each Gold you spent this turn!)</i>",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_814.png"
+    },
+    "BG26_817": {
+        "name": "Blade Collector",
+        "type": "PIRATE",
+        "effect": "Also damages the minions next to whomever\nthis attacks.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG26_817.png"
+    },
+    "BG26_ICC_901": {
+        "name": "Drakkari Enchanter",
+        "type": "",
+        "effect": "Your end of turn effects trigger twice.",
+        "attack": 1,
+        "health": 5,
+        "cost": 5,
+        "techLevel": 5,
+        "image": "/images/minions/BG26_ICC_901.png"
+    },
+    "BG27_002": {
+        "name": "Oozeling Gladiator",
+        "type": "",
+        "effect": "<b>Battlecry:</b> Get two Slimy Shields that give\n+1/+1 and <b><b>Taunt</b>.</b>",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG27_002.png"
+    },
+    "BG27_005": {
+        "name": "Timecap'n Hooktail",
+        "type": "PIRATE",
+        "effect": "[x]Whenever you cast a\nTavern spell, give your\nminions +{0} Attack.",
+        "attack": 1,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG27_005.png"
+    },
+    "BG27_008": {
+        "name": "Mechanized Gift Horse",
+        "type": "BEAST",
+        "effect": "[x]<b>Deathrattle:</b> Summon two\n2/2 Mechorses with\n\"<b>Deathrattle:</b> Summon a\n1/1 Mechapony.\"",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG27_008.png"
+    },
+    "BG27_013": {
+        "name": "Transmuted Bramblewitch",
+        "type": "ELEMENTAL",
+        "effect": "[x]<b>Rally:</b> Set the target's stats\nto 3/3. <i>(Once per combat.)</i>",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG27_013.png"
+    },
+    "BG27_016": {
+        "name": "Champion of Sargeras",
+        "type": "DEMON",
+        "effect": "<b>Battlecry and Deathrattle:</b> Minions in the Tavern have +4/+4 this game.",
+        "attack": 10,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_016.png"
+    },
+    "BG27_017": {
+        "name": "Obsidian Ravager",
+        "type": "DRAGON",
+        "effect": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\nthe target and an adjacent\nminion.",
+        "attack": 7,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_017.png"
+    },
+    "BG27_021": {
+        "name": "The Boommobile",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Magnetic</b>\n <b>Reborn</b>, <b>Divine Shield</b>,\n<b>Taunt</b>, <b>Windfury</b>",
+        "attack": 30,
+        "health": 30,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_021.png"
+    },
+    "BG27_024": {
+        "name": "Daggerspine Thrasher",
+        "type": "NAGA",
+        "effect": "[x]Whenever you cast a spell,\ngain <b>Divine Shield</b>,\n<b>Windfury</b>, or <b>Venomous</b>\nuntil next turn.",
+        "attack": 3,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG27_024.png"
+    },
+    "BG27_025": {
+        "name": "The Glad-iator",
+        "type": "NAGA",
+        "effect": "<b>Divine Shield</b>\nWhenever you cast a spell, gain +1 Attack.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG27_025.png"
+    },
+    "BG27_079": {
+        "name": "Hawkstrider Herald",
+        "type": "BEAST",
+        "effect": "<b>Start of Combat:</b> Trigger your two left-most <b>Deathrattles</b>.",
+        "attack": 6,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG27_079.png"
+    },
+    "BG27_081": {
+        "name": "Cultist S'Thara",
+        "type": "",
+        "effect": "[x]<b><b>Stealth</b>.</b> <b>Deathrattle:</b>\nSummon your first Demon\nthat died this combat\n with its maximum stats.",
+        "attack": 12,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG27_081.png"
+    },
+    "BG27_084": {
+        "name": "Sprightly Scarab",
+        "type": "BEAST",
+        "effect": "[x]<b>Choose One -</b> Give a Beast\n+{0}/+{1} and <b>Reborn</b>; or\n+{2} Attack and <b>Windfury</b>.",
+        "attack": 3,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG27_084.png"
+    },
+    "BG27_508": {
+        "name": "King Varian",
+        "type": "",
+        "effect": "When you sell this, <b>Discover</b> two\nTier 6 minions.",
+        "attack": 9,
+        "health": 9,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_508.png"
+    },
+    "BG27_513": {
+        "name": "Tide Oracle Morgl",
+        "type": "MURLOC",
+        "effect": "[x]<b><b>Poisonous</b>.</b> When this\nattacks and kills a minion,\ngive its maximum stats to a\nminion in your hand.",
+        "attack": 1,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_513.png"
+    },
+    "BG27_514": {
+        "name": "Sea Witch Zar'jira",
+        "type": "NAGA",
+        "effect": "[x]<b>Spellcraft:</b> Choose a\ndifferent minion in the\n Tavern to get a copy of.",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_514.png"
+    },
+    "BG27_518": {
+        "name": "Moira Bronzebeard",
+        "type": "",
+        "effect": "Your <b>Battlecries</b> and <b>Deathrattles</b> trigger twice.",
+        "attack": 3,
+        "health": 9,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG27_518.png"
+    },
+    "BG27_822": {
+        "name": "Niuzao",
+        "type": "BEAST",
+        "effect": "[x]<b>Rally:</b> Deal damage equal\nto this minion's Attack to\na random enemy minion\nother than the target.",
+        "attack": 7,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG27_822.png"
+    },
+    "BG28_303": {
+        "name": "Disguised Graverobber",
+        "type": "",
+        "effect": "<b>Battlecry:</b> Destroy a friendly Undead to get\na plain copy of it.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG28_303.png"
+    },
+    "BG28_309": {
+        "name": "Mummifier",
+        "type": "UNDEAD",
+        "effect": "<b>Deathrattle:</b> Give a different friendly Undead <b>Reborn</b>.",
+        "attack": 5,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG28_309.png"
+    },
+    "BG28_405": {
+        "name": "Silivaz the Vindictive",
+        "type": "NAGA",
+        "effect": "<b>Spellcraft: Discover</b> a Tavern spell.",
+        "attack": 5,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG28_405.png"
+    },
+    "BG28_550": {
+        "name": "Rodeo Performer",
+        "type": "",
+        "effect": "<b>Battlecry:</b> <b>Discover</b> a Tavern spell.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG28_550.png"
+    },
+    "BG28_551": {
+        "name": "Nalaa the Redeemer",
+        "type": "",
+        "effect": "[x]Whenever you cast a Tavern\nspell, give a friendly minion\nof each type +{0}/+{1}.",
+        "attack": 5,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG28_551.jpg"
+    },
+    "BG28_583": {
+        "name": "Geomagus Roogug",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Divine Shield</b>. Whenever a\n<b>Blood Gem</b> is played on this,\nplay a <b>Blood Gem</b> on a\n  different friendly minion.",
+        "attack": 4,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG28_583.png"
+    },
+    "BG28_597": {
+        "name": "Sandstone Drake",
+        "type": "DRAGON",
+        "effect": "[x]At the end of your turn, gain\n+1 Attack. Repeat for each\ncard you played this turn.",
+        "attack": 0,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG28_597.png"
+    },
+    "BG29_140": {
+        "name": "False Implicator",
+        "type": "DEMON",
+        "effect": "[x]At the end of your turn,\nconsume a minion in the\n Tavern to gain its stats.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG29_140.png"
+    },
+    "BG29_611": {
+        "name": "Cord Puller",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Divine Shield</b>\n<b>Deathrattle:</b> Summon a\n1/1 Microbot.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG29_611.png"
+    },
+    "BG29_813": {
+        "name": "Persistent Poet",
+        "type": "DRAGON",
+        "effect": "[x]<b>Divine Shield</b>. Adjacent\nDragons permanently keep\n<b><b>Bonus Keyword</b>s</b> and stats\ngained in combat.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG29_813.png"
+    },
+    "BG29_814": {
+        "name": "Misfit Dragonling",
+        "type": "DRAGON",
+        "effect": "<b>Start of Combat:</b> Gain stats equal to your Tier.",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG29_814.png"
+    },
+    "BG29_840": {
+        "name": "Mooneater's Champion",
+        "type": "",
+        "effect": "After you play an odd-Tier card, give your odd-Tier minions +1/+1.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG29_840.png"
+    },
+    "BG29_841": {
+        "name": "Greymane's Champion",
+        "type": "",
+        "effect": "After you play an even-Tier card, give your even-Tier minions +{0}/+{1}.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG29_841.png"
+    },
+    "BG29_871": {
+        "name": "Silithid Burrower",
+        "type": "BEAST",
+        "effect": "[x]<b>Deathrattle:</b> Give your\nBeasts +{0}/+{0}.\n<b>Avenge (1):</b> Improve this by\n+1/+1 permanently.",
+        "attack": 5,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG29_871.png"
+    },
+    "BG29_888": {
+        "name": "Glim Guardian",
+        "type": "DRAGON",
+        "effect": "<b>Rally:</b> Gain +{0} Attack.",
+        "attack": 1,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG29_888.png"
+    },
+    "BG30_008": {
+        "name": "Greenskeeper",
+        "type": "DRAGON",
+        "effect": "<b>Rally:</b> Trigger your\nright-most <b>Battlecry</b>.",
+        "attack": 4,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG30_008.png"
+    },
+    "BG30_121": {
+        "name": "Hot-Air Surveyor",
+        "type": "QUILBOAR",
+        "effect": "<b>Blood Gems</b> played\nfrom your hand cast an extra time.",
+        "attack": 4,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG30_121.png"
+    },
+    "BG30_122": {
+        "name": "Mrglin' Burglar",
+        "type": "MURLOC",
+        "effect": "[x]After you play a Murloc,\ngive a friendly minion and\na minion in your hand\n+{0}/+{1}.",
+        "attack": 8,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG30_122.png"
+    },
+    "BG30_123": {
+        "name": "Fearless Foodie",
+        "type": "QUILBOAR",
+        "effect": "<b>Choose One - </b>Your <b>Blood Gems</b> give an extra +1/+1 this game; or Get 4 <b>Blood Gems</b>.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG30_123.png"
+    },
+    "BG30_125": {
+        "name": "Cadaver Caretaker",
+        "type": "UNDEAD",
+        "effect": "<b>Deathrattle:</b> Summon three 1/1 Skeletons.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG30_125.png"
+    },
+    "BG30_129": {
+        "name": "Catacomb Crasher",
+        "type": "UNDEAD",
+        "effect": "Whenever you would summon\na minion that doesn't fit in your warband, give your minions +1/+1 permanently.",
+        "attack": 5,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG30_129.png"
+    },
+    "BG30_160": {
+        "name": "Bountiful Bedrock",
+        "type": "ELEMENTAL",
+        "effect": "[x]At the end of every 2 turns,\nget a random Elemental.\n<i>({0} turns left!)</i>",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG30_160.png"
+    },
+    "BG31_144": {
+        "name": "Adaptive Ancestor",
+        "type": "MURLOC",
+        "effect": "[x]<b>Choose One - </b>Gain +3\nAttack and <b>Divine Shield</b>; or\n+3 Health and <b>Venomous</b>.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG31_144.png"
+    },
+    "BG31_170": {
+        "name": "Frantic Alarm-o-Bot",
+        "type": "MECHANICAL",
+        "effect": "<b>Magnetic</b>\n<b>Windfury</b>",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG31_170.png"
+    },
+    "BG31_175": {
+        "name": "Holo Rover",
+        "type": "MECHANICAL",
+        "effect": "<b><b>Divine Shield</b>\n</b><b>Rally:</b> Get a random <b>Magnetic</b> Mech.",
+        "attack": 4,
+        "health": 12,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG31_175.png"
+    },
+    "BG31_177": {
+        "name": "Mechagnome Interpreter",
+        "type": "MECHANICAL",
+        "effect": "[x]Whenever you play or\n<b>Magnetize</b> a Mech,\ngive it +2/+1.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG31_177.png"
+    },
+    "BG31_320": {
+        "name": "Crater Miner",
+        "type": "QUILBOAR",
+        "effect": "<b>Choose One - </b>Get 2 <b>Blood Gems</b>; or Get a random 1-Cost Tavern spell.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG31_320.png"
+    },
+    "BG31_330": {
+        "name": "Ominous Seer",
+        "type": "NAGA",
+        "effect": "<b>Battlecry:</b> The next\nTavern spell you buy\ncosts (1) less.",
+        "attack": 2,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG31_330.png"
+    },
+    "BG31_360": {
+        "name": "Arcane Behemoth",
+        "type": "ELEMENTAL",
+        "effect": "[x]<b>Taunt</b>\nAfter you sell an Elemental,\ngain its stats.",
+        "attack": 4,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG31_360.png"
+    },
+    "BG31_361": {
+        "name": "Bellowing Tyrant",
+        "type": "BEAST",
+        "effect": "[x]<b>Taunt</b>\nHas +4/+3 for each Beast\nyou've summoned this game\n<i>(wherever this is)</i>.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG31_361.png"
+    },
+    "BG31_810": {
+        "name": "Ultraviolet Ascendant",
+        "type": "ELEMENTAL",
+        "effect": "<b>Start of Combat:</b> Give your other Elementals +{0}/+{1}. <i>(Upgrades after you play an Elemental!)</i>",
+        "attack": 5,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG31_810.png"
+    },
+    "BG31_812": {
+        "name": "Ichoron the Protector",
+        "type": "ELEMENTAL",
+        "effect": "<b>Divine Shield</b>\nWhenever you play an Elemental, give it <b>Divine Shield</b> until next turn.",
+        "attack": 3,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG31_812.png"
+    },
+    "BG31_815": {
+        "name": "Dune Dweller",
+        "type": "ELEMENTAL",
+        "effect": "[x]<b>Battlecry:</b> Give Elementals\nin the Tavern +{0}/+{1}\nthis game.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG31_815.png"
+    },
+    "BG31_816": {
+        "name": "Fire Baller",
+        "type": "ELEMENTAL",
+        "effect": "[x]When you sell this, give\nyour minions +1 Attack.\nImprove your future\nBallers.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG31_816.png"
+    },
+    "BG31_818": {
+        "name": "Snow Baller",
+        "type": "ELEMENTAL",
+        "effect": "[x]When you sell this, give\nyour minions +1 Health.\nImprove your future\nBallers.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG31_818.png"
+    },
+    "BG31_830": {
+        "name": "Weary Mage",
+        "type": "NAGA",
+        "effect": "[x]<b>Spellcraft:</b> Give a minion\n+2/+2. If it's a Naga,\nalso give it <b>Reborn</b>\nuntil next turn.",
+        "attack": 5,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG31_830.png"
+    },
+    "BG31_835": {
+        "name": "Deathly Striker",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Avenge ({0}):</b> Get a random\nUndead. <b>Deathrattle:</b>\nSummon it from your hand\nfor this combat only.",
+        "attack": 8,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG31_835.png"
+    },
+    "BG31_859": {
+        "name": "Technical Element",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Magnetic</b>\nCan <b>Magnetize</b> to both\n  Mechs and Elementals.",
+        "attack": 5,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG31_859.png"
+    },
+    "BG31_875": {
+        "name": "Tardy Traveler",
+        "type": "DEMON",
+        "effect": "When you sell this, get a copy of a Tavern spell in the Tavern.",
+        "attack": 3,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG31_875.png"
+    },
+    "BG31_925": {
+        "name": "Showy Cyclist",
+        "type": "NAGA",
+        "effect": "[x]<b>Deathrattle:</b> Give your Naga\n+{1}/+{1}. <i>(Improved by\nevery 4 spells you've\ncast this game!)</i>",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG31_925.png"
+    },
+    "BG31_999": {
+        "name": "Stitched Salvager",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Start of Combat:</b> Destroy the\nminion to the left. <b>Deathrattle:</b>\nSummon an exact copy of it.\n      <i>(Except Stitched Salvager.)</i>   ",
+        "attack": 16,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BG31_999.png"
+    },
+    "BG32_111": {
+        "name": "Nightmare Par-tea Guest",
+        "type": "ALL",
+        "effect": "<b>Battlecry and Deathrattle:</b> Get a Misplaced Tea Set.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG32_111.png"
+    },
+    "BG32_173": {
+        "name": "Rickety Repairbot",
+        "type": "MECHANICAL",
+        "effect": "[x]At the end of your turn,\n<b>Magnetize</b> a random\n   <b>Magnetic</b> Mech to this.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_173.png"
+    },
+    "BG32_202": {
+        "name": "Valiant Tiger",
+        "type": "BEAST",
+        "effect": "<b><b>Taunt</b>.\nDeathrattle:</b> Give your right-most Beast +5/+5 permanently.",
+        "attack": 6,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG32_202.png"
+    },
+    "BG32_231": {
+        "name": "Elite Navigator",
+        "type": "PIRATE",
+        "effect": "<b>Battlecry:</b> Make a friendly Pirate from Tier 4 or below Golden.",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_231.png"
+    },
+    "BG32_232": {
+        "name": "Thieving Rascal",
+        "type": "PIRATE",
+        "effect": "[x]At the start of your turn,\ngain 1 Gold. Repeat for\neach friendly Golden\nminion.",
+        "attack": 5,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_232.png"
+    },
+    "BG32_235": {
+        "name": "Surfing Sylvar",
+        "type": "PIRATE",
+        "effect": "[x]At the end of your turn, give\nadjacent minions +1 Attack.\nRepeat for each friendly\nGolden minion.",
+        "attack": 1,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG32_235.png"
+    },
+    "BG32_236": {
+        "name": "Aureate Laureate",
+        "type": "PIRATE",
+        "effect": "<b>Divine Shield</b>\n<b>Battlecry:</b> Make this minion Golden.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG32_236.png"
+    },
+    "BG32_325": {
+        "name": "Noisul of the Many Faces",
+        "type": "UNDEAD",
+        "effect": "[x]Whenever you summon an\nUndead, give all your\nUndead +{0}/+{1}\npermanently.",
+        "attack": 2,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_325.png"
+    },
+    "BG32_330": {
+        "name": "Flighty Scout",
+        "type": "MURLOC",
+        "effect": "[x]<b>Start of Combat:</b> If this\nminion is in your hand,\nsummon a copy of it.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG32_330.png"
+    },
+    "BG32_331": {
+        "name": "Grimscale Elegist",
+        "type": "MURLOC",
+        "effect": "[x]At the end of your turn,\ngive a friendly minion and\na minion in your hand\n+1/+1.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG32_331.png"
+    },
+    "BG32_341": {
+        "name": "Humon'gozz",
+        "type": "",
+        "effect": "[x]<b>Divine Shield</b>\nYour Tavern spells that\ngive stats grant an extra\n+1/+2.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG32_341.png"
+    },
+    "BG32_430": {
+        "name": "Glowgullet Warlord",
+        "type": "QUILBOAR",
+        "effect": "<b>Deathrattle:</b> Summon two 1/1 Quilboar with <b>Taunt</b>. Play a <b>Blood Gem</b> on them.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG32_430.png"
+    },
+    "BG32_820": {
+        "name": "Firescale Hoarder",
+        "type": "DRAGON",
+        "effect": "<b>Battlecry and Deathrattle:</b> Get a Shiny Ring.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_820.png"
+    },
+    "BG32_821": {
+        "name": "Felfire Conjurer",
+        "type": "DRAGON",
+        "effect": "[x]At the end of your turn,\nyour Tavern spells that\ngive stats grant an extra\n+{0}/+{1} this game.",
+        "attack": 7,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG32_821.png"
+    },
+    "BG32_822": {
+        "name": "Fire-forged Evoker",
+        "type": "DRAGON",
+        "effect": "[x]<b>Start of Combat:</b> Give your\nother Dragons +{0}/+{1}.\nAfter you cast a Tavern\nspell, improve this.",
+        "attack": 8,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG32_822.png"
+    },
+    "BG32_835": {
+        "name": "Tranquil Meditative",
+        "type": "NAGA",
+        "effect": "[x]<b>Spellcraft:</b> Your Tavern\nspells that give stats\ngrant an extra +2 Health\nthis game.",
+        "attack": 3,
+        "health": 9,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_835.png"
+    },
+    "BG32_836": {
+        "name": "Coilskar Sapper",
+        "type": "NAGA",
+        "effect": "<b>Taunt</b>\n<b>Deathrattle:</b> Get 2 random <b>Spellcraft</b> spells.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG32_836.png"
+    },
+    "BG32_837": {
+        "name": "Fauna Whisperer",
+        "type": "NAGA",
+        "effect": "[x]At the end of your turn, cast\nNatural Blessing on the\nminion to the left of this.",
+        "attack": 3,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG32_837.png"
+    },
+    "BG32_860": {
+        "name": "Shoalfin Mystic",
+        "type": "MURLOC",
+        "effect": "[x]When you sell this,\nyour Tavern spells that\ngive stats grant an extra\n+1/+1 this game.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG32_860.png"
+    },
+    "BG32_869": {
+        "name": "Beacon of Hope",
+        "type": "",
+        "effect": "<b>Battlecry:</b> If you lost your last combat, <b>Discover</b> a Tier 5 minion.",
+        "attack": 5,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG32_869.png"
+    },
+    "BG32_880": {
+        "name": "Friendly Geist",
+        "type": "UNDEAD",
+        "effect": "<b>Deathrattle:</b> Your Tavern spells that give stats grant an extra +{0} Attack this game.",
+        "attack": 6,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG32_880.png"
+    },
+    "BG32_891": {
+        "name": "Shadowdancer",
+        "type": "DEMON",
+        "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Get a Staff\nof Enrichment.",
+        "attack": 4,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG32_891.png"
+    },
+    "BG33_111": {
+        "name": "Carapace Raiser",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Deathrattle</b>: Get a\nHaunted Carapace.",
+        "attack": 6,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_111.png"
+    },
+    "BG33_113": {
+        "name": "Campfire Shadow",
+        "type": "UNDEAD",
+        "effect": "<b>Rally:</b> Get a plain copy of a random enemy minion.",
+        "attack": 4,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_113.png"
+    },
+    "BG33_115": {
+        "name": "Ride-or-Die",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Reborn</b>\nYour other Undead have\n+1 Attack.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG33_115.png"
+    },
+    "BG33_116": {
+        "name": "Oranomonos, the Wilted",
+        "type": "UNDEAD",
+        "effect": "[x]After a friendly minion is\n<b>Reborn</b>, your Undead have\n+{0} Attack this game\n<i>(wherever they are)</i>.",
+        "attack": 3,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_116.png"
+    },
+    "BG33_140": {
+        "name": "River Skipper",
+        "type": "MURLOC",
+        "effect": "When you sell this, get a random Tier 1 minion.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG33_140.png"
+    },
+    "BG33_152": {
+        "name": "Improviser",
+        "type": "DEMON",
+        "effect": "[x]<b>Avenge ({0}):</b> Minions in\nthe Tavern have +{1}/+{2}\nnext turn.",
+        "attack": 2,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_152.png"
+    },
+    "BG33_153": {
+        "name": "Cupcake Peddler",
+        "type": "DEMON",
+        "effect": "<b>Avenge ({0}):</b> Get Corrupted Cupcakes.",
+        "attack": 2,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_153.png"
+    },
+    "BG33_154": {
+        "name": "Lord of the Ruins",
+        "type": "DEMON",
+        "effect": "After a friendly Demon deals damage, give friendly minions other than it +{0}/+{1}.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_154.png"
+    },
+    "BG33_155": {
+        "name": "Devout Hellcaller",
+        "type": "DEMON",
+        "effect": "After another friendly Demon deals damage, gain +{0}/+{1} permanently.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_155.png"
+    },
+    "BG33_156": {
+        "name": "Silent Enforcer",
+        "type": "DEMON",
+        "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal {0} damage\nto all minions <i>(except\nfriendly Demons)</i>.",
+        "attack": 8,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_156.png"
+    },
+    "BG33_157": {
+        "name": "Void Earl",
+        "type": "DEMON",
+        "effect": "[x]<b>Taunt</b>\n <b>Deathrattle:</b> Summon two\n  1/3 Demons with <b>Taunt</b>.",
+        "attack": 6,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_157.png"
+    },
+    "BG33_240": {
+        "name": "Charmwing",
+        "type": "DRAGON",
+        "effect": "[x]<b>Rally:</b> Give {0} friendly Dragons\nthis minion's Health\n<i>(except Charmwing)</i>.",
+        "attack": 3,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_240.png"
+    },
+    "BG33_241": {
+        "name": "Sleepy Supporter",
+        "type": "DRAGON",
+        "effect": "<b>Rally:</b> Give another random friendly Dragon +{0}/+{1}.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG33_241.png"
+    },
+    "BG33_244": {
+        "name": "Nimble Hatchling",
+        "type": "DRAGON",
+        "effect": "<b>Battlecry:</b> Get a Nimble Wingbeat.",
+        "attack": 3,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_244.png"
+    },
+    "BG33_245": {
+        "name": "Twilight Watcher",
+        "type": "DRAGON",
+        "effect": "Whenever a friendly Dragon attacks, give your Dragons +{0}/+{1}.",
+        "attack": 3,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_245.png"
+    },
+    "BG33_300": {
+        "name": "All-Seeing Elder",
+        "type": "",
+        "effect": "[x]<b>Start of Combat:</b> Gain the\nAttack of your left-most\n  minion and the Health of\n    your right-most minion.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_300.png"
+    },
+    "BG33_311": {
+        "name": "Felblaze Leader",
+        "type": "ELEMENTAL",
+        "effect": "<b>Rally:</b> Give minions in\nthe Tavern +{0}/+{1}\nthis game.",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_311.png"
+    },
+    "BG33_315": {
+        "name": "Greedy Snaketongue",
+        "type": "NAGA",
+        "effect": "<b>Rally:</b> Get a Gold Coin.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_315.png"
+    },
+    "BG33_318": {
+        "name": "Bile Spitter",
+        "type": "MURLOC",
+        "effect": "[x]<b>Venomous</b>\n <b>Rally:</b> Give another friendly\nMurloc <b>Venomous</b>.",
+        "attack": 1,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_318.png"
+    },
+    "BG33_319": {
+        "name": "Rimescale Priestess",
+        "type": "NAGA",
+        "effect": "<b>Spellcraft:</b> Get a random Tavern spell that gives stats.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_319.png"
+    },
+    "BG33_320": {
+        "name": "Primeval Monstrosity",
+        "type": "ALL",
+        "effect": "[x]<b>Stealth</b>. Whenever a friendly\n<b>Rally</b> minion attacks, give a\n friendly minion of each type\n   +{0}/+{1} permanently.",
+        "attack": 5,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_320.png"
+    },
+    "BG33_325": {
+        "name": "Geared Guard",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Rally:</b> Give a different\nfriendly minion\n<b>Divine Shield</b>.",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG33_325.png"
+    },
+    "BG33_331": {
+        "name": "Lantern Lava",
+        "type": "ELEMENTAL",
+        "effect": "[x]Get a plain copy of the first\nElemental you sell each turn\n<i>(except Lantern Lava).</i>",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_331.png"
+    },
+    "BG33_334": {
+        "name": "Vine Climber",
+        "type": "ELEMENTAL",
+        "effect": "[x]Whenever you play an\nElemental, give it +{0}/+{1}.\n<i>(Improved by each minion\n        you've played this turn!)</i>   ",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_334.png"
+    },
+    "BG33_337": {
+        "name": "Avalanche Caller",
+        "type": "ELEMENTAL",
+        "effect": "At the end of your turn, get a Mounting Avalanche.",
+        "attack": 6,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_337.png"
+    },
+    "BG33_370": {
+        "name": "Expert Technician",
+        "type": "",
+        "effect": "[x]<b>Taunt</b>. <b>Deathrattle:</b> Your left-\nmost minion immediately\nattacks the enemy minion\nthat killed this.",
+        "attack": 5,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_370.png"
+    },
+    "BG33_371": {
+        "name": "P-0UL-TR-0N",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Avenge ({0}):</b> Gain\n<b>Divine Shield</b> and attack\nimmediately.",
+        "attack": 8,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_371.png"
+    },
+    "BG33_430": {
+        "name": "Prodigious Tusker",
+        "type": "QUILBOAR",
+        "effect": "[x]Whenever a friendly <b>Rally</b>\nminion attacks, play 2\n<b>Blood Gems</b> on this.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG33_430.png"
+    },
+    "BG33_700": {
+        "name": "Friendly Bouncer",
+        "type": "",
+        "effect": "<b>Rally:</b> Get and summon a random <b>Rally</b> minion.",
+        "attack": 6,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_700.png"
+    },
+    "BG33_802": {
+        "name": "Ruins Renovator",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Divine Shield</b>\n <b>Deathrattle:</b> Summon a\nrandom <b>Divine Shield</b>\nminion.",
+        "attack": 5,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_802.png"
+    },
+    "BG33_805": {
+        "name": "Gleaming Trader",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Divine Shield</b>. After a friendly\nminion loses <b>Divine Shield</b>,\nyour minions have +{0} Attack\n      for the rest of this combat.   ",
+        "attack": 3,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_805.png"
+    },
+    "BG33_807": {
+        "name": "Whirring Protector",
+        "type": "MECHANICAL",
+        "effect": "<b>Magnetic</b>\n<b>Rally:</b> Give your other minions +{1} Attack.",
+        "attack": 8,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_807.png"
+    },
+    "BG33_808": {
+        "name": "Super Constructor",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Rally:</b> Your Tavern spells\nthat give stats grant an\n  extra +1/+1 this game.",
+        "attack": 4,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_808.png"
+    },
+    "BG33_809": {
+        "name": "Divine Sparkbot",
+        "type": "MECHANICAL",
+        "effect": "<b>Divine Shield</b>, <b>Taunt</b> <b>Deathrattle:</b> Get a Sanctify.",
+        "attack": 4,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_809.png"
+    },
+    "BG33_820": {
+        "name": "Lost City Looter",
+        "type": "PIRATE",
+        "effect": "[x]<b>Taunt</b>\nAt the end of your turn,\nget a random <b>Bounty</b>.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_820.png"
+    },
+    "BG33_821": {
+        "name": "Shipwrecked Rascal",
+        "type": "PIRATE",
+        "effect": "<b>Battlecry and Deathrattle:</b> Get a random <b>Bounty</b>.",
+        "attack": 5,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_821.png"
+    },
+    "BG33_822": {
+        "name": "Bigwig Bandit",
+        "type": "PIRATE",
+        "effect": "[x]<b>Rally:</b> Get a random <b>Bounty</b>.",
+        "attack": 4,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_822.png"
+    },
+    "BG33_823": {
+        "name": "Sky Admiral Rogers",
+        "type": "PIRATE",
+        "effect": "[x]After you spend\n{2} Gold, get a random\n<b>Bounty</b>. <i>({0} left!)</i>",
+        "attack": 4,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_823.png"
+    },
+    "BG33_825": {
+        "name": "Proud Privateer",
+        "type": "PIRATE",
+        "effect": "You cast your <b>Bounties</b> twice.",
+        "attack": 8,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_825.png"
+    },
+    "BG33_826": {
+        "name": "Wizened Captain",
+        "type": "PIRATE",
+        "effect": "Whenever you cast a Tavern spell, gain +{0}/+{1}.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BG33_826.png"
+    },
+    "BG33_827": {
+        "name": "Yorik Smite",
+        "type": "PIRATE",
+        "effect": "At the end of your turn, give your minions +{0}/+{1}. Golden ones gain +{2}/+{3} instead.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_827.png"
+    },
+    "BG33_828": {
+        "name": "Ship Master Eudora",
+        "type": "PIRATE",
+        "effect": "<b>Deathrattle:</b> Give your\nminions +{0}/+{1}.\nGolden ones keep it permanently.",
+        "attack": 10,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_828.png"
+    },
+    "BG33_830": {
+        "name": "Azsharan Cutlassier",
+        "type": "PIRATE",
+        "effect": "[x]<b>Battlecry:</b> Your Tavern spells\nthat give stats grant an extra\n+1 Attack this game.",
+        "attack": 6,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_830.png"
+    },
+    "BG33_840": {
+        "name": "Stomping Stegodon",
+        "type": "BEAST",
+        "effect": "[x]<b>Rally:</b> Give your other\nBeasts +{0} Attack and\nthis <b>Rally</b>.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_840.png"
+    },
+    "BG33_841": {
+        "name": "Lightfeather Screecher",
+        "type": "BEAST",
+        "effect": "[x]<b>Taunt</b>\n<b>Start of Combat:</b> Give your\n left-most Beast <b>Windfury</b>\nand <b>Divine Shield</b>.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_841.png"
+    },
+    "BG33_842": {
+        "name": "Raptor Elder",
+        "type": "BEAST",
+        "effect": "[x]<b>Stealth</b>. Your Beasts have\n+{0}/+{1}. <i>(Improved by each\nBeast you've summoned\nthis combat!)</i>",
+        "attack": 2,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_842.png"
+    },
+    "BG33_870": {
+        "name": "Golem Archivist",
+        "type": "",
+        "effect": "[x]<b>Battlecry:</b> The next Tavern\nspell you buy costs (2) less.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_870.png"
+    },
+    "BG33_883": {
+        "name": "Razorfen Vineweaver",
+        "type": "QUILBOAR",
+        "effect": "<b>Rally:</b> Play 3 permanent <b>Blood Gems</b> on this.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_883.png"
+    },
+    "BG33_884": {
+        "name": "Bloodsnout Warlord",
+        "type": "QUILBOAR",
+        "effect": "[x]Whenever a friendly <b>Rally</b>\nminion attacks, play {0}\n<b>Blood Gems</b> on all\nyour minions.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_884.png"
+    },
+    "BG33_885": {
+        "name": "Sanguine Refiner",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Rally:</b> Your <b>Blood Gems</b>\ngive an extra +{0}/+{1}\nthis game.",
+        "attack": 3,
+        "health": 10,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_885.png"
+    },
+    "BG33_886": {
+        "name": "Tusked Camper",
+        "type": "QUILBOAR",
+        "effect": "[x]<b>Rally:</b> Play a <b>Blood Gem</b>\non this.",
+        "attack": 2,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG33_886.png"
+    },
+    "BG33_888": {
+        "name": "Hog Watcher",
+        "type": "",
+        "effect": "<b>Battlecry:</b> Give a Quilboar <b>Divine Shield</b>.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BG33_888.png"
+    },
+    "BG33_891": {
+        "name": "Magicfin Mycologist",
+        "type": "MURLOC",
+        "effect": "[x]Once per turn, after you\nbuy a Tavern spell, get a\n1/1 Murloc and teach\nit that spell. <i>({0} left!)</i>",
+        "attack": 4,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_891.png"
+    },
+    "BG33_892": {
+        "name": "Flotsam Flinger",
+        "type": "MURLOC",
+        "effect": "At the start of your turn, trigger the <b>Battlecries</b> of your minions from Tier 3 or below.",
+        "attack": 3,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_892.png"
+    },
+    "BG33_893": {
+        "name": "Primitive Painter",
+        "type": "MURLOC",
+        "effect": "After you play a card from Tier 3 or below, give your Murlocs +{0}/+{1}.",
+        "attack": 3,
+        "health": 8,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_893.png"
+    },
+    "BG33_894": {
+        "name": "Coldlight Diver",
+        "type": "MURLOC",
+        "effect": "<b>Battlecry and Deathrattle:</b> Get a random Tier 1 Tavern spell.",
+        "attack": 3,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_894.png"
+    },
+    "BG33_895": {
+        "name": "Hot Springer",
+        "type": "MURLOC",
+        "effect": "<b>Battlecry:</b> Give your other Murlocs +{0} Health.",
+        "attack": 5,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_895.png"
+    },
+    "BG33_897": {
+        "name": "Murky, Splash Fisher",
+        "type": "MURLOC",
+        "effect": "<b>Battlecry:</b> Get a copy of Murky's Fish.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG33_897.png"
+    },
+    "BG33_920": {
+        "name": "Wrathscale Rogue",
+        "type": "NAGA",
+        "effect": "After another friendly Naga gains Health, give it that much Attack.",
+        "attack": 3,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_920.png"
+    },
+    "BG33_923": {
+        "name": "Sundered Matriarch",
+        "type": "NAGA",
+        "effect": "Whenever you cast a spell,\ngive your minions\n+{0} Health.",
+        "attack": 7,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BG33_923.png"
+    },
+    "BG33_924": {
+        "name": "Blue Whelp",
+        "type": "DRAGON",
+        "effect": "<b>Rally:</b> Your Tavern spells give an extra +{0} Health this game.",
+        "attack": 1,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG33_924.png"
+    },
+    "BG_AV_309": {
+        "name": "Piggyback Imp",
+        "type": "DEMON",
+        "effect": "<b>Deathrattle:</b> Summon a 4/1 Imp.",
+        "attack": 4,
+        "health": 1,
+        "cost": 3,
+        "techLevel": 2,
+        "image": "/images/minions/BG_AV_309.png"
+    },
+    "BG_BOT_911": {
+        "name": "Annoy-o-Module",
+        "type": "MECHANICAL",
+        "effect": "<b>Magnetic</b>\n<b>Divine Shield</b>\n<b>Taunt</b>",
+        "attack": 2,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BG_BOT_911.png"
+    },
+    "BG_CFM_315": {
+        "name": "Alleycat",
+        "type": "BEAST",
+        "effect": "<b>Battlecry:</b> Summon a 1/1 Cat.",
+        "attack": 1,
+        "health": 1,
+        "cost": 1,
+        "techLevel": 1,
+        "image": "/images/minions/BG_CFM_315.jpg"
+    },
+    "BG_DAL_775": {
+        "name": "Tunnel Blaster",
+        "type": "",
+        "effect": "[x]<b>Taunt</b>\n<b>Deathrattle:</b> Deal 3 damage\nto all minions.",
+        "attack": 3,
+        "health": 7,
+        "cost": 7,
+        "techLevel": 4,
+        "image": "/images/minions/BG_DAL_775.jpg"
+    },
+    "BG_DEEP_015": {
+        "name": "Prosthetic Hand",
+        "type": "MECHANICAL",
+        "effect": "<b>Magnetic</b>, <b>Reborn</b>\nCan <b>Magnetize</b> to\nMechs or Undead.",
+        "attack": 3,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BG_DEEP_015.png"
+    },
+    "BG_GVG_085": {
+        "name": "Annoy-o-Tron",
+        "type": "MECHANICAL",
+        "effect": "<b>Taunt</b>\n<b>Divine Shield</b>",
+        "attack": 1,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BG_GVG_085.png"
+    },
+    "BG_LOE_077": {
+        "name": "Brann Bronzebeard",
+        "type": "",
+        "effect": "Your <b>Battlecries</b> trigger twice.",
+        "attack": 2,
+        "health": 4,
+        "cost": 3,
+        "techLevel": 5,
+        "image": "/images/minions/BG_LOE_077.png"
+    },
+    "BGDUO31_201": {
+        "name": "Gathering Stormer",
+        "type": "ELEMENTAL",
+        "effect": "[x]When you sell this, your\nteammate gains 1 Gold.\n<i>(Upgrades each turn!)</i>",
+        "attack": 5,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGDUO31_201.png"
+    },
+    "BGDUO31_202": {
+        "name": "Loyal Mobster",
+        "type": "QUILBOAR",
+        "effect": "[x]At the end of your turn, play\na <b>Blood Gem</b> on all your\nteammate's minions.",
+        "attack": 6,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGDUO31_202.png"
+    },
+    "BGDUO31_203": {
+        "name": "Shifty Snake",
+        "type": "BEAST",
+        "effect": "[x]<b>Deathrattle:</b> Your\nteammate gets a random\n<b>Deathrattle</b> minion.",
+        "attack": 6,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO31_203.png"
+    },
+    "BGDUO31_205": {
+        "name": "Selfless Sightseer",
+        "type": "DRAGON",
+        "effect": "[x]<b>Battlecry:</b> Increase\nyour team's maximum\nGold by (1).",
+        "attack": 6,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO31_205.png"
+    },
+    "BGDUO31_207": {
+        "name": "Wheeled Crewmate",
+        "type": "PIRATE",
+        "effect": "[x]<b>Deathrattle:</b> Reduce the\nCost of upgrading your\nteam's Taverns by (1).",
+        "attack": 6,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO31_207.png"
+    },
+    "BGDUO31_208": {
+        "name": "San'layn Scribe",
+        "type": "UNDEAD",
+        "effect": "Has +4/+4 for each of your team's San'layn Scribes that died this game <i>(wherever this is)</i>.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO31_208.png"
+    },
+    "BGDUO31_209": {
+        "name": "Private Chef",
+        "type": "NAGA",
+        "effect": "[x]<b>Spellcraft:</b> Choose a minion.\nGet a different random\nminion of its type, then\n<b>Pass</b> it.",
+        "attack": 5,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO31_209.png"
+    },
+    "BGDUO31_211": {
+        "name": "Transport Reactor",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Magnetic</b>\nHas +1/+1 for each time\nyour team has <b>Passed</b> this\n   game <i>(wherever this is).</i>",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGDUO31_211.png"
+    },
+    "BGDUO31_212": {
+        "name": "Mantid King",
+        "type": "",
+        "effect": "[x]After your team <b>Passes</b>,\nrandomly gain <b>Venomous</b>,\n<b>Taunt</b>, or <b>Divine Shield</b>\nuntil next turn.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO31_212.png"
+    },
+    "BGDUO33_140": {
+        "name": "Bottom Feeder",
+        "type": "MURLOC",
+        "effect": "[x]At the end of your turn,\nyou and your teammate\neach get a random\nTier 1 card.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO33_140.png"
+    },
+    "BGDUO33_150": {
+        "name": "Dark Dazzler",
+        "type": "DEMON",
+        "effect": "[x]After your teammate sells\na minion, gain its stats.\n<i>(Once per turn.)</i>",
+        "attack": 4,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGDUO33_150.png"
+    },
+    "BGDUO_100": {
+        "name": "Wanderer Cho",
+        "type": "",
+        "effect": "1 <b>Pass</b> each turn\nis free. <i>(1 left!)</i>",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGDUO_100.png"
+    },
+    "BGDUO_104": {
+        "name": "Friendly Saloonkeeper",
+        "type": "",
+        "effect": "<b>Battlecry:</b> Your teammate gets a Gold Coin.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGDUO_104.png"
+    },
+    "BGDUO_105": {
+        "name": "Magnanimoose",
+        "type": "BEAST",
+        "effect": "[x]<b>Deathrattle:</b> Summon a copy of\na minion from your teammate's\nwarband. Set its Health to 1\n<i>   (except Magnanimoose).</i>",
+        "attack": 5,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO_105.png"
+    },
+    "BGDUO_107": {
+        "name": "Doting Dracthyr",
+        "type": "DRAGON",
+        "effect": "At the end of your turn, give your teammate's minions +1 Attack.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO_107.png"
+    },
+    "BGDUO_108": {
+        "name": "Mirror Monster",
+        "type": "ALL",
+        "effect": "When you buy or <b>Discover</b> this, get an extra copy\nand <b>Pass</b> it.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO_108.png"
+    },
+    "BGDUO_109": {
+        "name": "Support System",
+        "type": "MECHANICAL",
+        "effect": "[x]At the end of your turn,\ngive a minion in your\nteammate's warband\n<b>Divine Shield</b>.",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO_109.png"
+    },
+    "BGDUO_110": {
+        "name": "Feisty Freshwater",
+        "type": "ELEMENTAL",
+        "effect": "[x]<b>Deathrattle:</b> You and your\nteammate each gain two\n  <b>Refreshes</b> that cost (0).",
+        "attack": 6,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO_110.png"
+    },
+    "BGDUO_111": {
+        "name": "Generous Geomancer",
+        "type": "QUILBOAR",
+        "effect": "<b>Deathrattle:</b> You and your teammate each get a <b>Blood Gem</b>.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGDUO_111.png"
+    },
+    "BGDUO_112": {
+        "name": "Grave Narrator",
+        "type": "UNDEAD",
+        "effect": "[x]<b>Avenge (3):</b> Your teammate\ngets a random minion of\n their most common type.",
+        "attack": 2,
+        "health": 7,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGDUO_112.png"
+    },
+    "BGDUO_114": {
+        "name": "Passenger",
+        "type": "",
+        "effect": "The first time your team <b>Passes</b> each turn,\ngain +1/+2.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BGDUO_114.png"
+    },
+    "BGDUO_115": {
+        "name": "Jumping Jack",
+        "type": "ALL",
+        "effect": "[x]After the first time this\nis sold, <b>Pass</b> it.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO_115.png"
+    },
+    "BGDUO_117": {
+        "name": "Puddle Prancer",
+        "type": "MURLOC",
+        "effect": "After this is <b>Passed</b>,\ngain +4/+4.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO_117.png"
+    },
+    "BGDUO_118": {
+        "name": "Plunder Pal",
+        "type": "PIRATE",
+        "effect": "At the start of your turn, you and your teammate each gain 1 Gold.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO_118.png"
+    },
+    "BGDUO_119": {
+        "name": "Orc-estra Conductor",
+        "type": "",
+        "effect": "[x]<b>Battlecry:</b> Give a minion\n+{0}/+{1} <i>(Upgraded for\neach Orc-estra your team\n  has played this game)</i>.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGDUO_119.png"
+    },
+    "BGDUO_120": {
+        "name": "Well Wisher",
+        "type": "",
+        "effect": "<b>Spellcraft:</b> <b>Pass</b> a different non-Golden minion.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO_120.png"
+    },
+    "BGDUO_121": {
+        "name": "Man'ari Messenger",
+        "type": "DEMON",
+        "effect": "<b>Battlecry:</b> Minions in\nyour team's Taverns have +1/+1 this game.",
+        "attack": 9,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO_121.png"
+    },
+    "BGDUO_122": {
+        "name": "Storm Splitter",
+        "type": "NAGA",
+        "effect": "Once per turn, after you <b>Pass</b> a Tavern spell, get a new copy of it.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGDUO_122.png"
+    },
+    "BGDUO_125": {
+        "name": "Sandy",
+        "type": "",
+        "effect": "[x]<b>Start of Combat:</b>\nTransform into a copy of\nyour teammate's highest-\nHealth minion.",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 7,
+        "image": "/images/minions/BGDUO_125.png"
+    },
+    "BGS_002": {
+        "name": "Soul Juggler",
+        "type": "DEMON",
+        "effect": "After a friendly Demon dies, deal {0} damage to the highest-Health enemy minion.",
+        "attack": 3,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_002.png"
+    },
+    "BGS_018": {
+        "name": "Goldrinn, the Great Wolf",
+        "type": "BEAST",
+        "effect": "<b>Deathrattle:</b> For the rest of this combat, your Beasts have +{0}/+{1}.",
+        "attack": 5,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGS_018.png"
+    },
+    "BGS_020": {
+        "name": "Primalfin Lookout",
+        "type": "MURLOC",
+        "effect": "<b>Battlecry:</b> If you control another Murloc, <b>Discover</b> a Murloc.",
+        "attack": 3,
+        "health": 2,
+        "cost": 5,
+        "techLevel": 5,
+        "image": "/images/minions/BGS_020.jpg"
+    },
+    "BGS_021": {
+        "name": "Mama Bear",
+        "type": "BEAST",
+        "effect": "Whenever you summon a Beast, give it +{0}/+{1}.",
+        "attack": 6,
+        "health": 6,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGS_021.png"
+    },
+    "BGS_030": {
+        "name": "King Bagurgle",
+        "type": "MURLOC",
+        "effect": "<b>Battlecry:</b> Give your other Murlocs +{0}/+{1}.",
+        "attack": 3,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGS_030.png"
+    },
+    "BGS_040": {
+        "name": "Nadina the Red",
+        "type": "",
+        "effect": "<b>Deathrattle:</b> Give 3 friendly Dragons <b>Divine Shield</b>.",
+        "attack": 8,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGS_040.png"
+    },
+    "BGS_041": {
+        "name": "Kalecgos, Arcane Aspect",
+        "type": "DRAGON",
+        "effect": "[x]After you trigger a <b>Battlecry</b>,\ngive your Dragons +{0}/+{1}.",
+        "attack": 4,
+        "health": 12,
+        "cost": 0,
+        "techLevel": 6,
+        "image": "/images/minions/BGS_041.png"
+    },
+    "BGS_049": {
+        "name": "Freedealing Gambler",
+        "type": "PIRATE",
+        "effect": "This minion sells for\n3 Gold.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGS_049.png"
+    },
+    "BGS_066": {
+        "name": "Goldgrubber",
+        "type": "PIRATE",
+        "effect": "[x]At the end of your turn,\ngain +{0}/+{1} for each\n  friendly Golden minion.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_066.png"
+    },
+    "BGS_071": {
+        "name": "Deflect-o-Bot",
+        "type": "MECHANICAL",
+        "effect": "[x]<b>Divine Shield</b>\nWhenever you summon a Mech\nduring combat, gain +2 Attack\nand <b>Divine Shield</b>.",
+        "attack": 3,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_071.png"
+    },
+    "BGS_078": {
+        "name": "Monstrous Macaw",
+        "type": "BEAST",
+        "effect": "[x]<b>Rally:</b> Trigger your\nleft-most <b>Deathrattle</b>\n  <i>(except this minion's)</i>.",
+        "attack": 4,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_078.png"
+    },
+    "BGS_104": {
+        "name": "Nomi, Kitchen Nightmare",
+        "type": "",
+        "effect": "[x]After you play an Elemental,\ngive Elementals in the\nTavern +{0}/+{1} this game.",
+        "attack": 4,
+        "health": 4,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGS_104.png"
+    },
+    "BGS_115": {
+        "name": "Sellemental",
+        "type": "ELEMENTAL",
+        "effect": "[x]When you sell this,\nget a 3/3 Elemental.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGS_115.png"
+    },
+    "BGS_116": {
+        "name": "Refreshing Anomaly",
+        "type": "ELEMENTAL",
+        "effect": "[x]<b>Battlecry:</b> Gain 2\n<b>Refreshes</b> that cost (0).",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGS_116.png"
+    },
+    "BGS_119": {
+        "name": "Crackling Cyclone",
+        "type": "ELEMENTAL",
+        "effect": "<b>Divine Shield</b>\n<b>Windfury</b>",
+        "attack": 4,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 2,
+        "image": "/images/minions/BGS_119.png"
+    },
+    "BGS_121": {
+        "name": "Gentle Djinni",
+        "type": "ELEMENTAL",
+        "effect": "<b>Taunt</b>\n <b>Deathrattle:</b> Get a random Elemental.",
+        "attack": 4,
+        "health": 5,
+        "cost": 0,
+        "techLevel": 5,
+        "image": "/images/minions/BGS_121.png"
+    },
+    "BGS_123": {
+        "name": "Tavern Tempest",
+        "type": "ELEMENTAL",
+        "effect": "<b>Battlecry:</b> Get a random Elemental.",
+        "attack": 2,
+        "health": 2,
+        "cost": 0,
+        "techLevel": 4,
+        "image": "/images/minions/BGS_123.png"
+    },
+    "BGS_126": {
+        "name": "Wildfire Elemental",
+        "type": "ELEMENTAL",
+        "effect": "After this attacks and\nkills a minion, deal\nexcess damage to an adjacent minion.",
+        "attack": 6,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_126.png"
+    },
+    "BGS_127": {
+        "name": "Molten Rock",
+        "type": "ELEMENTAL",
+        "effect": "[x]After you play an\nElemental, gain\n+{1} Health.",
+        "attack": 3,
+        "health": 3,
+        "cost": 0,
+        "techLevel": 1,
+        "image": "/images/minions/BGS_127.png"
+    },
+    "BGS_131": {
+        "name": "Deadly Spore",
+        "type": "",
+        "effect": "<b>Venomous</b>",
+        "attack": 1,
+        "health": 1,
+        "cost": 0,
+        "techLevel": 3,
+        "image": "/images/minions/BGS_131.png"
+    }
 }
