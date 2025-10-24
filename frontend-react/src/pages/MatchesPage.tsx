@@ -30,14 +30,22 @@ export const MatchesPage: React.FC = () => {
         setLoading(false);
       }
     };
+
+    // Prima chiamata immediata
     loadMatches();
+
+    // 🔁 Auto-refresh ogni 15 secondi
+    const interval = setInterval(loadMatches, 15000);
+    return () => clearInterval(interval);
   }, []);
 
   useEffect(() => {
     fetch("/data/minions_bg.json")
       .then((r) => r.json())
       .then((data: Record<string, MinionInfo>) => setMinionsInfo(data))
-      .catch(() => console.warn("⚠️ minions_bg.json non trovato per i tooltip"));
+      .catch(() =>
+        console.warn("⚠️ minions_bg.json non trovato per i tooltip")
+      );
   }, []);
 
   if (loading) return <p style={{ color: "#aaa" }}>Caricamento partite...</p>;
@@ -56,22 +64,42 @@ export const MatchesPage: React.FC = () => {
         color: "#f5f5f5",
       }}
     >
-      <h1 style={{ marginBottom: "1.5rem" }}>📜 Ultime Partite</h1>
+      <h1 style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "1.5rem" }}>
+          📜 Ultime Partite
+          <span
+            title="Aggiornamento automatico ogni 15s"
+            style={{
+              display: "inline-block",
+              animation: "spin 15s linear infinite",
+              fontSize: "1.3rem",
+            }}
+          >
+            🔄
+          </span>
+        </h1>
 
+        <style>
+          {`
+            @keyframes spin {
+              from { transform: rotate(0deg); }
+              to { transform: rotate(360deg); }
+            }
+          `}
+        </style>
+        
       {matches.map((m, idx) => {
         const gameResult: string = Array.isArray(m.game_result)
           ? m.game_result[0]
           : m.game_result || "";
 
-          const minionNames: string[] = Array.isArray(m.minions_list)
-            ? m.minions_list.filter(Boolean)
-            : typeof m.minions_list === "string"
-            ? (m.minions_list as string)
-                .split(",")
-                .map((s) => s.trim())
-                .filter(Boolean)
-            : [];
-
+        const minionNames: string[] = Array.isArray(m.minions_list)
+          ? m.minions_list.filter(Boolean)
+          : typeof m.minions_list === "string"
+          ? (m.minions_list as string)
+              .split(",")
+              .map((s) => s.trim())
+              .filter(Boolean)
+          : [];
 
         const minionImgs: string[] =
           typeof m.minion_images === "string"
@@ -79,6 +107,10 @@ export const MatchesPage: React.FC = () => {
             : Array.isArray(m.minion_images)
             ? m.minion_images
             : [];
+
+        // 🔍 Controllo posizione mancante
+        const placementText =
+          m.placement && m.placement > 0 ? m.placement : "⏳ In attesa...";
 
         return (
           <div
@@ -112,7 +144,11 @@ export const MatchesPage: React.FC = () => {
               <div>
                 <h3 style={{ margin: 0 }}>{m.hero_name}</h3>
                 <p style={{ margin: "0.3rem 0", color: "#bbb" }}>
-                  Posizione: <strong>{m.placement}</strong> •{" "}
+                  Posizione:{" "}
+                  <strong style={{ color: m.placement ? "#fff" : "#777" }}>
+                    {placementText}
+                  </strong>{" "}
+                  •{" "}
                   <span style={{ color: resultColor(gameResult) }}>
                     {gameResult.toUpperCase()}
                   </span>{" "}
@@ -132,14 +168,14 @@ export const MatchesPage: React.FC = () => {
                       : m.rating_delta}
                   </strong>
                 </p>
-                  <p style={{ margin: "0.3rem 0", color: "#888" }}>
-                Giocata il:{" "}
-                {m.end_time
-                  ? new Date(m.end_time).toLocaleString("it-IT")
-                  : m.date
-                  ? new Date(m.date).toLocaleString("it-IT")
-                  : "data sconosciuta"}
-              </p>
+                <p style={{ margin: "0.3rem 0", color: "#888" }}>
+                  Giocata il:{" "}
+                  {m.end_time
+                    ? new Date(m.end_time).toLocaleString("it-IT")
+                    : m.date
+                    ? new Date(m.date).toLocaleString("it-IT")
+                    : "data sconosciuta"}
+                </p>
               </div>
             </div>
 
@@ -154,10 +190,14 @@ export const MatchesPage: React.FC = () => {
                 }}
               >
                 {minionNames.map((minionName, i) => {
-                  const minion = Object.values(minionsInfo || {}).find((min: any) => {
-                    if (!min || !min.name || !minionName) return false;
-                    return min.name.toLowerCase() === minionName.toLowerCase();
-                  }) as MinionInfo | undefined;
+                  const minion = Object.values(minionsInfo || {}).find(
+                    (min: any) => {
+                      if (!min || !min.name || !minionName) return false;
+                      return (
+                        min.name.toLowerCase() === minionName.toLowerCase()
+                      );
+                    }
+                  ) as MinionInfo | undefined;
 
                   const src =
                     minionImgs[i]?.trim() ||
