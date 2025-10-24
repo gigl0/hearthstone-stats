@@ -2,21 +2,23 @@ import React, { useEffect, useState } from "react";
 import { getRecentMatches } from "../api";
 import { BattlegroundsMatch } from "../types";
 
-interface MinionInfo {
+interface CardInfo {
   name: string;
-  type: string;
-  effect: string;
+  type?: string;
+  effect?: string;
   image: string;
 }
 
 export const MatchesPage: React.FC = () => {
   const [matches, setMatches] = useState<BattlegroundsMatch[]>([]);
-  const [minionsInfo, setMinionsInfo] = useState<Record<string, MinionInfo>>({});
+  const [minionsInfo, setMinionsInfo] = useState<Record<string, CardInfo>>({});
+  const [heroesInfo, setHeroesInfo] = useState<Record<string, CardInfo>>({});
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
-  const placeholder = "/images/minions/placeholder.png";
+  const placeholder = "/images/placeholder.png";
 
+  // === Carica partite ===
   useEffect(() => {
     const loadMatches = async () => {
       try {
@@ -31,21 +33,22 @@ export const MatchesPage: React.FC = () => {
       }
     };
 
-    // Prima chiamata immediata
     loadMatches();
-
-    // 🔁 Auto-refresh ogni 15 secondi
     const interval = setInterval(loadMatches, 15000);
     return () => clearInterval(interval);
   }, []);
 
+  // === Carica dati minion e eroi ===
   useEffect(() => {
-    fetch("/data/minions_bg.json")
+    fetch("/minions_bg.json")
       .then((r) => r.json())
-      .then((data: Record<string, MinionInfo>) => setMinionsInfo(data))
-      .catch(() =>
-        console.warn("⚠️ minions_bg.json non trovato per i tooltip")
-      );
+      .then((data) => setMinionsInfo(data))
+      .catch(() => console.warn("⚠️ minions_bg.json non trovato"));
+
+    fetch("/heroes_bg.json")
+      .then((r) => r.json())
+      .then((data) => setHeroesInfo(data))
+      .catch(() => console.warn("⚠️ heroes_bg.json non trovato"));
   }, []);
 
   if (loading) return <p style={{ color: "#aaa" }}>Caricamento partite...</p>;
@@ -57,60 +60,59 @@ export const MatchesPage: React.FC = () => {
     res === "win" ? "limegreen" : res === "top4" ? "gold" : "tomato";
 
   return (
-    <div
-      style={{
-        padding: "2rem",
-        fontFamily: "Inter, sans-serif",
-        color: "#f5f5f5",
-      }}
-    >
+    <div style={{ padding: "2rem", fontFamily: "Inter, sans-serif", color: "#f5f5f5" }}>
       <h1 style={{ display: "flex", alignItems: "center", gap: "0.6rem", marginBottom: "1.5rem" }}>
-          📜 Ultime Partite
-          <span
-            title="Aggiornamento automatico ogni 15s"
-            style={{
-              display: "inline-block",
-              animation: "spin 15s linear infinite",
-              fontSize: "1.3rem",
-            }}
-          >
-            🔄
-          </span>
-        </h1>
+        📜 Ultime Partite
+        <span
+          title="Aggiornamento automatico ogni 15s"
+          style={{ animation: "spin 15s linear infinite", fontSize: "1.3rem" }}
+        >
+          🔄
+        </span>
+      </h1>
 
-        <style>
-          {`
-            @keyframes spin {
-              from { transform: rotate(0deg); }
-              to { transform: rotate(360deg); }
-            }
-          `}
-        </style>
+      <style>
+        {`
+          @keyframes spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+          }
+        `}
+      </style>
 
       {matches.map((m, idx) => {
-        const gameResult: string = Array.isArray(m.game_result)
+        const gameResult = Array.isArray(m.game_result)
           ? m.game_result[0]
           : m.game_result || "";
 
-        const minionNames: string[] = Array.isArray(m.minions_list)
-          ? m.minions_list.filter(Boolean)
-          : typeof m.minions_list === "string"
-          ? (m.minions_list as string)
-              .split(",")
-              .map((s) => s.trim())
-              .filter(Boolean)
-          : [];
-
-        const minionImgs: string[] =
-          typeof m.minion_images === "string"
-            ? m.minion_images.split("|").map((s) => s.trim())
-            : Array.isArray(m.minion_images)
-            ? m.minion_images
-            : [];
-
-        // 🔍 Controllo posizione mancante
         const placementText =
           m.placement && m.placement > 0 ? m.placement : "⏳ In attesa...";
+
+        // === HERO IMAGE ===
+        const hero = Object.values(heroesInfo).find(
+          (h: any) => h.name?.toLowerCase() === m.hero_name?.toLowerCase()
+        ) as CardInfo | undefined;
+
+        let heroImg = placeholder;
+        if (hero?.image) {
+          if (hero.image.startsWith("http")) heroImg = hero.image;
+          else heroImg = `/images/heroes/${hero.image.split("/").pop()}`;
+        } else {
+          // fallback CDN
+          const heroId = Object.keys(heroesInfo).find((k) =>
+            k.includes(m.hero_name?.replace(/\s/g, "_") || "")
+          );
+          if (heroId)
+            heroImg = `https://art.hearthstonejson.com/v1/render/latest/enUS/512x/${heroId}.png`;
+        }
+
+
+        // === MINION IMAGES ===
+        const minionNames = Array.isArray(m.minions_list)
+          ? m.minions_list
+          : typeof m.minions_list === "string"
+          ? m.minions_list.split(",").map((s) => s.trim())
+          : [];
 
         return (
           <div
@@ -121,13 +123,12 @@ export const MatchesPage: React.FC = () => {
               padding: "1.5rem",
               borderRadius: "12px",
               boxShadow: "0 0 12px rgba(0,0,0,0.4)",
-              transition: "transform 0.2s ease",
             }}
           >
             {/* === HERO INFO === */}
             <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
               <img
-                src={`/images/heroes/${m.hero_name}.png`}
+                src={heroImg || placeholder}
                 alt={m.hero_name}
                 width={80}
                 height={80}
@@ -168,14 +169,6 @@ export const MatchesPage: React.FC = () => {
                       : m.rating_delta}
                   </strong>
                 </p>
-                <p style={{ margin: "0.3rem 0", color: "#888" }}>
-                  Giocata il:{" "}
-                  {m.end_time
-                    ? new Date(m.end_time).toLocaleString("it-IT")
-                    : m.date
-                    ? new Date(m.date).toLocaleString("it-IT")
-                    : "data sconosciuta"}
-                </p>
               </div>
             </div>
 
@@ -189,24 +182,13 @@ export const MatchesPage: React.FC = () => {
                   marginTop: "1rem",
                 }}
               >
-                {minionNames.map((minionName, i) => {
-                  const minion = Object.values(minionsInfo || {}).find(
-                    (min: any) => {
-                      if (!min || !min.name || !minionName) return false;
-                      return (
-                        min.name.toLowerCase() === minionName.toLowerCase()
-                      );
-                    }
-                  ) as MinionInfo | undefined;
+                {minionNames.map((name, i) => {
+                  const minion = Object.values(minionsInfo).find(
+                    (min: any) =>
+                      min.name?.toLowerCase() === name?.toLowerCase()
+                  ) as CardInfo | undefined;
 
-                  const rawImg = minionImgs[i]?.trim() || "";
-                  const fileName = rawImg.split("/").pop() || "";
-
-                  const src = rawImg.startsWith("http")
-                    ? rawImg
-                    : rawImg.includes("static/images/")
-                    ? `/images/minions/${fileName}`
-                    : `/images/minions/${fileName}`;
+                  const src = minion?.image || placeholder;
 
                   return (
                     <div
@@ -220,7 +202,7 @@ export const MatchesPage: React.FC = () => {
                     >
                       <img
                         src={src}
-                        alt={minionName}
+                        alt={name}
                         width={70}
                         height={70}
                         style={{
@@ -231,11 +213,12 @@ export const MatchesPage: React.FC = () => {
                         }}
                         title={
                           minion
-                            ? `${minion.name}\n${minion.type}\n${minion.effect}`
+                            ? `${minion.name}\n${minion.type || ""}\n${minion.effect || ""}`
                             : "Immagine non disponibile"
                         }
-                        onError={(e) => ((e.target as HTMLImageElement).src = "/images/placeholder.png")}
-
+                        onError={(e) =>
+                          ((e.target as HTMLImageElement).src = placeholder)
+                        }
                       />
                       <p
                         style={{
@@ -247,7 +230,7 @@ export const MatchesPage: React.FC = () => {
                           overflow: "hidden",
                         }}
                       >
-                        {minionName || "Sconosciuto"}
+                        {name || "Sconosciuto"}
                       </p>
                     </div>
                   );
