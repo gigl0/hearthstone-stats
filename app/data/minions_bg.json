@@ -957,7 +957,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 5,
-        "image": "/images/minions/BG28_551.jpg"
+        "image": "/images/minions/BG28_551.png"
     },
     "BG28_583": {
         "name": "Geomagus Roogug",
@@ -2177,7 +2177,7 @@
         "health": 1,
         "cost": 1,
         "techLevel": 1,
-        "image": "/images/minions/BG_CFM_315.jpg"
+        "image": "/images/minions/BG_CFM_315.png"
     },
     "BG_DAL_775": {
         "name": "Tunnel Blaster",
@@ -2187,7 +2187,7 @@
         "health": 7,
         "cost": 7,
         "techLevel": 4,
-        "image": "/images/minions/BG_DAL_775.jpg"
+        "image": "/images/minions/BG_DAL_775.png"
     },
     "BG_DEEP_015": {
         "name": "Prosthetic Hand",
@@ -2537,7 +2537,7 @@
         "health": 2,
         "cost": 5,
         "techLevel": 5,
-        "image": "/images/minions/BGS_020.jpg"
+        "image": "/images/minions/BGS_020.png"
     },
     "BGS_021": {
         "name": "Mama Bear",

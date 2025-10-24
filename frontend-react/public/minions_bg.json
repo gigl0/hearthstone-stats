@@ -307,7 +307,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG23_357.png"
     },
     "BG24_009": {
         "name": "Picky Eater",
@@ -317,7 +317,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG24_009.png"
     },
     "BG24_500": {
         "name": "Amber Guardian",
@@ -937,7 +937,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG28_405.png"
     },
     "BG28_550": {
         "name": "Rodeo Performer",
@@ -947,7 +947,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG28_550.png"
     },
     "BG28_551": {
         "name": "Nalaa the Redeemer",
@@ -977,7 +977,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG28_597.png"
     },
     "BG29_140": {
         "name": "False Implicator",
@@ -997,7 +997,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG29_611.png"
     },
     "BG29_813": {
         "name": "Persistent Poet",
@@ -1007,7 +1007,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG29_813.png"
     },
     "BG29_814": {
         "name": "Misfit Dragonling",
@@ -1047,7 +1047,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG29_871.png"
     },
     "BG29_888": {
         "name": "Glim Guardian",
@@ -1057,7 +1057,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG29_888.png"
     },
     "BG30_008": {
         "name": "Greenskeeper",
@@ -1067,7 +1067,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG30_008.png"
     },
     "BG30_121": {
         "name": "Hot-Air Surveyor",
@@ -1077,7 +1077,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG30_121.png"
     },
     "BG30_122": {
         "name": "Mrglin' Burglar",
@@ -1087,7 +1087,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG30_122.png"
     },
     "BG30_123": {
         "name": "Fearless Foodie",
@@ -1097,7 +1097,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG30_123.png"
     },
     "BG30_125": {
         "name": "Cadaver Caretaker",
@@ -1107,7 +1107,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG30_125.png"
     },
     "BG30_129": {
         "name": "Catacomb Crasher",
@@ -1117,7 +1117,7 @@
         "health": 10,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG30_129.png"
     },
     "BG30_160": {
         "name": "Bountiful Bedrock",
@@ -1127,7 +1127,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG30_160.png"
     },
     "BG31_144": {
         "name": "Adaptive Ancestor",
@@ -1137,7 +1137,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG31_144.png"
     },
     "BG31_170": {
         "name": "Frantic Alarm-o-Bot",
@@ -1147,7 +1147,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG31_170.png"
     },
     "BG31_175": {
         "name": "Holo Rover",
@@ -1157,7 +1157,7 @@
         "health": 12,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG31_175.png"
     },
     "BG31_177": {
         "name": "Mechagnome Interpreter",
@@ -1167,7 +1167,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG31_177.png"
     },
     "BG31_320": {
         "name": "Crater Miner",
@@ -1177,7 +1177,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG31_320.png"
     },
     "BG31_330": {
         "name": "Ominous Seer",
@@ -1187,7 +1187,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG31_330.png"
     },
     "BG31_360": {
         "name": "Arcane Behemoth",
@@ -1197,7 +1197,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 7,
-        "image": ""
+        "image": "/images/minions/BG31_360.png"
     },
     "BG31_361": {
         "name": "Bellowing Tyrant",
@@ -1207,7 +1207,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 7,
-        "image": ""
+        "image": "/images/minions/BG31_361.png"
     },
     "BG31_810": {
         "name": "Ultraviolet Ascendant",
@@ -1217,7 +1217,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG31_810.png"
     },
     "BG31_812": {
         "name": "Ichoron the Protector",
@@ -1227,7 +1227,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG31_812.png"
     },
     "BG31_815": {
         "name": "Dune Dweller",
@@ -1237,7 +1237,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG31_815.png"
     },
     "BG31_816": {
         "name": "Fire Baller",
@@ -1247,7 +1247,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG31_816.png"
     },
     "BG31_818": {
         "name": "Snow Baller",
@@ -1257,7 +1257,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG31_818.png"
     },
     "BG31_830": {
         "name": "Weary Mage",
@@ -1267,7 +1267,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG31_830.png"
     },
     "BG31_835": {
         "name": "Deathly Striker",
@@ -1277,7 +1277,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG31_835.png"
     },
     "BG31_859": {
         "name": "Technical Element",
@@ -1287,7 +1287,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG31_859.png"
     },
     "BG31_875": {
         "name": "Tardy Traveler",
@@ -1297,7 +1297,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG31_875.png"
     },
     "BG31_925": {
         "name": "Showy Cyclist",
@@ -1307,7 +1307,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG31_925.png"
     },
     "BG31_999": {
         "name": "Stitched Salvager",
@@ -1317,7 +1317,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 7,
-        "image": ""
+        "image": "/images/minions/BG31_999.png"
     },
     "BG32_111": {
         "name": "Nightmare Par-tea Guest",
@@ -1327,7 +1327,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG32_111.png"
     },
     "BG32_173": {
         "name": "Rickety Repairbot",
@@ -1337,7 +1337,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_173.png"
     },
     "BG32_202": {
         "name": "Valiant Tiger",
@@ -1347,7 +1347,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG32_202.png"
     },
     "BG32_231": {
         "name": "Elite Navigator",
@@ -1357,7 +1357,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_231.png"
     },
     "BG32_232": {
         "name": "Thieving Rascal",
@@ -1367,7 +1367,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_232.png"
     },
     "BG32_235": {
         "name": "Surfing Sylvar",
@@ -1377,7 +1377,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG32_235.png"
     },
     "BG32_236": {
         "name": "Aureate Laureate",
@@ -1387,7 +1387,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG32_236.png"
     },
     "BG32_325": {
         "name": "Noisul of the Many Faces",
@@ -1397,7 +1397,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_325.png"
     },
     "BG32_330": {
         "name": "Flighty Scout",
@@ -1407,7 +1407,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG32_330.png"
     },
     "BG32_331": {
         "name": "Grimscale Elegist",
@@ -1417,7 +1417,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG32_331.png"
     },
     "BG32_341": {
         "name": "Humon'gozz",
@@ -1427,7 +1427,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG32_341.png"
     },
     "BG32_430": {
         "name": "Glowgullet Warlord",
@@ -1437,7 +1437,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG32_430.png"
     },
     "BG32_820": {
         "name": "Firescale Hoarder",
@@ -1447,7 +1447,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_820.png"
     },
     "BG32_821": {
         "name": "Felfire Conjurer",
@@ -1457,7 +1457,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG32_821.png"
     },
     "BG32_822": {
         "name": "Fire-forged Evoker",
@@ -1467,7 +1467,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG32_822.png"
     },
     "BG32_835": {
         "name": "Tranquil Meditative",
@@ -1477,7 +1477,7 @@
         "health": 9,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_835.png"
     },
     "BG32_836": {
         "name": "Coilskar Sapper",
@@ -1487,7 +1487,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG32_836.png"
     },
     "BG32_837": {
         "name": "Fauna Whisperer",
@@ -1497,7 +1497,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG32_837.png"
     },
     "BG32_860": {
         "name": "Shoalfin Mystic",
@@ -1507,7 +1507,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG32_860.png"
     },
     "BG32_869": {
         "name": "Beacon of Hope",
@@ -1517,7 +1517,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG32_869.png"
     },
     "BG32_880": {
         "name": "Friendly Geist",
@@ -1527,7 +1527,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG32_880.png"
     },
     "BG32_891": {
         "name": "Shadowdancer",
@@ -1537,7 +1537,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG32_891.png"
     },
     "BG33_111": {
         "name": "Carapace Raiser",
@@ -1547,7 +1547,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_111.png"
     },
     "BG33_113": {
         "name": "Campfire Shadow",
@@ -1557,7 +1557,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_113.png"
     },
     "BG33_115": {
         "name": "Ride-or-Die",
@@ -1567,7 +1567,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG33_115.png"
     },
     "BG33_116": {
         "name": "Oranomonos, the Wilted",
@@ -1577,7 +1577,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_116.png"
     },
     "BG33_140": {
         "name": "River Skipper",
@@ -1587,7 +1587,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG33_140.png"
     },
     "BG33_152": {
         "name": "Improviser",
@@ -1597,7 +1597,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_152.png"
     },
     "BG33_153": {
         "name": "Cupcake Peddler",
@@ -1607,7 +1607,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_153.png"
     },
     "BG33_154": {
         "name": "Lord of the Ruins",
@@ -1617,7 +1617,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_154.png"
     },
     "BG33_155": {
         "name": "Devout Hellcaller",
@@ -1627,7 +1627,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_155.png"
     },
     "BG33_156": {
         "name": "Silent Enforcer",
@@ -1637,7 +1637,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_156.png"
     },
     "BG33_157": {
         "name": "Void Earl",
@@ -1647,7 +1647,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_157.png"
     },
     "BG33_240": {
         "name": "Charmwing",
@@ -1657,7 +1657,7 @@
         "health": 10,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_240.png"
     },
     "BG33_241": {
         "name": "Sleepy Supporter",
@@ -1667,7 +1667,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG33_241.png"
     },
     "BG33_244": {
         "name": "Nimble Hatchling",
@@ -1677,7 +1677,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_244.png"
     },
     "BG33_245": {
         "name": "Twilight Watcher",
@@ -1687,7 +1687,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_245.png"
     },
     "BG33_300": {
         "name": "All-Seeing Elder",
@@ -1697,7 +1697,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_300.png"
     },
     "BG33_311": {
         "name": "Felblaze Leader",
@@ -1707,7 +1707,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_311.png"
     },
     "BG33_315": {
         "name": "Greedy Snaketongue",
@@ -1717,7 +1717,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_315.png"
     },
     "BG33_318": {
         "name": "Bile Spitter",
@@ -1727,7 +1727,7 @@
         "health": 10,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_318.png"
     },
     "BG33_319": {
         "name": "Rimescale Priestess",
@@ -1737,7 +1737,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_319.png"
     },
     "BG33_320": {
         "name": "Primeval Monstrosity",
@@ -1747,7 +1747,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_320.png"
     },
     "BG33_325": {
         "name": "Geared Guard",
@@ -1757,7 +1757,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG33_325.png"
     },
     "BG33_331": {
         "name": "Lantern Lava",
@@ -1767,7 +1767,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_331.png"
     },
     "BG33_334": {
         "name": "Vine Climber",
@@ -1777,7 +1777,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_334.png"
     },
     "BG33_337": {
         "name": "Avalanche Caller",
@@ -1787,7 +1787,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_337.png"
     },
     "BG33_370": {
         "name": "Expert Technician",
@@ -1797,7 +1797,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_370.png"
     },
     "BG33_371": {
         "name": "P-0UL-TR-0N",
@@ -1807,7 +1807,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_371.png"
     },
     "BG33_430": {
         "name": "Prodigious Tusker",
@@ -1817,7 +1817,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG33_430.png"
     },
     "BG33_700": {
         "name": "Friendly Bouncer",
@@ -1827,7 +1827,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_700.png"
     },
     "BG33_802": {
         "name": "Ruins Renovator",
@@ -1837,7 +1837,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_802.png"
     },
     "BG33_805": {
         "name": "Gleaming Trader",
@@ -1847,7 +1847,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_805.png"
     },
     "BG33_807": {
         "name": "Whirring Protector",
@@ -1857,7 +1857,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_807.png"
     },
     "BG33_808": {
         "name": "Super Constructor",
@@ -1867,7 +1867,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_808.png"
     },
     "BG33_809": {
         "name": "Divine Sparkbot",
@@ -1877,7 +1877,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_809.png"
     },
     "BG33_820": {
         "name": "Lost City Looter",
@@ -1887,7 +1887,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_820.png"
     },
     "BG33_821": {
         "name": "Shipwrecked Rascal",
@@ -1897,7 +1897,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_821.png"
     },
     "BG33_822": {
         "name": "Bigwig Bandit",
@@ -1907,7 +1907,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_822.png"
     },
     "BG33_823": {
         "name": "Sky Admiral Rogers",
@@ -1917,7 +1917,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_823.png"
     },
     "BG33_825": {
         "name": "Proud Privateer",
@@ -1927,7 +1927,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_825.png"
     },
     "BG33_826": {
         "name": "Wizened Captain",
@@ -1937,7 +1937,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BG33_826.png"
     },
     "BG33_827": {
         "name": "Yorik Smite",
@@ -1947,7 +1947,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_827.png"
     },
     "BG33_828": {
         "name": "Ship Master Eudora",
@@ -1957,7 +1957,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_828.png"
     },
     "BG33_830": {
         "name": "Azsharan Cutlassier",
@@ -1967,7 +1967,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_830.png"
     },
     "BG33_840": {
         "name": "Stomping Stegodon",
@@ -1977,7 +1977,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_840.png"
     },
     "BG33_841": {
         "name": "Lightfeather Screecher",
@@ -1987,7 +1987,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_841.png"
     },
     "BG33_842": {
         "name": "Raptor Elder",
@@ -1997,7 +1997,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_842.png"
     },
     "BG33_870": {
         "name": "Golem Archivist",
@@ -2007,7 +2007,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_870.png"
     },
     "BG33_883": {
         "name": "Razorfen Vineweaver",
@@ -2017,7 +2017,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_883.png"
     },
     "BG33_884": {
         "name": "Bloodsnout Warlord",
@@ -2027,7 +2027,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_884.png"
     },
     "BG33_885": {
         "name": "Sanguine Refiner",
@@ -2037,7 +2037,7 @@
         "health": 10,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_885.png"
     },
     "BG33_886": {
         "name": "Tusked Camper",
@@ -2047,7 +2047,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 1,
-        "image": ""
+        "image": "/images/minions/BG33_886.png"
     },
     "BG33_888": {
         "name": "Hog Watcher",
@@ -2057,7 +2057,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG33_888.png"
     },
     "BG33_891": {
         "name": "Magicfin Mycologist",
@@ -2067,7 +2067,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_891.png"
     },
     "BG33_892": {
         "name": "Flotsam Flinger",
@@ -2077,7 +2077,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_892.png"
     },
     "BG33_893": {
         "name": "Primitive Painter",
@@ -2087,7 +2087,7 @@
         "health": 8,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_893.png"
     },
     "BG33_894": {
         "name": "Coldlight Diver",
@@ -2097,7 +2097,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_894.png"
     },
     "BG33_895": {
         "name": "Hot Springer",
@@ -2107,7 +2107,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_895.png"
     },
     "BG33_897": {
         "name": "Murky, Splash Fisher",
@@ -2117,7 +2117,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BG33_897.png"
     },
     "BG33_920": {
         "name": "Wrathscale Rogue",
@@ -2127,7 +2127,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_920.png"
     },
     "BG33_923": {
         "name": "Sundered Matriarch",
@@ -2137,7 +2137,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BG33_923.png"
     },
     "BG33_924": {
         "name": "Blue Whelp",
@@ -2147,7 +2147,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BG33_924.png"
     },
     "BG_AV_309": {
         "name": "Piggyback Imp",
@@ -2217,7 +2217,7 @@
         "health": 4,
         "cost": 3,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BG_LOE_077.png"
     },
     "BGDUO31_201": {
         "name": "Gathering Stormer",
@@ -2227,7 +2227,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BGDUO31_201.png"
     },
     "BGDUO31_202": {
         "name": "Loyal Mobster",
@@ -2237,7 +2237,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BGDUO31_202.png"
     },
     "BGDUO31_203": {
         "name": "Shifty Snake",
@@ -2247,7 +2247,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO31_203.png"
     },
     "BGDUO31_205": {
         "name": "Selfless Sightseer",
@@ -2257,7 +2257,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BGDUO31_205.png"
     },
     "BGDUO31_207": {
         "name": "Wheeled Crewmate",
@@ -2267,7 +2267,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BGDUO31_207.png"
     },
     "BGDUO31_208": {
         "name": "San'layn Scribe",
@@ -2277,7 +2277,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO31_208.png"
     },
     "BGDUO31_209": {
         "name": "Private Chef",
@@ -2287,7 +2287,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO31_209.png"
     },
     "BGDUO31_211": {
         "name": "Transport Reactor",
@@ -2297,7 +2297,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BGDUO31_211.png"
     },
     "BGDUO31_212": {
         "name": "Mantid King",
@@ -2307,7 +2307,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO31_212.png"
     },
     "BGDUO33_140": {
         "name": "Bottom Feeder",
@@ -2317,7 +2317,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BGDUO33_140.png"
     },
     "BGDUO33_150": {
         "name": "Dark Dazzler",
@@ -2327,7 +2327,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 6,
-        "image": ""
+        "image": "/images/minions/BGDUO33_150.png"
     },
     "BGDUO_100": {
         "name": "Wanderer Cho",
@@ -2337,7 +2337,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BGDUO_100.png"
     },
     "BGDUO_104": {
         "name": "Friendly Saloonkeeper",
@@ -2347,7 +2347,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 2,
-        "image": ""
+        "image": "/images/minions/BGDUO_104.png"
     },
     "BGDUO_105": {
         "name": "Magnanimoose",
@@ -2357,7 +2357,7 @@
         "health": 2,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BGDUO_105.png"
     },
     "BGDUO_107": {
         "name": "Doting Dracthyr",
@@ -2367,7 +2367,7 @@
         "health": 3,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BGDUO_107.png"
     },
     "BGDUO_108": {
         "name": "Mirror Monster",
@@ -2377,7 +2377,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO_108.png"
     },
     "BGDUO_109": {
         "name": "Support System",
@@ -2387,7 +2387,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BGDUO_109.png"
     },
     "BGDUO_110": {
         "name": "Feisty Freshwater",
@@ -2397,7 +2397,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO_110.png"
     },
     "BGDUO_111": {
         "name": "Generous Geomancer",
@@ -2417,7 +2417,7 @@
         "health": 7,
         "cost": 0,
         "techLevel": 4,
-        "image": ""
+        "image": "/images/minions/BGDUO_112.png"
     },
     "BGDUO_114": {
         "name": "Passenger",
@@ -2437,7 +2437,7 @@
         "health": 4,
         "cost": 0,
         "techLevel": 3,
-        "image": ""
+        "image": "/images/minions/BGDUO_115.png"
     },
     "BGDUO_117": {
         "name": "Puddle Prancer",
@@ -2477,7 +2477,7 @@
         "health": 6,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BGDUO_120.png"
     },
     "BGDUO_121": {
         "name": "Man'ari Messenger",
@@ -2497,7 +2497,7 @@
         "health": 5,
         "cost": 0,
         "techLevel": 5,
-        "image": ""
+        "image": "/images/minions/BGDUO_122.png"
     },
     "BGDUO_125": {
         "name": "Sandy",
@@ -2507,7 +2507,7 @@
         "health": 1,
         "cost": 0,
         "techLevel": 7,
-        "image": ""
+        "image": "/images/minions/BGDUO_125.png"
     },
     "BGS_002": {
         "name": "Soul Juggler",
