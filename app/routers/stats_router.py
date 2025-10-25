@@ -2,7 +2,7 @@
 
 from fastapi import APIRouter, Depends
 from sqlalchemy.orm import Session
-from sqlalchemy import func
+from sqlalchemy import func, Integer
 from app.db.session import get_db
 from app.models.models import BattlegroundsMatch
 
@@ -44,67 +44,64 @@ def get_global_stats(db: Session = Depends(get_db)):
 # =========================
 @router.get("/heroes")
 def get_hero_stats(db: Session = Depends(get_db)):
-    heroes = db.query(BattlegroundsMatch.hero_name).distinct().all()
-    if not heroes:
-        return []
-
-    hero_stats = []
-    for (hero_name,) in heroes:
-        hero_matches = (
-            db.query(BattlegroundsMatch)
-            .filter(BattlegroundsMatch.hero_name == hero_name)
-            .all()
+    """
+    Win rate e Top4 rate per eroe.
+    """
+    results = (
+        db.query(
+            BattlegroundsMatch.hero_name.label("hero_name"),
+            func.avg((BattlegroundsMatch.placement == 1).cast(Integer)).label("win_rate"),
+            func.avg((BattlegroundsMatch.placement <= 4).cast(Integer)).label("top4_rate"),
         )
-        if not hero_matches:
-            continue
+        .filter(BattlegroundsMatch.hero_name.isnot(None))
+        .group_by(BattlegroundsMatch.hero_name)
+        .all()
+    )
+    return [
+        {"hero": r.hero_name, "win_rate": r.win_rate, "top4_rate": r.top4_rate}
+        for r in results
+    ]
 
-        total = len(hero_matches)
-        wins = sum(1 for m in hero_matches if m.game_result and "win" in m.game_result.lower())
-        top4 = sum(1 for m in hero_matches if m.placement and m.placement <= 4)
-        avg_place = sum(m.placement for m in hero_matches if m.placement) / total
-
-        hero_stats.append({
-            "hero_name": hero_name,
-            "matches": total,
-            "win_rate": wins / total if total else 0,
-            "top4_rate": top4 / total if total else 0,
-            "avg_placement": avg_place,
-        })
-
-    hero_stats.sort(key=lambda x: x["win_rate"], reverse=True)
-    return hero_stats
 
 # =========================
 # 🧩 COMPOSIZIONE MINION (placeholder per il PieChart)
 # =========================
+
+from fastapi.responses import JSONResponse
+
 @router.get("/minions")
-def get_minions_placeholder():
-    return {
-        "Mech": {"games": 10, "top4_rate": 0.7},
-        "Beast": {"games": 8, "top4_rate": 0.6},
-        "Demon": {"games": 5, "top4_rate": 0.4},
-        "Elemental": {"games": 3, "top4_rate": 0.5},
-    }
+def get_minion_stats(db: Session = Depends(get_db)):
+    """
+    Top4 rate per tipo di composizione (minion_types).
+    """
+    results = (
+        db.query(
+            BattlegroundsMatch.minion_types.label("minion_types"),
+            func.avg((BattlegroundsMatch.placement <= 4).cast(Integer)).label("top4_rate"),
+        )
+        .filter(BattlegroundsMatch.minion_types.isnot(None))
+        .group_by(BattlegroundsMatch.minion_types)
+        .all()
+    )
+    return {r.minion_types: {"top4_rate": r.top4_rate} for r in results}
+
 
 # =========================
 # 📈 RATING TREND
 # =========================
+
 @router.get("/rating_trend")
 def get_rating_trend(db: Session = Depends(get_db)):
-    matches = (
+    """
+    Andamento del rating nel tempo.
+    """
+    results = (
         db.query(BattlegroundsMatch.end_time, BattlegroundsMatch.rating_after)
         .filter(BattlegroundsMatch.rating_after.isnot(None))
-        .order_by(BattlegroundsMatch.end_time.asc())
-        .limit(50)
+        .order_by(BattlegroundsMatch.end_time)
         .all()
     )
-    if not matches:
-        return []
-
     return [
-        {
-            "end_time": m.end_time.isoformat() if m.end_time else None,
-            "rating_after": m.rating_after
-        }
-        for m in matches
+        {"end_time": r.end_time.isoformat(), "rating_after": r.rating_after}
+        for r in results
     ]
