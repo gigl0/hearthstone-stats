@@ -6,6 +6,8 @@ from sqlalchemy import text
 from app.db.session import engine
 from app.models.models import Base
 from app.routers import matches_router, stats_router, import_router
+from app.routers import stats_hero_router, stats_minion_router, stats_basic_router, stats_advanced_router
+
 from dotenv import load_dotenv
 import os
 # --- Crea tabelle se non esistono ---
@@ -31,7 +33,10 @@ app.add_middleware(
 app.include_router(matches_router.router, prefix="/api/v1/matches", tags=["matches"])
 app.include_router(stats_router.router, prefix="/api/v1/stats", tags=["stats"])
 app.include_router(import_router.router, prefix="/api/v1/import", tags=["import"])
-
+app.include_router(stats_hero_router.router, prefix="/api/v1/stats", tags=["stats-hero"])
+app.include_router(stats_minion_router.router, prefix="/api/v1/stats/by_minion_type", tags=["stats-minion"])
+app.include_router(stats_basic_router.router, prefix="/api/v1/stats", tags=["stats-basic"])
+app.include_router(stats_advanced_router.router, prefix="/api/v1/stats", tags=["stats-advanced"])
 # --- Endpoint di test ---
 @app.get("/")
 def root():
