@@ -39,3 +39,35 @@ export const getSyncStatus = () => fetchJSON("/api/v1/import/status");
 // === IMPORT MANUALE ===
 export const triggerImport = () =>
   fetchJSON("/api/v1/import/start", { method: "POST" });
+
+// ==========================================
+// 🧠 ADVANCED STATS ENDPOINTS (NEW)
+// ==========================================
+
+// → /api/v1/stats/by_hero/{hero_name}
+export const getStatsByHero = (heroName: string) =>
+  fetchJSON(`/api/v1/stats/by_hero/${encodeURIComponent(heroName)}`);
+
+// → /api/v1/stats/by_minion_type/{type}
+export const getStatsByMinionType = (type: string) =>
+  fetchJSON(`/api/v1/stats/by_minion_type/${encodeURIComponent(type)}`);
+
+// → /api/v1/stats/summary
+export const getSummary = (limit = 20) =>
+  fetchJSON(`/api/v1/stats/summary?limit=${limit}`);
+
+// → /api/v1/stats/streaks
+export const getStreaks = () => fetchJSON("/api/v1/stats/streaks");
+
+// → /api/v1/stats/timeline
+export const getTimeline = () => fetchJSON("/api/v1/stats/timeline");
+
+// → /api/v1/stats/match_duration
+export const getMatchDuration = () => fetchJSON("/api/v1/stats/match_duration");
+
+// → /api/v1/stats/distribution
+export const getDistribution = () => fetchJSON("/api/v1/stats/distribution");
+
+// → /api/v1/stats/elo_progression
+export const getEloProgression = () => fetchJSON("/api/v1/stats/elo_progression");
+

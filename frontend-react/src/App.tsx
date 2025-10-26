@@ -4,6 +4,7 @@ import { Dashboard } from "./pages/Dashboard";
 import { MatchesPage } from "./pages/MatchesPage";
 import { ImportLogsPage } from "./pages/ImportLogsPage";
 import { StatsPage } from "./pages/StatsPage";
+import { AdvancedStatsPage } from "./pages/AdvancedStatsPage"; // 🆕 nuova pagina
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           color: "#F5F5F5",
         }}
       >
+        {/* === HEADER === */}
         <h1 style={{ color: "#fff", marginBottom: "1.5rem" }}>
           Hearthstone Battlegrounds Dashboard
         </h1>
@@ -34,13 +36,16 @@ function App() {
             🏠 Dashboard
           </Link>
           <Link to="/matches" style={navLinkStyle}>
-            📜 Partite
+            📜 Matches
           </Link>
           <Link to="/import-logs" style={navLinkStyle}>
-            🧩 Log Import
+            🧩 Import Logs
           </Link>
           <Link to="/stats" style={navLinkStyle}>
-            📊 Statistiche
+            📊 Stats
+          </Link>
+          <Link to="/advanced" style={navLinkStyle}>
+            🧠 Advanced Stats
           </Link>
         </nav>
 
@@ -51,6 +56,7 @@ function App() {
           <Route path="/matches" element={<MatchesPage />} />
           <Route path="/import-logs" element={<ImportLogsPage />} />
           <Route path="/stats" element={<StatsPage />} />
+          <Route path="/advanced" element={<AdvancedStatsPage />} /> {/* 🆕 nuova route */}
         </Routes>
       </div>
     </BrowserRouter>
