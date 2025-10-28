@@ -86,5 +86,6 @@ export const EloProgressionChart: React.FC = () => {
       <h3 style={{ color: "#fff", marginBottom: "0.8rem" }}>ELO Progression</h3>
       <Line data={chartData} options={chartOptions} />
     </div>
+    
   );
 };
