@@ -5,7 +5,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from sqlalchemy import text
 from app.db.session import engine
 from app.models.models import Base
-from app.routers import matches_router, stats_router, import_router
+from app.routers import matches_router, stats_router, import_router, auth
 from app.routers import stats_hero_router, stats_minion_router, stats_basic_router, stats_advanced_router
 
 from dotenv import load_dotenv
@@ -37,6 +37,8 @@ app.include_router(stats_hero_router.router, prefix="/api/v1/stats", tags=["stat
 app.include_router(stats_minion_router.router, prefix="/api/v1/stats/by_minion_type", tags=["stats-minion"])
 app.include_router(stats_basic_router.router, prefix="/api/v1/stats", tags=["stats-basic"])
 app.include_router(stats_advanced_router.router, prefix="/api/v1/stats", tags=["stats-advanced"])
+app.include_router(auth.router)
+
 # --- Endpoint di test ---
 @app.get("/")
 def root():
